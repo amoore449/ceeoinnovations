@@ -31,7 +31,7 @@ Included as a page of the Onshape app.
 <!--document creates a grid of documentss--------------------->
 <div class="document" markdown="1">
 # TITLE OF SECTION
-[TITLE OF document](PROJECTFOLDERNAME/NAME OF documemt FILE)
+[TITLE OF document](ceeo_innovations/paper-clip.mp4)
 [TITLE OF document](PROJECTFOLDERENAME/NAME OFdocument FILE)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
