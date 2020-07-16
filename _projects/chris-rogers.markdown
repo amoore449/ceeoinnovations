@@ -10,7 +10,7 @@ categories: ["Makerspaces"]
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![TITLE OF IMAGE](chris/chric.jpd)
+![TITLE OF IMAGE](chris/DSC_0222.Small.jpg)
 # This is Chris
 ##  He is cool 
 He's my boss
@@ -23,6 +23,16 @@ He's my boss
 ## YOUR VIDEO SUBTITLE
 THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
 </div>
+               If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
+<div class="free_write" markdown="1"> 
+# HI Chris
+## Hi Chris
+- Chris 
+- pay 
+- attention 
+- to 
+- me
+</div>
 
 <div class="free_write" markdown="1"> 
 # heading 
@@ -33,7 +43,7 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
 <!--document creates a grid of documentss--------------------->
 <div class="document" markdown="1">
 # TChris documentation
-[TITLE OF document](Chris/chris.pdf)
+[TITLE OF document](Chris/chris.jpg)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
