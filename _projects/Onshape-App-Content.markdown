@@ -10,7 +10,11 @@ categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans",
 
 <!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
 <div class="video_text_overlay" markdown="1">
-[PAPER CLIP DEMO](ceeo_innovations/paper-clip.mov)
+<video controls="controls">
+  <source type="video/mp4" src="ceeo_innovations/paper-clip.mp4"></source>
+  <p>Your browser does not support the video element.</p>
+</video>
+[PAPER CLIP DEMO](ceeo_innovations/paper-clip.mp4)
 # PAPER CLIP MODEL
 ## ONSHAPE CHALLENGE & GUIDE
 This demo was embedded in the HTML page as an animation loop in the Onshape app. 
