@@ -16,6 +16,7 @@ Use this file to write your own morse code messages and then decode them with yo
 </div>
 
 <div class="free_write" markdown="1">
+# Code for the Decoder...
 ~~~
 import hub, utime
 from spike import PrimeHub
