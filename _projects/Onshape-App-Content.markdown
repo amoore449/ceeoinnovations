@@ -8,18 +8,6 @@ categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans",
 # ONSHAPE APP CONTENT CREATION
 </div>
 
-<!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
-<div class="video_text_overlay" markdown="1">
-<video controls="controls">
-  <source type="video/mp4" src="ceeo_innovations/paper-clip.mp4"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
-[PAPER CLIP DEMO](ceeo_innovations/paper-clip.mp4)
-# PAPER CLIP MODEL
-## ONSHAPE CHALLENGE & GUIDE
-This demo was embedded in the HTML page as an animation loop in the Onshape app. 
-</div>
-
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
 ![3D VALENTINE SITE](ceeo_innovations/3D-val.png)
@@ -30,9 +18,9 @@ This placemat was included as a page of the Onshape app, which will contain vari
 
 <!--document creates a grid of documentss--------------------->
 <div class="document" markdown="1">
-# TITLE OF SECTION
-[TITLE OF document](ceeo_innovations/paper-clip.mp4)
-[TITLE OF document](ceeo_innovations/paper-clip.mov)
+# MODELS & DEMOS
+[Paper Clip](ceeo_innovations/paper-clip.mp4)
+This demo was embedded in the HTML page as an animation loop in the Onshape app. 
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
