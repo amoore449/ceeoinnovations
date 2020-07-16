@@ -215,20 +215,3 @@ while True:
 # Tells the user program ended
 print("Program ended. Thank you for using the SPIKE morse code decoder! :)")
 ~~~
-
-
-
-<!--document creates a grid of documentss--------------------->
-<div class="document" markdown="1">
-# TITLE OF SECTION
-[TITLE OF document](PROJECTFOLDERNAME/NAME OF documemt FILE)
-[TITLE OF document](PROJECTFOLDERENAME/NAME OFdocument FILE)
-<!-- insert as many links here as you want to dynamically create a grid of pdfs-->
-</div>
-
-<!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
-               If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
-<div class="free_write" markdown="1"> 
-</div>
-
-
