@@ -27,8 +27,8 @@ This ro bot has a distance sensor on the top of his head. once an object reaches
 <!--document creates a grid of documentss--------------------->
 <div class="document" markdown="1">
 # TITLE OF SECTION
-[TITLE OF document](All picutres/Aaron's image)
-[TITLE OF document](PROJECTFOLDERENAME/NAME OFdocument FILE)
+[TITLE OF document](All picutres and vids/Aaron's image)
+[TITLE OF document](All code/Aaron's code)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
