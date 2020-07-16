@@ -1,8 +1,7 @@
 ---
 layout: post
-displayimg: IMAGEFILENAME/IMGNAME 
+displayimg: IMAGEFOLDERNAME/IMGNAME 
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"] 
-authors: []
 ---
 <!--SITE_TITLE creates a title for your webpage----------------->
 <div class="site_title" markdown="1">
@@ -25,37 +24,17 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
 THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR IMAGE.
 </div>
 
-<!--PDF creates a grid of pdfs--------------------->
-<div class="pdf" markdown="1">
-# TITLE OF PDF SECTION
-[TITLE OF PDF](PROJECTFILENAME/NAME OF PDF FILE--.pdf)
-[TITLE OF PDF](PROJECTFILENAME/NAME OF PDF FILE--.pdf)
+<!--document creates a grid of documentss--------------------->
+<div class="document" markdown="1">
+# TITLE OF SECTION
+[TITLE OF document](PROJECTFOLDERNAME/NAME OF documemt FILE)
+[TITLE OF document](PROJECTFOLDERENAME/NAME OFdocument FILE)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
 <!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
                If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
-<div class="free_write" markdown="1">
-# Include anything you want here
-In any order 
-##  You can do titles or sub titles
-
-or add paragraphs as well
-![TITLE OF IMAGE](IMAGEFILENAME/IMGNAME)
-### or do sub sub title
-
-- or 
-- make
-- bulleted 
-- losts
-
-```
-void You_Can_Write_Code(int by){
-     Writing();
-      Your_Code_Between_Backticks();
-     }
-}
-```
+<div class="free_write" markdown="1"> 
 </div>
 
 

@@ -5,11 +5,11 @@ categories: ["Lesson Plans", "Robotics"]
 ---
 
 <div class="site_title" markdown="1">
-# PaperBots
+# PaperBots with The Rock
 </div>
 
 <div class="image_text_overlay" markdown="1">
-![Link to my pic](paper-bots/headimagerobot.jpg)
+![Link to my pic](The-Rock/The-Rock-Tequila.jpg)
 ## An Inexpensive Option for Engineering Education
 # Accessible Robotics
 PaperBots provide a low cost method of
@@ -19,22 +19,14 @@ creating educational robots for any age.
 
 
 <div class="free_write" markdown="1">
-# Do big headers
-### or little headers [or links](www.paperbots.com)
-or paragraphs
+![Link to my pic](The-Rock/The-Rock-Tequila.jpg)
+# The reasons why the Rock is cool
+- He is very strong
+- He is a wrestler
+- He is also an actor
+- Finally he is very famous
+</div>
 
-- or
-- bulleted
-- lists
-
-```
-void This_Is_A_Code_Block(int max_strength){
-     for (int i = 0; i < max_strength; i++){
-          Declare_it_using_backticks();
-     }
-}
-
-```
 </div>
 
 
@@ -55,6 +47,7 @@ Pull-up Man is a demonstration of rotational motion converted into linear motion
 >
 > -a Student
 
+
 ### Attach motors to Pull-Up man using this simple code:
 
 ```
@@ -65,13 +58,13 @@ Pull-up Man is a demonstration of rotational motion converted into linear motion
 }
 
 ```
-![Final pull up man](paper-bots/pullup-man-assembled.jpeg)
-### Here is a photo of
-### the final product:
+Here is a photo of the final product:
+![Link to my pic](paper-bots/pullup-man-assembled.jpeg)
+
 </div>
 
 <div class="document" markdown="1">
-# PAPER CUTOUTS
+# PaperBots Cutouts
 [Pull Up Man Lesson Plan](paper-bots/Pull-Up-Man-Lesson-Plan.pdf)
 [HexaBot Lesson Plan](paper-bots/HexaBot-Lesson-Plan.pdf)
 [HexaBot Lesson Plan](paper-bots/PUMan_Cutout.pdf)
