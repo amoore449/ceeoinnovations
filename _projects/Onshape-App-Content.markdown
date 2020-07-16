@@ -16,10 +16,18 @@ categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans",
 This placemat was included as a page of the Onshape app, which will contain various challenges and projects. These projects will double as help guides and introductions to the tools and features hosted in Onshape. Beginners to Onshape will be able to choose challenges to complete.
 </div>
 
+<div class="image_text_overlay" markdown="1">
+![3D VALENTINE SITE](ceeo_innovations/dog-collar.png)
+# 3D VALENTINE PAGE
+## CHALLENGE & GUIDE FOR ONSHAPE BEGINNERS
+This placemat was included as a page of the Onshape app, which will contain various challenges and projects. These projects will double as help guides and introductions to the tools and features hosted in Onshape. Beginners to Onshape will be able to choose challenges to complete.
+</div>
+
 <!--document creates a grid of documentss--------------------->
 <div class="document" markdown="1">
 # MODELS & DEMOS
 [Paper Clip](ceeo_innovations/paper-clip.mp4)
+[Paper Clip site](https://oliturner21.github.io/paper%20clip/INDEX.html)
 This demo was embedded in the HTML page as an animation loop in the Onshape app. 
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
