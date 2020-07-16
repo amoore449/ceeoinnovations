@@ -1,6 +1,6 @@
 ---
 layout: post
-displayimg: Aaron's images/writing robot piture.JPG  
+displayimg: Aaron's images/writing robot picture.JPG  
 categories: ["Spike Prime"] 
 ---
 <!--SITE_TITLE creates a title for your webpage----------------->
