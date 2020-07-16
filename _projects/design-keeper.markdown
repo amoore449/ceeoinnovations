@@ -20,6 +20,11 @@ Design Keeper is a digital notebooking app designed for keeping track of enginee
 [Design Keeper Website](https://www.designkeeper.me/users/sign_in)
 </div>
 
+<div class="picture" markdown="1">
+# Picture of the Rock
+[Picture of the Rock](https://github.com/amoore449/ceeoinnovations/blob/gh-pages/project_assets/PICTURES_OF_THE_ROCK/the%20rock.jpg)
+</div>
+
 <div class="free_write" markdown="1">
 # What is design keeper?
 
@@ -50,4 +55,34 @@ Download the app [Here](https://apps.apple.com/us/app/design-keeper/id1333514520
 # Launch of Design Keeper App
 The Center for Engineering Education and Outreach (CEEO) launches their new Design Keeper application at the LEGO Education Symposium and Tufts STEM Education Conference. More information can be found at designkeeper.me
 </div>
+
+
+<div class="picture" markdown="1">
+# Picture of the Rock
+[Picture of the Rock](https://github.com/amoore449/ceeoinnovations/blob/gh-pages/project_assets/PICTURES_OF_THE_ROCK/the%20rock.jpg)
+</div>
+
+<div class="free_write" markdown="1">
+# Articles on Design Keeper
+- Paugh, P., Wendell, K., & Wright, C. (2018). Elementary engineering as a synergistic site for disciplinary and linguistic learning in an urban classroom. Literacy Research: Theory, Method, and Practice. DOI: https://doi.org/10.1177/2381336918786937
+- Wendell, K.B., Andrews, C., Paugh, P. (2018), Multimodal engineering design notebooks and meta-representational competence. Proceedings of the International Conference of the Learning Sciences.
+- Wendell, K. B., Andrews, C. J., & Paugh, P. (2019). Supporting knowledge construction in elementary engineering design. Science Education, 103(4), 952-978. DOI: https://doi.org/10.1002/sce.21518
+</div>
+
+<div class="video_text_overlay" markdown="1">
+[Picture of the Rock text overlay](https://github.com/amoore449/ceeoinnovations/blob/gh-pages/project_assets/PICTURES_OF_THE_ROCK/the%20rock.jpg)
+# Pictures of the Rock text overlay
+His Family Is Steeped In Pro Wrestling.
+His Grandmother Was A Wrestling Pioneer.
+He Moved A Lot As A Kid.me
+</div>
+
+
+
+
+
+
+
+
+
 
