@@ -10,7 +10,7 @@ categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans",
 
 <!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
 <div class="video_text_overlay" markdown="1">
-[PAPER CLIP DEMO](project_assets/ceeo_innovations/Screen Recording 2020-07-16 at 10.10.53 AM.mov)
+[PAPER CLIP DEMO](ceeoinnovations/project_assets/ceeo_innovations/Screen Recording 2020-07-16 at 10.10.53 AM.mov)
 # PAPER CLIP MODEL
 ## ONSHAPE CHALLENGE & GUIDE
 This demo was embedded in the HTML page as an animation loop in the Onshape app. 
@@ -18,7 +18,7 @@ This demo was embedded in the HTML page as an animation loop in the Onshape app.
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![3D VALENTINE SITE](project_assets/ceeo_innovations/Screen Shot 2020-07-13 at 3.01.30 PM.png)
+![3D VALENTINE SITE](ceeoinnovations/project_assets/ceeo_innovations/Screen Shot 2020-07-13 at 3.01.30 PM.png)
 # 3D VALENTINE PAGE
 ## CHALLENGE & GUIDE FOR ONSHAPE BEGINNERS
 Included as a page of the Onshape app.
