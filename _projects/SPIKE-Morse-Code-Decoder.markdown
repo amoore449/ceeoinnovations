@@ -15,6 +15,7 @@ categories: ["Spike Prime", "Tech"]
 Use this file to write your own morse code messages and then decode them with your decoder.
 </div>
 
+<div class="free_write" markdown="1">
 ~~~
 import hub, utime
 from spike import PrimeHub
@@ -215,3 +216,4 @@ while True:
 # Tells the user program ended
 print("Program ended. Thank you for using the SPIKE morse code decoder! :)")
 ~~~
+</div>
