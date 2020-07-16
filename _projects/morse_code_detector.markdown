@@ -1,7 +1,7 @@
 ---
 layout: post
 categories:  ["Lesson Plans"]
-displayimg: novel-engineering/novel_engineering.png
+displayimg: images_jason/20200716_113806.jpg
 ---
 
 <div class="site_title" markdown="1">
