@@ -26,8 +26,12 @@ This placemat was included as a page of the Onshape app, which will contain vari
 <div class="document" markdown="1">
 # MODELS & DEMOS
 [Paper Clip](ceeo_innovations/paper-clip.mp4)
-[Paper Clip site](https://oliturner21.github.io/paper%20clip/INDEX.html) fig_width: 6
 This demo was embedded in the HTML page as an animation loop in the Onshape app. 
+<!-- insert as many links here as you want to dynamically create a grid of pdfs-->
+</div>
+
+<div class="document" width="200" markdown="1" >
+[Paper Clip site](https://oliturner21.github.io/paper%20clip/INDEX.html)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
