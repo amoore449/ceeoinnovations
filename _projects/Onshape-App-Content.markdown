@@ -17,10 +17,9 @@ This placemat was included as a page of the Onshape app, which will contain vari
 </div>
 
 <div class="image_text_overlay" markdown="1">
-![3D VALENTINE SITE](ceeo_innovations/dog-collar.png)
-# 3D VALENTINE PAGE
+![DOG COLLAR SITE](ceeo_innovations/dog-collar.png)
+# DOG COLLAR PLACEMAT
 ## CHALLENGE & GUIDE FOR ONSHAPE BEGINNERS
-This placemat was included as a page of the Onshape app, which will contain various challenges and projects. These projects will double as help guides and introductions to the tools and features hosted in Onshape. Beginners to Onshape will be able to choose challenges to complete.
 </div>
 
 <!--document creates a grid of documentss--------------------->
