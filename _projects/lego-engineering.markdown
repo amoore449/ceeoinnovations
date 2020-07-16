@@ -1,7 +1,7 @@
 ---
 layout: post
 displayimg: legoengineering/morekids.jpg
-categories: ["Spike Prime", "Lesson Plans", "Robotics", "Ev3/NXT", "Tech"] 
+categories: ["Spike Prime", "Lesson Plans", "Robotics", "Ev3/NXT", "Tech"]
 authors: []
 ---
 <!--SITE_TITLE creates a title for your webpage----------------->
@@ -22,8 +22,6 @@ The aim of the lego engineering online community is to inspire and support teach
 ![Robots and kids](legoengineering/challenge1.jpg)
 - Help getting started with EV3, Spike Prime, and WeDo robotics in the classroom
 - Lesson Plans and ideas for Engineering Design plans
-- Technical support for using Lego Robotics software and integrating Lego Robotics with other programs
+- Support using Lego Robotics software and integrating it with other programs
 - A community of teacher and educators interested in engineering
-
 </div>
-
