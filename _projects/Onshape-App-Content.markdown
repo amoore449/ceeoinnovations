@@ -1,6 +1,6 @@
 ---
 layout: post
-displayimg: IMAGEFOLDERNAME/IMGNAME 
+displayimg: (/project_assets/ceeo_innovations/fillet2.png)
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"] 
 ---
 <!--SITE_TITLE creates a title for your webpage----------------->
