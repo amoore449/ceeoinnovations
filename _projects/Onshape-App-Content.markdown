@@ -30,12 +30,12 @@ This demo was embedded in the HTML page as an animation loop in the Onshape app.
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 <!-- </div> --------------------->
 
-<div class="document" width="300" markdown="1" >
+<div class="document" width="500" markdown="1" >
 [Paper Clip site](https://oliturner21.github.io/paper%20clip/INDEX.html)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
-<div class="document" width="300" markdown="1" >
+<div class="document" width="500" markdown="1" >
 [Paper Clip site](https://oliturner21.github.io/3D Valentine placemat/INDEX.html)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
