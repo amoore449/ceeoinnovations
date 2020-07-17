@@ -11486,8 +11486,8 @@ figure figcaption {
 	-webkit-transition: .3s all ease;
 	-o-transition: .3s all ease;
 	transition: .3s all ease;
-	opacity: 0;
-	visibility: hidden;
+	opacity: 1;
+
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%)
@@ -11511,8 +11511,7 @@ figure figcaption {
 	-webkit-transition: .3s all ease;
 	-o-transition: .3s all ease;
 	transition: .3s all ease;
-	opacity: 0;
-	visibility: hidden;
+	opacity: .3;
 	top: 10px;
 	left: 10px;
 	right: 10px;
