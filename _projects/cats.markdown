@@ -1,7 +1,7 @@
 ---
 layout: post
 displayimg: cats/cat3.jpg
-categories: ["DELETE CATEGORIES THAT DON'T APPLY", "Robotics"] 
+categories: ["DELETE CATEGORIES THAT DON'T APPLY", "Robotics"]
 authors: []
 ---
 <!--SITE_TITLE creates a title for your webpage----------------->
@@ -28,10 +28,8 @@ Cats are so wonderful, but be careful, they have murder mittens.
 <!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
                If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
 <div class="free_write" markdown="1">
-Who doesn't love cats? Everyone does. You should adopt a cat. 
+Who doesn't love cats? Everyone does. You should adopt a cat.
 CLick here to find one or two. [Adopt a Pet](https://www.adoptapet.com/cat-adoption)
 ![cutie](cats/funny-cat-pictures-053-017.jpg)
 
 </div>
-
-
