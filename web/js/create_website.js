@@ -212,7 +212,7 @@ function CreateFreeWrite(mydivsi){
     if ( ($(this).find('img').length) &&     // If there's an image
          (!$.trim($(this).text()).length))   // and there's no text
     {
-         if($(this).find('img').length > 1){
+         if((this).find('img').length > 1){
             $(this).addClass('p_imgOnly');
        } else{
               $(this).addClass('lonely_p_imgOnly p_imgOnly');

@@ -8,27 +8,35 @@ categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans",
 # ONSHAPE APP CONTENT CREATION
 </div>
 
-<!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
-<div class="video_text_overlay" markdown="1">
-[PAPER CLIP DEMO](ceeo_innovations/paper-clip.mov)
-# PAPER CLIP MODEL
-## ONSHAPE CHALLENGE & GUIDE
-This demo was embedded in the HTML page as an animation loop in the Onshape app. 
-</div>
-
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
 ![3D VALENTINE SITE](ceeo_innovations/3D-val.png)
 # 3D VALENTINE PAGE
 ## CHALLENGE & GUIDE FOR ONSHAPE BEGINNERS
-Included as a page of the Onshape app.
+This placemat was included as a page of the Onshape app, which will contain various challenges and projects. These projects will double as help guides and introductions to the tools and features hosted in Onshape. Beginners to Onshape will be able to choose challenges to complete.
 </div>
 
-<!--document creates a grid of documentss--------------------->
+<div class="image_text_overlay" markdown="1">
+![DOG COLLAR SITE](ceeo_innovations/dog-collar.png)
+# DOG COLLAR PLACEMAT
+## CHALLENGE & GUIDE FOR ONSHAPE BEGINNERS
+</div>
+
+<!--document creates a grid of documentss
 <div class="document" markdown="1">
-# TITLE OF SECTION
-[TITLE OF document](PROJECTFOLDERNAME/NAME OF documemt FILE)
-[TITLE OF document](PROJECTFOLDERENAME/NAME OFdocument FILE)
+# MODELS & DEMOS
+[Paper Clip](ceeo_innovations/paper-clip.mp4)
+This demo was embedded in the HTML page as an animation loop in the Onshape app. 
+<!-- insert as many links here as you want to dynamically create a grid of pdfs-->
+<!-- </div> --------------------->
+
+<div class="document" width="500" markdown="1" >
+[Paper Clip](https://oliturner21.github.io/paper%20clip/INDEX.html)
+<!-- insert as many links here as you want to dynamically create a grid of pdfs-->
+</div>
+
+<div class="document" width="500" markdown="1" >
+[3D Valentine](https://oliturner21.github.io/3D Valentine placemat/INDEX.html)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 

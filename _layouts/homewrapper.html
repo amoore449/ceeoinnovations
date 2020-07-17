@@ -31,13 +31,11 @@
 <script rel="preload" src="web/js/create_website.js" as="script"></script>
 <!-- Custom styles for this template -->
    <link rel="preload stylesheet" href="web/mycss/style1.css" as="style">
-   <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
 
 <!-- Theme Style -->
 <link rel="preload stylesheet" href="web/mycss/style.css" as="style">
 
 <link rel="stylesheet" href="web/mycss/aos.css">
-<link rel="stylesheet" href="bower_components/aos/dist/aos.css">
 
 
 
@@ -55,7 +53,7 @@ body {
 #navbar {
   overflow: hidden;
   margin: auto;
-  background-color: rgba(0,255,133, .9);
+  background-color:  #2EFA98;
   width: 100%;
   z-index: 9999;
   padding: 30px 10px;
@@ -132,7 +130,7 @@ body {
   padding-top: 102px;
 }
 #masthead #site-top{
-     background-image: url(web/img/background-gif2.gif);
+     background-image: url(web/img/lightBackground.png);
      background-size: cover;
 }
 #mastheadparagraph p{
@@ -331,7 +329,7 @@ body {
 
        <div id="navbar-right">
             <a  id="navtuftsimglink"  class="navlink hvr-shrink" href="https://www.tufts.edu/" >
-                 <img  id="navimg" src="../web/img/Tufts_University.png"onError="this.onerror=null;this.src='web/img/Tufts_University.png';" alt="">
+                 <img  id="navimg" src="web/img/png_logo_tufts.png"onError="this.onerror=null;this.src='web/img/Tufts_University.png';" alt="">
            </a>
 
                {% for item in site.data.navigation.docs %}
@@ -416,11 +414,11 @@ if(x.matches){
     document.getElementById("navbar").style.padding = "0px 0px";
      $("#navbar-right").css({"padding-top":"0%"});
     $("#navbar").css({"padding-left": "1%", "padding-right": "1%"});
-    $("#logo").css({"width": "10%"});
+    $("#logo").css({"width": "8%"});
     $("#navtuftsimglink img").css({"width": "100%", "padding-bottom": "0%"});
      $("#navtuftsimglink").css({"padding-top": ".5%"});
       $("#navbar-right a").css({"font-size": "1vw"});
-      $("#navbar").css({"background-image": "url(web/img/Background.png)"});
+
 
 
 } else  {
@@ -430,7 +428,6 @@ if(x.matches){
     $("#navbar-right").css({ "padding-top":"1%"});
     $(" #navbar .nav").css({"padding-top": "1%"});
      $("#navbar-right a").css({"font-size": "1.5vw"});
-      $("#navbar").css({"background-image": "none"});
   }
 }
 }

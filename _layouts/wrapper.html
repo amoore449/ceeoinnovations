@@ -11,7 +11,7 @@
   <meta name="author" content="">
 
   <title>CEEO INNOVATIONS</title>
-
+<link rel="stylesheet" href="../web/mycss/aos.css">
 <link rel="stylesheet preload"  as="style"href="../web/mycss/allisoncss.css">
 <!--...........................................................................................................-->
 <style>
@@ -27,7 +27,7 @@ body {
 #navbar {
   overflow: hidden;
   margin: auto;
-  background-color: rgba(0,255,133, .9);
+  background-color:  #2EFA98;
   width: 100%;
   z-index: 9999;
   padding: 30px 10px;
@@ -247,7 +247,7 @@ body {
 }
 
 #logoimg{
- width: 60%;
+ width: 50%;
 }
 
 </style>
@@ -309,7 +309,7 @@ body {
 
        <div id="navbar-right">
             <a  id="navtuftsimglink"  class="navlink hvr-shrink" href="https://www.tufts.edu/" >
-                 <img  id="navimg" src="../web/img/Tufts_University.png"onError="this.onerror=null;this.src='web/img/Tufts_University.png';" alt="">
+                 <img  id="navimg" src="../web/img/png_logo_tufts.png"onError="this.onerror=null;this.src='web/img/png_logo_tufts.png';" alt="">
            </a>
 
                {% for item in site.data.navigation.docs %}
@@ -406,13 +406,10 @@ if(x.matches){
     document.getElementById("navbar").style.padding = "0px 0px";
      $("#navbar-right").css({"padding-top":"0%"});
     $("#navbar").css({"padding-left": "1%", "padding-right": "1%"});
-    $("#logo").css({"width": "10%"});
+    $("#logo").css({"width": "9%"});
     $("#navtuftsimglink img").css({"width": "100%", "padding-bottom": "0%"});
      $("#navtuftsimglink").css({"padding-top": ".5%"});
       $("#navbar-right a").css({"font-size": "1vw"});
-      $("#navbar").css({"background-image": "url(../web/img/Background.png)"});
-
-
 } else  {
     document.getElementById("navbar").style.padding = "30px 10px";
     $("#logo").css({"width": "20%"});
@@ -420,14 +417,13 @@ if(x.matches){
     $("#navbar-right").css({ "padding-top":"1%"});
     $(" #navbar .nav").css({"padding-top": "1%"});
      $("#navbar-right a").css({"font-size": "1.5vw"});
-      $("#navbar").css({"background-image": "none"});
   }
 }
 }
 </script>
 
 <script src="../web/js/bootstrap.bundle.min.js"></script>
-
+<script src="../web/js/aos.js"></script>
 
 <script src="../web/js/jquery-3.2.1.min.js"></script>
 <script src="../web/js/jquery-migrate-3.0.1.min.js"></script>
