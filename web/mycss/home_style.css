@@ -141,16 +141,16 @@ background-size:cover;
 }
 
 .circle-work-thumb {
-	display: block;
+	display: s;
 	position: relative;
      border-radius:10%;
 }
 
-.work-thumb img {
+.circle-work-thumb img {
 	border: 10px solid #fff
 }
 
-.work-thumb .work-text {
+.work-thumb .circle-work-text {
 	text-align: center;
 	position: absolute;
 	top: 50%;

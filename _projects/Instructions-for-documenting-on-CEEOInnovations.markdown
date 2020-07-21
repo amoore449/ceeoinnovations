@@ -26,7 +26,7 @@ will let visitors learn about specific projects going  at the CEEO.
 
 - A few sentences or paragraphs of content summarizing the project
 - At least 2-5 images (give them easy to type names) saved to a folder on your computer
-- *This includes a “display” cropped 2:3*
+- *This includes a “display” ideally cropped 2:3*
 
 ### Optional but recommended:
 
@@ -40,9 +40,12 @@ will let visitors learn about specific projects going  at the CEEO.
 
 # Creating a Page
 1. Use **Drag and Drop** to upload a folder of images and documents for your page to **project_assets** on [github](https://github.com/amoore449/ceeoinnovations)
-2. Go into the **_projects folder** and copy the **SAMPLE-FILE.markdown** to make a new file for your page. Title it how you want your page to appear with “-” dashes instead of spaces
+2. Copy this file [**SAMPLE-FILE.markdown**](https://docs.google.com/document/d/1cwkEwnAnes05EWzl1L0POl9HGGlA0k_IfE2rlowTxFs/edit?usp=sharing) to make a new file for your page. Title your new file with the PROJECT-NAME.markdown.
 3. **Customize** the sample file with divs and markdown to display the content you want.
-4. **Commit** your file and check that it looks how you want it to by refreshing the site github takes a few minutes to update, you can make this faster by using incognito).
+     -the first few lines of the file between the  "---" are called "front matter." Fill out your
+     project title and description, choose categories, and the link to your display image.
+     -**DO NOT change layout:post**
+4. **Upload** your "PROJECT-NAME.markdown" file to the **project_assets** folder on the CEEOInnovations github and check that it looks how you want it to by refreshing the site. Github takes a few minutes to update, you can make this faster by using incognito).
 5. Done!
 
 </div>
@@ -50,6 +53,7 @@ will let visitors learn about specific projects going  at the CEEO.
 <!--document creates a grid of documents--------------------->
 <div class="document" markdown="1">
 # Guides on how to use CEEOInnovations
+[Sample-File,markdown](https://docs.google.com/document/d/1cwkEwnAnes05EWzl1L0POl9HGGlA0k_IfE2rlowTxFs/edit?usp=sharing)
 ["Cheatsheet" For documenting](inno_instruct/cheatsheet.pdf)
 [Presentation slides with lesson on documenting](https://docs.google.com/presentation/d/e/2PACX-1vQuVgfNrRipSOYAHUVL6Y9ZKi2BMW7wI95fPlgpEIaGu6yQpx-1VEYMOJpOCQ8sqcJCkL5O3a0ZDf7N/embed?start=false&loop=false&delayms=3000)
 [Guide to Markdown and Divs](https://docs.google.com/presentation/d/e/2PACX-1vRYPC-Jo3iU7rD1_seS9CQZFMbwctRxy_XQWQ-WJGz8waFeZH0QQwa66DYzZXbPtFb3f65SbYsrJVN0/embed?start=false&loop=false&delayms=3000)
