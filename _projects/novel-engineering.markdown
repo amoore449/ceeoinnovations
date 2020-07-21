@@ -1,14 +1,12 @@
 ---
 layout: post
+
+title: Novel Engineering
+description: An innovative approach to integrate engineering and literacy in elementary and middle school.
 categories:  ["Lesson Plans"]
 displayimg: novel-engineering/novel_engineering.png
 authors: ["Ethan Danahy", "Kristen Wendell"]
 ---
-
-
-<div class="site_title" markdown="1">
-# Novel Engineering with Dwayne
-</div>
 
 <div class="image_text_overlay" markdown="1">
 ![Link to my pic](PICTURES_OF_THE_ROCK/The-Rock-Tequila.jpg)

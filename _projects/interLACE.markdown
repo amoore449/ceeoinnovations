@@ -1,16 +1,12 @@
 ---
 layout: post
+
 title: InterLACE
+description: InterLACE is an interactive digital white-board interface.
 displayimg: interLace/interlacehead.png
 categories: ["Tech"]
 authors: []
 ---
-<!--SITE_TITLE creates a title for your webpage----------------->
-<div class="site_title" markdown="1">
-# interLACE
-</div>
-
-
 <div class="image_text_overlay" markdown="1">
 ![Header Image](interLace/interlacedata4.jpg)
 # InterLACE
@@ -31,7 +27,6 @@ InterLACE is hosted on Visual Classrooms, an interactive collaboration platform 
 [Interactive Learning and Collaboration Environment](interLace/InterLACEPoster.png)
 <!-- insert as many links here as you want to dynamically create a grid of documents-->
 </div>
-
 
 <div class="free_write" markdown="1">
 # InterLACE Interface

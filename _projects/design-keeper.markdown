@@ -1,13 +1,13 @@
 ---
 layout: post
+
+
 displayimg: design-keeper/design_keeper.jpg
+title: Design Keeper
+description: A digital notebooking app designed for keeping track of engineering design projects (and more!).
 categories: ["Lesson Plans"]
+authors: []
 ---
-
-<div class="site_title" markdown="1">
-# Fletcher's Design Keeper Mardown
-</div>
-
 
 <div class="image_text_overlay" markdown="1">
 ![design keeper head](design-keeper/design_keeper_head.jpg)
@@ -76,13 +76,3 @@ His Family Is Steeped In Pro Wrestling.
 His Grandmother Was A Wrestling Pioneer.
 He Moved A Lot As A Kid.me
 </div>
-
-
-
-
-
-
-
-
-
-

@@ -1,33 +1,30 @@
 ---
 layout: post
-displayimg: inno_instruct/small_background.jpg 
-categories: ["Lesson Plans"] 
+
+displayimg: inno_instruct/small_background.jpg
+title: Instructions for Documenting on CEEO Innovations
+description: CEEO innovations is a “hub” for all the cool projects going on at the CEEO.sdfghjkloiuytredsxcvbnjk
+categories: ["Lesson Plans"]
 authors: []
 ---
-<!--SITE_TITLE creates a title for your webpage----------------->
-<div class="site_title" markdown="1">
-# Instructions for
-# Documenting 
-# on CEEO Innovations
-</div>
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
 ![my header image](inno_instruct/tuftsceeo.jpg)
 # The CEEO Portfolio
 ## CEEO innovations is a hub for the the CEEO's work
-CEEO innovations is a “hub” for all the cool projects going on at the CEEO. “Projects” pages on the site like the one you will make 
+CEEO innovations is a “hub” for all the cool projects going on at the CEEO. “Projects” pages on the site like the one you will make
 will let visitors learn about specific projects going  at the CEEO.
 *Think of your page as an “advertisement” or summary of your project.*
 </div>
 
 <!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
                If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
-<div class="free_write" markdown="1"> 
+<div class="free_write" markdown="1">
 # Before you start documenting...
 ## make sure you have
 
-- A few sentences or paragraphs of content summarizing the project 
+- A few sentences or paragraphs of content summarizing the project
 - At least 2-5 images (give them easy to type names) saved to a folder on your computer
 - *This includes a “display” cropped 2:3*
 
@@ -52,7 +49,7 @@ will let visitors learn about specific projects going  at the CEEO.
 
 <!--document creates a grid of documents--------------------->
 <div class="document" markdown="1">
-# Guides on how to use CEEOInnovations 
+# Guides on how to use CEEOInnovations
 ["Cheatsheet" For documenting](inno_instruct/cheatsheet.pdf)
 [Presentation slides with lesson on documenting](https://docs.google.com/presentation/d/e/2PACX-1vQuVgfNrRipSOYAHUVL6Y9ZKi2BMW7wI95fPlgpEIaGu6yQpx-1VEYMOJpOCQ8sqcJCkL5O3a0ZDf7N/embed?start=false&loop=false&delayms=3000)
 [Guide to Markdown and Divs](https://docs.google.com/presentation/d/e/2PACX-1vRYPC-Jo3iU7rD1_seS9CQZFMbwctRxy_XQWQ-WJGz8waFeZH0QQwa66DYzZXbPtFb3f65SbYsrJVN0/embed?start=false&loop=false&delayms=3000)
@@ -62,7 +59,7 @@ will let visitors learn about specific projects going  at the CEEO.
 # Markdown Basics
 ## CEEO Innovations is made using a modified version of Markdown
 
-Markdown is a "short hand" way of writing html that makes it easy to create web pages. 
+Markdown is a "short hand" way of writing html that makes it easy to create web pages.
 Most of the components on this site are made using the **header, subheader, image, and link** attributes, however Markdown offers a wide variety of styling options shown in
 the pictured table. These styling options can be used with "free write" div sections of webpages (like this one!)
 ![Markdown Table 1](inno_instruct/markdown2.png)
@@ -96,12 +93,12 @@ Where "DIV_NAME" can be one of **five** possible sections. Each of these section
 1. site_title
 2. image_text_overlay
 3. video_text_overlay
-4. document 
+4. document
 5. free_write
 
 ## 1. "site_title"
 
-Site title provides a "heading" for a projects page 
+Site title provides a "heading" for a projects page
 
 The code for a sample "site_title" div is below:
 
@@ -112,11 +109,11 @@ The code for a sample "site_title" div is below:
  # Lines
  </div>
  ```
-This will produce: 
- 
+This will produce:
+
 ![sitetitle](inno_instruct/sitetitle.jpg)
- 
- 
+
+
 ## 2. "image_text_overlaye"
 
 image_text_overlay provides a large image with a title, subtitle, and description overlayed on it.
@@ -133,10 +130,10 @@ PaperBots provide a low cost method of
 creating educational robots for any age.
 </div>
  ```
-This will produce: 
- 
+This will produce:
+
 ![imagehead](inno_instruct/imagetext.png)
- 
+
 ## 3. "video_text_overlay"
 
 video_text_overlay provides a large video with a title, subtitle, and description overlayed on it.
@@ -144,7 +141,7 @@ video_text_overlay provides a large video with a title, subtitle, and descriptio
 #### **IMPORTANT** When copying videos for CEEO Innovations you must copy the 'youtu.be" link found by clicking the share button on a video *not* the normal URL.
 
  ![sitetitle](inno_instruct/youtubelink.png)
- 
+
 The code for a sample "video_text_overlay" div is below:
 ```
 <div class="image_text_overlay" markdown="1">
@@ -155,17 +152,17 @@ PaperBots provide a low cost method of
 creating educational robots for any age.
 </div>
  ```
- This will produce: 
- 
+ This will produce:
+
  ![sitetitle](inno_instruct/paperbot.png)
- 
- 
+
+
 ## 4. "document"
 
 "document" lets you create a grid or a single instance of either local hosted or external "documents" these can be pdfs, presentations, images, website previews, etc.
 To embed a google presentation, copy the "embed" link within the iframe embed option but only the embed link.
 
- 
+
 The code for a sample "document" div is below:
 
 ```
@@ -177,16 +174,16 @@ The code for a sample "document" div is below:
 [PaperBots Site](https://www.paperbots.org/)
 </div>
  ```
- This will produce: 
- 
+ This will produce:
+
  ![sitetitle](inno_instruct/iframe.png)
- 
- 
+
+
  ## 5. "free_write"
 
 "free_write" can be filled with whatever markdown you want. It is a unstructed section that will display any markdown you write in it in a white section box like this one.
 
- 
+
 For example, this is one sample free_write:
 
 ```
@@ -210,7 +207,7 @@ void This_Is_A_Code_Block(int max_strength){
 </div>
 
  ```
-It uses some more complicated markdown like bullet lists, sub-subheaders and code blocks. It will produce the following output: 
+It uses some more complicated markdown like bullet lists, sub-subheaders and code blocks. It will produce the following output:
 ![sitetitle](inno_instruct/freewrite2.png)
 
 ### No two "free_write sections look alike because they can be filled with anything

@@ -1,12 +1,11 @@
 ---
 layout: post
+
+title: SPIKE Morse Code Decoder with AI
+description:
 displayimg: Documentation of Decoder/morse-code-overview.png
-categories: ["Spike Prime", "Tech"] 
+categories: ["Spike Prime", "Tech"]
 ---
-<!--SITE_TITLE creates a title for your webpage----------------->
-<div class="site_title" markdown="1">
-# SPIKE Morse Code Decoder with AI
-</div>
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
@@ -38,7 +37,7 @@ def knn_1D(test_data, training_data=[], data_labels=[], k=5):
     guess = max(nearest_labels, key=nearest_labels.count)
     #print(guess)
     return guess
-    
+
 # Lists to store training data for knn function
 training_data = [1,2,1,6,5,7]
 data_labels=['dot','dot','dot','dash','dash','dash']
@@ -80,7 +79,7 @@ while True:
         elif guess == "dash":
             image = hub.Image("00000:00000:09990:00000:00000")
             hub.display.show(image)
-        
+
         # Appends correct set of new training data to training lists
         training_data.append(time_total)
         print("Click the right arrow if the guess is correct and the center button if the guess is wrong")
@@ -100,7 +99,7 @@ while True:
                 hub.display.show(image)
         #print(training_data)
         #print(data_labels)
-    
+
     # If connect button is pressed leave training mode
     elif hub.button.connect.is_pressed():
         break
@@ -128,11 +127,11 @@ while True:
         print("To enter a space between words (represented by a slash in morse code) wait 7 seconds before entering the dot/dash of the letter that begins the next word")
         print("Input dot-dash-dot-dash-dot (no word spaces) to signify that the message that you want to decode has ended")
         english_word = ""
-        
-        # 2D list - stores dot/dash letters and their corresponding english letters in same columns 
+
+        # 2D list - stores dot/dash letters and their corresponding english letters in same columns
         decode_list = [["dot-dash", "dash-dot-dot-dot", "dash-dot-dash-dot", "dash-dot-dot", "dot", "dot-dot-dash-dot", "dash-dash-dot", "dot-dot-dot-dot", "dot-dot", "dot-dash-dash-dash", "dash-dot-dash", "dot-dash-dot-dot", "dash-dash", "dash-dot", "dash-dash-dash", "dot-dash-dash-dot", "dash-dash-dot-dash", "dot-dash-dot", "dot-dot-dot", "dash", "dot-dot-dash", "dot-dot-dot-dash", "dot-dash-dash", "dash-dot-dot-dash", "dash-dot-dash-dash", "dash-dash-dot-dot", "dot-dash-dot-dash-dot"], ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "out"]]
-        
-        # Tests for each type of space (value, letter, and word) - if english_word = out stop decoding 
+
+        # Tests for each type of space (value, letter, and word) - if english_word = out stop decoding
         while english_word != "out":
             word_space = False
             english_word = ""
@@ -156,7 +155,7 @@ while True:
                         #print("stop: " + str(time_stop))
                         time_total = time_stop - time_start
                         #print("total: " + str(time_total))
-                        
+
                         # Figures out if press is dot or dash
                         dot_dash_value += knn_1D(time_total, training_data, data_labels)
                         print(dot_dash_value, end ='')
@@ -166,8 +165,8 @@ while True:
                         elif dot_dash_value == "dash":
                             image = hub.Image("00000:00000:09990:00000:00000")
                             hub.display.show(image)
-                            
-                        # Figures out what kind of space to make true based on time released 
+
+                        # Figures out what kind of space to make true based on time released
                         space_time_total = 0
                         while not hub.button.left.is_pressed():
                             space_time_stop = utime.time()
@@ -196,7 +195,7 @@ while True:
                     if i == len(decode_list[0]):
                         english_letter = "[NOT RECOGNIZED]"
                         #print(english_letter)
-                        
+
                 english_word += english_letter
                 print(english_word)
             #print("word space")
@@ -206,14 +205,14 @@ while True:
                 message += english_word
             else:
                 message += english_word + " "
-        
+
         # Tells the user their decoded morse code message
         print("The decoded morse code message is: " + message)
-    
+
     # If center button is pressed, leave decoding mode
     elif hub.button.center.is_pressed():
         break
-        
+
 # Tells the user program ended
 print("Program ended. Thank you for using the SPIKE morse code decoder! :)")
 ~~~

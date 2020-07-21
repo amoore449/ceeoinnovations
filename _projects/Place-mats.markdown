@@ -1,18 +1,17 @@
 ---
 layout: post
+
+title: Placemat Projects
+description:
 displayimg: Aaron's images/writing robot picture.JPG  
-categories: ["Spike Prime"] 
+categories: ["Spike Prime"]
 ---
-<!--SITE_TITLE creates a title for your webpage----------------->
-<div class="site_title" markdown="1">
-# Placemat Projects
-</div>
 
 <!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
 <div class="video_text_overlay" markdown="1">
 [TITLE OF VIDEO](https://www.youtube.com/watch?v=SFE1rlIo0Bg)
 # Spike Prime LEGO
-## Example of what yiu can do with the Spike Prime Kit
+## Example of what you can do with the Spike Prime Kit
 THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
 </div>
 
@@ -20,7 +19,7 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
 <div class="image_text_overlay" markdown="1">
 ![TITLE OF IMAGE](Aaron's images/greeting picture.JPG)
 # Greeting Robot
-## Saying hello to the wjole wolrd 
+## Saying hello to the wjole wolrd
 This ro bot has a distance sensor on the top of his head. once an object reaches ten centameters the motor on the set trace moves. He extends his fist foward and gives you a fistbump. After that he waves goodbye to the friend he just made.
 </div>
 
@@ -34,7 +33,5 @@ This ro bot has a distance sensor on the top of his head. once an object reaches
 
 <!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
                If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
-<div class="free_write" markdown="1"> 
+<div class="free_write" markdown="1">
 </div>
-
-

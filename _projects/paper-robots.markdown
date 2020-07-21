@@ -1,12 +1,11 @@
 ---
 layout: post
+
+title: PaperBots
+description: A low cost method of creating educational robots for any age.
 displayimg: paper-bots/horizontal_paperbots_car.jpeg
 categories: ["Lesson Plans", "Robotics"]
 ---
-
-<div class="site_title" markdown="1">
-# PaperBots with The Rock
-</div>
 
 <div class="image_text_overlay" markdown="1">
 ![Link to my pic](The-Rock/The-Rock-Tequila.jpg)

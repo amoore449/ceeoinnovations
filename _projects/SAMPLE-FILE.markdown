@@ -1,12 +1,11 @@
 ---
 layout: post
-displayimg: IMAGEFOLDERNAME/IMGNAME 
-categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"] 
+
+title: YOUR SITE title
+description: description of your site
+displayimg: IMAGEFOLDERNAME/IMGNAME
+categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
 ---
-<!--SITE_TITLE creates a title for your webpage----------------->
-<div class="site_title" markdown="1">
-# YOUR SITE TITLE
-</div>
 
 <!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
 <div class="video_text_overlay" markdown="1">
@@ -34,7 +33,5 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR IMAGE.
 
 <!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
                If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
-<div class="free_write" markdown="1"> 
+<div class="free_write" markdown="1">
 </div>
-
-

@@ -1,11 +1,11 @@
 ---
 layout: post
+
+title: The Malden Maker Space
+description: The Tufts CEEO collaborated with Malden High School to restore the schools basement workshop.
 displayimg: nedlams-workshop/students.jpg
 categories: ["Makerspaces"]
 ---
-<div class="site_title" markdown="1">
-# The Malden Maker Space with Dwayne (and Ethan Goldman)
-</div>
 
 <div class="image_text_overlay" markdown="1">
 ![Makerspace Banner](PICTURES_OF_THE_ROCK/mr.dwayne.jpg)

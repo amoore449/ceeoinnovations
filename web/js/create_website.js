@@ -24,6 +24,7 @@ function CollectAllDivs(){
  */
  function CreateSectionsByDiv(mydivs){
       for (var i = 0; i < mydivs.length; i++){
+          
            if ( mydivs[i].classList.contains("site_title")){
                 CreateSiteTitle(mydivs[i]);
            } else if ( mydivs[i].classList.contains("image_text_overlay")){

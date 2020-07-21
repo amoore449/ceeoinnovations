@@ -30,11 +30,8 @@ layout: "homewrapper"
 
      #searchbox{
           padding: 1%;
+          padding-left: 0%;
           width: 100%;
-          margin: 0 auto;
-          content-align: center;
-          text-align: center;
-
      }
 
      .page-section{
@@ -77,9 +74,67 @@ layout: "homewrapper"
           width:10vw;
           padding-left:.5vw;
           padding-right:.5vw
+          align-content:left;
      }
 
+     #block{
+          border-color:rgba(246,245,245,1);
+           margin: 0 auto;
+           height: 30vw;
+           background-size:cover;
+           background-position: center;
+     }
 
+     @media(max-width:975px) {
+          #block{
+                height: 45vw;
+          }
+
+          .work-thumb:hover .work-text2 {
+          	font-size: 1.1rem;
+          }
+     }
+     @media(max-width:500px) {
+          #block{
+               border-color:rgba(246,245,245,1);
+                margin: 0 auto;
+                height: 70vw;
+                background-size:cover;
+                background-position: center;
+          }
+
+          .work-thumb .work-text h2 {
+          	font-size: 1rem;
+          }
+          .work-thumb .work-text p {
+          	font-size: .7rem;
+          }
+
+          .work-thumb:hover .work-text2 {
+          	font-size: 0.8rem;
+          }
+     }
+     .work-thumb{
+          margin:3%;
+
+     }
+     .myhr{
+          height:10px;
+          width:25%;
+          border:none;
+     }
+
+#mypageheader{
+     font-size: 15vw;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    z-index: 10;
+    text-align: left;
+    position: relative;
+    line-height: 0.6em;
+    pointer-events: none;
+    flex: 1 100%;
+}
 
 </style>
 
@@ -91,31 +146,40 @@ layout: "homewrapper"
 
 
 <!--....FEATURED PROJECTS...................................................................................-->
-<section class="page-section clearfix" style = "margin-top:0rem;margin-bottom:5rem">
-<div class="container" style="margin-top:5rem" >
+<section class="page-section clearfix" style = "padding-left: 0rem; padding-right: 0rem; margin-top:7rem;margin-bottom:15rem">
 
 
-	<div class="col-md-6" style="margin-left: auto; margin-right: auto; margin-bottom: 1.5rem ">
-		 <center><h1 class="pagetitle" style="text-transform:uppercase; color:  #000; ">Featured Projects</h1></center>
+
+	<div class="col-md-6" style="padding-left: 0rem;padding-right: 0rem;margin-top: 4rem; margin-left: 0rem;">
+
+           <h1 id="mypageheader">Featured Projects</h1>
     </div>
+    <div id="featured" style="background-color:#fff; width:100%; padding-top:5rem;">
+	<!--<p class="pagesubtitle" style="color:#2efa98;font-weight:800">CEEO INNOVATIONS PROJECTS</p>-->
 
-	<center><p class="pagesubtitle" >CEEO INNOVATIONS PROJECTS</p></center>
 
-      	 <div class="row mb-5 no-gutters" style="margin-top: 4rem">
+<!--<HR class="myhr" COLOR="#EF4764" >-->
+      	 <div class="row no-gutters"  style="margin-top: 4rem; margin-left:3rem;margin-right:3rem;">
 
                 {% assign my_variable = 100 %}
      			{% for project in site.projects  %}
                     {% if project.url != "/projects/SAMPLE-FILE.html" %}
-     		  	<div class="col-sm-4 col-md-4 col-lg-4">
-     	  	 	   <a rel="preload"  href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27'| replace: ' ', '%20' }}" class="work-thumb">
-     	    	 	    <div class="work-text">
+     		   	<div class="col-sm-4 col-md-4 col-lg-3">
+     	  	  	   <a rel="preload"  href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27' | replace: ' ', '%20' }}" class="work-thumb">
+     	    	 	     <div class="work-text">
      	 	 	           <h2>{{project.title}}</h2>
-     	 	 	           <p>CEEO INNOVATIONS</p>
-     	  		    </div>
-     			    <img src="{{project.displayimg | prepend: 'project_assets/'| replace: "'", '%27'| replace: ' ', '%20' }}" alt="Image" class="img-fluid" style=" border-color:rgba(246,245,245,1); max-height: 40%; width: 100%">
-     	 		   </a>
-     		    </div>
 
+     	 	 	           <p style="font-size:1rem;">CEEO INNOVATIONS</p>
+                              <p class="work-text2">{{project.description}}</p>
+
+     	   		    </div>
+
+                        <div id="block" style="background-image: url({{project.displayimg | prepend: 'project_assets/'| replace: "'", '%27'| replace: ' ', '%20' }}) ;">  </div>
+
+     			   <!-- <img src="{{project.displayimg | prepend: 'project_assets/'| replace: "'", '%27'| replace: ' ', '%20' }}" alt="Image" class="img-fluid" style=" border-color:rgba(246,245,245,1); max-height: 40%; width: 100%">
+                       -->
+                       </a>
+     	 	    </div>
                    {% assign my_variable = my_variable  | plus: 70 %}
                    {%endif%}
      	 	 {%endfor%}
@@ -123,20 +187,19 @@ layout: "homewrapper"
 
 
            </div>
-     	</div>
-
+           </div>
   </section>
 
+  <div class="col-md-6" style="margin-top: 5rem;">
 
+        <h1 id="mypageheader">Discover Projects</h1>
+  </div>
  <section class="search-section page-section clearfix" style = "margin-top:0rem;margin-bottom:5rem: padding:none;">
-                  <div class="col-md-6" style="margin-left: auto; margin-right: auto; margin-bottom: 1.5rem ">
-            		  <center><h1 class="pagetitle searchtitle" style="text-transform:uppercase; color:  #000;">Discover Projects</h1></center>
-                	</div>
 
                <!-- Html Elements for Search -->
                <div id="searchbox">
                     {% for i in site.my_categories %}
-                    <div class ="buttoncol navlink nav hvr-shrink" >
+                    <div class ="buttoncol navlink nav hvr-shrink" style="margin-left: 0rem">
                          <h6  id={{i | replace: ' ', '_' }} class="myButton" >{{i}}</h6>
                     </div>
                     {% endfor %}
@@ -148,6 +211,8 @@ layout: "homewrapper"
                     </div>
 
                <div>
+
+
 
                <div id="results-container-container"class="row mb-5 no-gutters" style="padding-bottom:8rem;">
 
@@ -164,7 +229,8 @@ layout: "homewrapper"
                                        <h2>{{project.title}}</h2>
                                        <p>CEEO INNOVATIONS</p>
                                  </div>
-                                 <img src="{{project.displayimg | prepend: 'project_assets/'}}" alt="Image" class="img-fluid" style=" border-color:#fff; max-height: 40%; width: 100%">
+                                 <div id="block" style="background-color: blue; border-color:#fff; max-height: 40%; width: 100%"> x </div>
+                               <img src="{{project.displayimg | prepend: 'project_assets/'}}" alt="Image" class="img-fluid" style=" border-color:#fff; max-height: 40%; width: 100%">
                                </a>
                             </div>
                             {% endif %}

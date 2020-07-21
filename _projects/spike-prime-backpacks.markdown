@@ -1,13 +1,11 @@
 ---
 layout: post
+
+title: Spike Prime Backpacks
+description: 
 displayimg: spike-prime-backpacks/backpack2.png
 categories: ["Robotics", "Spike Prime"]
 ---
-
-
-<div class="site_title" markdown="1">
-# Spike Prime Backpacks with Dwayne
-</div>
 
 <div class="free_write" markdown="1">
 ![Link to my pic](project_assets/PICTURES_OF_THE_ROCK/the rock 2.jpeg)

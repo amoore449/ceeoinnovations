@@ -11491,17 +11491,52 @@ figure figcaption {
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%)
 }
+/*work text 2---------------------------------------------*/
+.work-thumb .work-text2 {
+	text-align: center;
+	position: relative;
 
+	width: 100%;
+	margin-top: 20px;
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+	visibility: none;
+	display: none;
+
+}
+
+
+
+/*--------------------------------------------------------------------------*/
 .work-thumb .work-text h2 {
 	color: #fff;
 	font-weight: 300;
 	margin-bottom: 0;
+
 	font-size: 1.5rem
 }
 
 .work-thumb .work-text p {
-	color: rgba(255, 255, 255, 0.5)
+	color: rgba(255, 255, 255, .5)
 }
+
+
+.work-thumb:hover .work-text2 {
+	margin-top: 0px;
+	opacity: 1;
+
+	-webkit-transition: .5s all ease;
+	-o-transition: .5s all ease;
+	transition: .5s all ease;
+	display: inline;
+	font-weight: 300;
+	opacity: 1;
+	color: rgba(255, 255, 255, .8);
+	font-size: 1.25rem;
+	margin-bottom: 0;
+}
+
 
 .work-thumb:before {
 	content: "";
@@ -11510,11 +11545,11 @@ figure figcaption {
 	-webkit-transition: .3s all ease;
 	-o-transition: .3s all ease;
 	transition: .3s all ease;
-	opacity: .4;
-	top: 10px;
-	left: 10px;
-	right: 10px;
-	bottom: 10px
+	opacity: .6;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px
 }
 
 .work-thumb:hover .work-text {

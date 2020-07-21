@@ -1,13 +1,12 @@
 ---
 layout: post
+
+title: PaperBots
+description: Interactive lowcost robotics just using paper.
 displayimg: paper-bots/PaperBotsLogo.png
 authors: ["Gary Wong", "Grace Trudy"]
 categories: ["Robotics", "Lesson Plans"]
 ---
-
-<div class="sitetitle" markdown="1">
-# PaperBots
-</div>
 
 <div class="largeheaderimg" markdown="1">
 ![PaperBots](PaperBotsLogo.png)
@@ -15,15 +14,6 @@ categories: ["Robotics", "Lesson Plans"]
 # This is PaperBots
 PaperBots is a project to do interactive lowcost robotics just using paper.
 </div>
-
-<!--
-<div class="video-text-overlay" markdown="1">
-!--PASTE AN IFRAME LINK HERE--
-## YOUR VIDEO SUBTITLE
-# YOUR VIDEO TITLE
-THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
-</div>
--->
 
 <div class="pdf" markdown="1">
 # Example Lessons

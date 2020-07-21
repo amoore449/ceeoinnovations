@@ -1,9 +1,5 @@
 <head>
-<style>
-     #mycontent, #transferhereVO, .vidvoidvalue, .voidvalue, .sampledatasectionVO{
-          display:none;
-     }
-</style>
+
 <!-- Bootstrap core CSS -->
 <link href="../web/mycss/bootstrap.min.css" rel="stylesheet">
 
@@ -30,7 +26,39 @@
 
 <!-- Theme Style -->
 <link rel="stylesheet preload"  as="style"href="../web/mycss/style.css">
-
+<style>
+     #mycontent, #transferhereVO, .vidvoidvalue, .voidvalue, .sampledatasectionVO{
+          display:none;
+     }
+     .my-site-heading-upper{
+          font-size: 5vw;
+          padding-left: 20%;
+          padding-right: 20%;
+     }
+     .myprojectheader{
+          font-size: 2vw;
+     }
+     @media(max-width:750px) {
+          .my-site-heading-upper{
+               font-size: 6vw;
+               padding-left: 15%;
+               padding-right: 15%;
+          }
+          .myprojectheader{
+               font-size: 3vw;
+          }
+     }
+     @media(max-width:500px) {
+          .my-site-heading-upper{
+               font-size: 8vw;
+               padding-left: 5%;
+               padding-right: 5%;
+          }
+          .myprojectheader{
+               font-size: 4vw;
+          }
+     }
+</style>
 
 </head>
 <body >
@@ -39,6 +67,17 @@
 <div id="mycontent">
      {{ content }}
 </div>
+
+<h1 class="site-heading text-center text-black d-lg-block">
+
+
+ <div id="titleheader">
+       <div class="myprojectheader mb-3" style="color:#00FF85">Project</div>
+      <div id="headerMPT" class="site-heading-upper headerMPT"></div>
+      <div class="my-site-heading-upper subheaderMPT" style="text-transform: none;">{{include.title}}</div>
+</div>
+</h1>
+
 <div id="myappendcontent">
 </div>
 
