@@ -56,6 +56,7 @@ body {
   background-color: #fffd85;
   width: 100%;
   z-index: 9999;
+  border-bottom: 5px solid #fff;
   padding-bottom: 4%;
   padding-top:4%;
 
@@ -145,7 +146,7 @@ body {
 
 }
 #Ceeo_Inno_Brand{
-     width:55%;
+     width:70%;
      margin-top: 5rem;
      margin-bottom: 3rem;
      margin-right:10%;
@@ -176,7 +177,7 @@ body {
           background-size: cover;
      }
      #Ceeo_Inno_Brand{
-          width:60%;
+          width:80%;
      }
 }
 
@@ -277,6 +278,16 @@ body {
   color: white;
 }
 
+#mynewpageheader{
+     font-size: 15vw;
+    font-weight: 800;
+    z-index: 10;
+    text-align: left;
+    position: relative;
+    line-height: 1em;
+    pointer-events: none;
+    flex: 1 100%;
+}
 
 </style>
 
@@ -284,22 +295,24 @@ body {
 
 <body style="background-color:#F5F5F5;padding-top: 0px">
 
+
      <div id="masthead" class="masthead">
           <section id="site-top" class="page-section site-top clearfix" style = "margin-top:0rem;">
                <div class="container" >
-		                  <div class="row">
-			                       <div class="col-md-12" style="margin-left: 0%">
-		                                      <img id="Ceeo_Inno_Brand" class="img-fluid" src="web/img/Logo_Black.png" alt="">
-		                                                     <div id="mastheadparagraph"  style="max-height: 70%; overflow:hidden">
-		                                                                  <p>An online portal for sharing research and development projects, tools, and technologies being created at the Tufts CEEO</p>
-		                                                     </div>
-			                                                          <img class="img-fluid" style=" width:40%; margin-top: 4rem;margin-bottom: 3rem" src="web/img/ceeoblacklogo.png" alt="">
-	                               </div>
-	                       </div>
+                            <div class="row">
+                                      <div class="col-md-12" style="margin-left: 0%">
+                                        <!--   <h1 id="mynewpageheader" style="font-size:10rem; padding-bottom: 2rem">CEEO Innovations</h1>-->
+                                               <img id="Ceeo_Inno_Brand" class="img-fluid" src="web/img/Logo_Black.png" alt="">
+                                             <div id="mastheadparagraph"  style=" max-height: 70%; overflow:hidden">
+                                                          <p>An online portal for sharing research and development projects, tools, and technologies being created at the Tufts CEEO</p>
+<!-- ..........................................................................................................................-->
+                                             </div>
+                                                                         <img class="img-fluid" style=" width:40%; margin-top: 4rem;margin-bottom: 3rem" src="web/img/ceeoblacklogo.png" alt="">
+                                    </div>
+                            </div>
                </div>
           </section>
      </div>
-
 
 <!------Mobile Novbar---------------------------------------------------------------------->
      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
@@ -320,6 +333,8 @@ body {
          <i class="fa fa-bars"></i>
        </a>
      </div>
+
+
 
 <!-----------NAV BAR-------------------------------------------------------------------->
 
