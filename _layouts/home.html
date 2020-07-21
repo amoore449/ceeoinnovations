@@ -6,143 +6,52 @@ layout: "homewrapper"
 <head>
 <style>
 
-     .pagetitle{
-          font-size:3vw;
-     }
-     .searchtitle{
-          padding-top:0vw;
-          margin-top:0vw;
-     }
-     .pagesubtitle{
-          font-size:2vw;
-     }
-     @media(max-width:500px) {
-          .pagetitle{
-               font-size:8vw;
-          }
-          .pagesubtitle{
-               font-size:6vw;
-          }
-          .page-section{
-               padding: 0rem;
-          }
-     }
-
-     #searchbox{
-          padding: 1%;
-          padding-left: 0%;
-          width: 100%;
-     }
-
-     .page-section{
-          padding-bottom: 0rem;
-     }
-     .search-section{
-          padding-top: 3rem;
-          background-color:#fff;
-          margin: 0rem;
-     }
-     .searchlabel{
-           display: inline;
-           color: #383838;
-           font-size:2vw;
-
-     }
-
-
-
-     .myButton {
-     	background-color:#00ff84;
-     	border-radius:9px;
-     	display:inline-block;
-     	cursor:pointer;
-     	color:#000000;
-     	font-size:1vw;
-     	padding:9px 12px;
-     	text-decoration:none;
-     	text-shadow:0px 1px 0px #2f6627;
-     }
-     .myButton:hover {
-     	background-color:rgba(0,255,133,.6);
-     }
-     .myButton:active {
-     	position:relative;
-     	top:1px;
-     }
-     .buttoncol{
-          display: inline;
-          width:10vw;
-          padding-left:.5vw;
-          padding-right:.5vw
-          align-content:left;
-     }
-
-     #block{
-          border-color:rgba(246,245,245,1);
-           margin: 0 auto;
-           height: 30vw;
-           background-size:cover;
-           background-position: center;
-     }
-
-     @media(max-width:975px) {
-          #block{
-                height: 45vw;
-          }
-
-          .work-thumb:hover .work-text2 {
-          	font-size: 1.1rem;
-          }
-     }
-     @media(max-width:500px) {
-          #block{
-               border-color:rgba(246,245,245,1);
-                margin: 0 auto;
-                height: 70vw;
-                background-size:cover;
-                background-position: center;
-          }
-
-          .work-thumb .work-text h2 {
-          	font-size: 1rem;
-          }
-          .work-thumb .work-text p {
-          	font-size: .7rem;
-          }
-
-          .work-thumb:hover .work-text2 {
-          	font-size: 0.8rem;
-          }
-     }
-     .work-thumb{
-          margin:3%;
-
-     }
-     .myhr{
-          height:10px;
-          width:25%;
-          border:none;
-     }
-
-#mypageheader{
-     font-size: 10vw;
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    z-index: 10;
-    text-align: left;
-    position: relative;
-    line-height: 0.6em;
-    pointer-events: none;
-    flex: 1 100%;
-}
 
 </style>
 
+  <link href="web/mycss/home_style.css" rel="stylesheet preload" as="style">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
 <body>
+<!---------------WElcome ------------------------------------->
+<section class="page-section clearfix" style = "padding-left: 0rem; padding-right: 0rem; margin-top:7rem;margin-bottom:15rem">
+
+
+
+	<div class="col-md-6" style="padding-left: 0rem;padding-right: 0rem;margin-top: 4rem; margin-left: 0rem;">
+
+           <h1 id="mypageheader">Welcome to the CEEO</h1>
+    </div>
+    <div id="featured" style="background-color:#fff; width:100%; padding-top:5rem;">
+	<!--<p class="pagesubtitle" style="color:#2efa98;font-weight:800">CEEO INNOVATIONS PROJECTS</p>-->
+
+<!--<HR class="myhr" COLOR="#EF4764" >-->
+      	 <div class="row no-gutters"  style="margin-top: 4rem; margin-left:3rem;margin-right:3rem;">
+
+                <div class="col-sm-4 col-md-4 col-lg-3">
+                     <a rel="preload"  href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27' | replace: ' ', '%20' }}" class="circle-work-thumb">
+                       <div class="circle-work-text">
+                             <h2>Learn More</h2>
+
+                             <p style="font-size:1rem;">CEEO INNOVATIONS</p>
+
+                     </div>
+
+                     <div id="circle" style="background-image: url(web/img/ceeohome.jpg) ;">  </div>
+
+                    <!-- <img src="{{project.displayimg | prepend: 'project_assets/'| replace: "'", '%27'| replace: ' ', '%20' }}" alt="Image" class="img-fluid" style=" border-color:rgba(246,245,245,1); max-height: 40%; width: 100%">
+                    -->
+                    </a>
+                </div
+                <p>The Tufts Center for Engineering Education (CEEO) is dedicated to improving education through engineering (and vice versa).
+                    Our work spans a variety of disciplines from collaborating with Lego Robotics to designing Makerspaces to bringing technology into K-12 classrooms.
+                     CEEO Innovations is a database for the many projects and innovations going on at the center.</p>
+
+           </div>
+           </div>
+  </section>
 
 
 <!--....FEATURED PROJECTS...................................................................................-->
