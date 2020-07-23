@@ -2,7 +2,7 @@
 layout: post
 
 title: LEGO Robot Dog
-description: LEGO Dog Created for Dr. E's Challenge #1 
+description: LEGO Dog Created for Dr. E's Challenge 1 
 displayimg: robot-dog-dr-e-challenge-1/dog-pic-two.jpg
 categories: ["Spike Prime"]
 ---
