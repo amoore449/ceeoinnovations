@@ -4,105 +4,28 @@ layout: "homewrapper"
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style>
 
 
-</style>
-
-  <link href="web/mycss/home_style.css" rel="stylesheet preload" as="style">
+<link href="web/mycss/home_style.css" rel="stylesheet preload" as="style">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
 <body>
 <!---------------WElcome ------------------------------------->
-<section class="page-section clearfix" style = "padding-left: 0rem; padding-right: 0rem; margin-top:7rem;margin-bottom:15rem">
-
-
-
-	<div class="col-md-6" style="padding-left: 0rem;padding-right: 0rem;margin-top: 4rem; margin-left: 0rem;">
-
-           <h1 id="mypageheader">Welcome to the CEEO</h1>
-    </div>
-    <div id="featured" style="background-color:#fff; width:100%; padding-top:5rem;">
-	<!--<p class="pagesubtitle" style="color:#2efa98;font-weight:800">CEEO INNOVATIONS PROJECTS</p>-->
-
-<!--<HR class="myhr" COLOR="#EF4764" >-->
-      	 <div class="row no-gutters"  style="margin-top: 4rem; margin-left:3rem;margin-right:3rem;">
-
-                <div class="col-sm-4 col-md-4 col-lg-3">
-                     <a rel="preload"  href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27' | replace: ' ', '%20' }}" class="circle-work-thumb">
-                       <div class="circle-work-text">
-                             <h2>Learn More</h2>
-
-                             <p style="font-size:1rem;">CEEO INNOVATIONS</p>
-
-                     </div>
-
-                     <div id="circle" style="background-image: url(web/img/ceeohome.jpg) ;">  </div>
-
-                    <!-- <img src="{{project.displayimg | prepend: 'project_assets/'| replace: "'", '%27'| replace: ' ', '%20' }}" alt="Image" class="img-fluid" style=" border-color:rgba(246,245,245,1); max-height: 40%; width: 100%">
-                    -->
-                    </a>
-                </div
-                <p>The Tufts Center for Engineering Education (CEEO) is dedicated to improving education through engineering (and vice versa).
-                    Our work spans a variety of disciplines from collaborating with Lego Robotics to designing Makerspaces to bringing technology into K-12 classrooms.
-                     CEEO Innovations is a database for the many projects and innovations going on at the center.</p>
-
-           </div>
-           </div>
-  </section>
+{% include home_ceeo_intro.html%}
 
 
 <!--....FEATURED PROJECTS...................................................................................-->
-<section class="page-section clearfix" style = "padding-left: 0rem; padding-right: 0rem; margin-top:7rem;margin-bottom:15rem">
+{% include home_featured_projects.html%}
 
-
-
-	<div class="col-md-6" style="padding-left: 0rem;padding-right: 0rem;margin-top: 4rem; margin-left: 0rem;">
-
-           <h1 id="mypageheader">Featured Projects</h1>
-    </div>
-    <div id="featured" style="background-color:#fff; width:100%; padding-top:5rem;">
-	<!--<p class="pagesubtitle" style="color:#2efa98;font-weight:800">CEEO INNOVATIONS PROJECTS</p>-->
-
-
-<!--<HR class="myhr" COLOR="#EF4764" >-->
-      	 <div class="row no-gutters"  style="margin-top: 4rem; margin-left:3rem;margin-right:3rem;">
-
-                {% assign my_variable = 100 %}
-     			{% for project in site.projects  %}
-                    {% if project.url != "/projects/SAMPLE-FILE.html" %}
-     		   	<div class="col-sm-4 col-md-4 col-lg-3">
-     	  	  	   <a rel="preload"  href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27' | replace: ' ', '%20' }}" class="work-thumb">
-     	    	 	     <div class="work-text">
-     	 	 	           <h2>{{project.title}}</h2>
-
-     	 	 	           <p style="font-size:1rem;">CEEO INNOVATIONS</p>
-                              <p class="work-text2">{{project.description}}</p>
-
-     	   		    </div>
-
-                        <div id="block" style="background-image: url({{project.displayimg | prepend: 'project_assets/'| replace: "'", '%27'| replace: ' ', '%20' }}) ;">  </div>
-
-     			   <!-- <img src="{{project.displayimg | prepend: 'project_assets/'| replace: "'", '%27'| replace: ' ', '%20' }}" alt="Image" class="img-fluid" style=" border-color:rgba(246,245,245,1); max-height: 40%; width: 100%">
-                       -->
-                       </a>
-     	 	    </div>
-                   {% assign my_variable = my_variable  | plus: 70 %}
-                   {%endif%}
-     	 	 {%endfor%}
-
-
-
-           </div>
-           </div>
-  </section>
+<!--....DISCOVER PROJECTS...................................................................................-->
 
   <div class="col-md-6" style="margin-top: 5rem;">
 
         <h1 id="mypageheader">Discover Projects</h1>
   </div>
+  <div id="featured" >
  <section class="search-section page-section clearfix" style = "margin-top:0rem;margin-bottom:5rem: padding:none;">
 
                <!-- Html Elements for Search -->
@@ -153,6 +76,7 @@ layout: "homewrapper"
                </div>
 
 </section>
+</div>
 
 
   </body>
@@ -207,10 +131,11 @@ layout: "homewrapper"
 
   <script src="web/js/jquery-3.2.1.min.js"></script>
   <script src="web/js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="web/js/bootstrap.js"></script>
-    <script src="web/js/popper.min.js"></script>
   <script src="web/js/jquery.waypoints.min.js"></script>
   <script src="web/js/jquery.fancybox.min.js"></script>
   <script src="web/js/jquery.stellar.min.js"></script>
+  <script src="web/js/bootstrap.js"></script>
+    <script src="web/js/popper.min.js"></script>
+
   <script src="web/js/main.js"></script>
 </html>
