@@ -12,3 +12,7 @@ categories: ["Spike Prime", "Lesson Plans",  "Robotics",]
 # How does it work?
 This robot allows the user to put food into the small container behind it. When the button is pressed, the food is flipped over onto the holding container for the animals to eat!
 </div>
+
+<div class="free_write" markdown="1">
+# Design Process
+To design the robot, I thought about the different machines one would use in a zoo. Of course, feeding the animals is important, so I thought of a esign the could be mounted onto the fence of an animal's exhibit, to be used for feeding.
