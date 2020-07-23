@@ -1,9 +1,9 @@
 layout: post
 
-Title: title of your page
-Description: a brief description of your project
-displayimg: IMAGEFOLDERNAME/IMGNAME 
-categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"] 
+Title: Pet helper 
+Description: This project was created to help specifically a dog. This robot was designed to sense the dog when it is atc10cm away from the sensor. Then the robot was designed to push forward the bowl it had.
+displayimg: Pet helper robot/IMG_0605.HEIC 
+categories: ["Spike Prime"] 
 ---
 
 
@@ -16,16 +16,16 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
 
 
 <div class="image_text_overlay" markdown="1">
-![TITLE OF IMAGE](PROJECTFILENAME/IMGNAME)
+![Bowl helper](Pet helper robot/IMG_0606.HEIC)
 # YOUR IMAGE TITLE
 ## YOUR IMAGE SUBTITLE
-THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR IMAGE.
+This is a simple robot that will help a dog have access to their bowl.
 </div>
 
 
 <div class="document" markdown="1">
 # TITLE OF SECTION
-[TITLE OF document](PROJECTFOLDERNAME/NAME OF documemt FILE)
+[All pictures and video of Pet helper robot](Pet helper robot/Pet helper robot)
 [TITLE OF document](PROJECTFOLDERENAME/NAME OFdocument FILE)
 </div>
 
