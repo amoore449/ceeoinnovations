@@ -78,13 +78,13 @@ blockquote p {
 
 }
 
-ol li {
+.free_write_content ol li {
   margin: 0 0 0.5rem 0;
   counter-increment: my-awesome-counter;
   position: relative;
   margin-left:20%;
 }
-ol li:nth-child(odd)::before {
+.free_write_content ol li:nth-child(odd)::before {
      text-align: center;
   content: counter(my-awesome-counter);
   color: #000;
@@ -99,7 +99,7 @@ ol li:nth-child(odd)::before {
   top: 0;
 }
 
-ol li:nth-child(even)::before {
+.free_write_content ol li:nth-child(even)::before {
      text-align: center;
   content: counter(my-awesome-counter);
   color: #000;
@@ -114,20 +114,20 @@ ol li:nth-child(even)::before {
   top: 0;
 }
 
-ol {
+.free_write_content ol {
   max-width: 350px;
   counter-reset: my-awesome-counter;
   list-style: none;
   padding-left: 40px;
 }
-ul li {
+.free_write_content ul li {
   margin: 0 0 0.5rem 0;
   counter-increment: my-awesome-counter;
   position: relative;
   margin-left:10%;
 }
 
-ul li:nth-child(odd)::before {
+.free_write_content ul li:nth-child(odd)::before {
   color: #000;
   font-size: 1rem;
   position: absolute;
@@ -142,7 +142,7 @@ ul li:nth-child(odd)::before {
   border-radius: 50%;
 }
 
-ul li:nth-child(even)::before {
+.free_write_content ul li:nth-child(even)::before {
   color: #fff;
   font-size: 1rem;
 

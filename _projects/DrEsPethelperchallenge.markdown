@@ -1,10 +1,10 @@
 ---
 layout: post
 
-Title: Pet helper 
+Title: Pet helper
 Description: This project was created to help specifically a dog. This robot was designed to sense the dog when it is atc10cm away from the sensor. Then the robot was designed to push forward the bowl it had.
-displayimg: Pet helper robot/IMG_0605.HEIC 
-categories: ["Spike Prime"] 
+displayimg: Pethelperrobot/IMG_0605.jpg
+categories: ["Spike Prime"]
 ---
 
 
@@ -17,7 +17,7 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
 
 
 <div class="image_text_overlay" markdown="1">
-![Bowl helper](Pet helper robot/IMG_0606.HEIC)
+![Bowl helper](Pet helper robot/IMG_0606.jpg)
 # YOUR IMAGE TITLE
 ## YOUR IMAGE SUBTITLE
 This is a simple robot that will help a dog have access to their bowl.
@@ -31,7 +31,5 @@ This is a simple robot that will help a dog have access to their bowl.
 </div>
 
 
-<div class="free_write" markdown="1"> 
+<div class="free_write" markdown="1">
 </div>
-
-

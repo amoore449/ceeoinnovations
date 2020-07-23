@@ -1,0 +1,39 @@
+<div class="col-md-6" style="padding-left: 0rem;padding-right: 0rem;margin-top: 4rem; margin-left: 0rem;">
+           <h1 id="mypageheader">All Projects</h1>
+   </div>
+    <div id="featured" style="background-color:#fff; width:100%; padding-top:0rem;">
+	<!--<p class="pagesubtitle" style="color:#2efa98;font-weight:800">CEEO INNOVATIONS PROJECTS</p>-->
+
+
+<!--<HR class="myhr" COLOR="#EF4764" >-->
+      	 <div class="row no-gutters"  style="margin-top: 0rem;margin-bottom: 0rem; margin-left:0rem;margin-right:0rem;">
+
+                {% assign my_variable = 100 %}
+     			{% for project in site.projects  %}
+                    {% if project.url != "/projects/SAMPLE-FILE.html" %}
+     		   	<div class="col-sm-4 col-md-4 col-lg-3" >
+     	  	  	   <a class = "work-thumb" href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27' | replace: ' ', '%20' }}" >
+                            <div class="hidden-tags">{{project.categories}}</div>
+
+                         <div class="work-text">
+     	 	 	           <h2>{{project.title}}</h2>
+
+     	 	 	           <p style="font-size:1rem;">CEEO INNOVATIONS</p>
+                              <p class="work-text2">{{project.description}}</p>
+
+     	   		    </div>
+
+                        <div id="block" style="background-image: url({{project.displayimg | prepend: 'project_assets/'| replace: "'", '%27'| replace: ' ', '%20' }}) ;">  </div>
+
+     			   <!-- <img src="{{project.displayimg | prepend: 'project_assets/'| replace: "'", '%27'| replace: ' ', '%20' }}" alt="Image" class="img-fluid" style=" border-color:rgba(246,245,245,1); max-height: 40%; width: 100%">
+                       -->
+                       </a>
+     	 	    </div>
+                   {% assign my_variable = my_variable  | plus: 7990 %}
+                   {%endif%}
+     	 	 {%endfor%}
+
+
+
+           </div>
+           </div>
