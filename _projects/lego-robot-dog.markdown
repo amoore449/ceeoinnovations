@@ -24,5 +24,6 @@ Here are the other two pictures of the LEGO dog:
 ![LEGO DOg](robot-dog-dr-e-challenge-1/dog-pic-three.jpg)
 
 Here is a picture of a newfoundland dog:
+
 ![LEGO DOg](robot-dog-dr-e-challenge-1/newfoundland dog.jfif)
 </div>
