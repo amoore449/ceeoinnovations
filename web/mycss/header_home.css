@@ -156,6 +156,11 @@ margin-bottom: 7rem;
      border: 13px black;
 
 }
+.masthead .container{
+     max-width: 1300px;
+     margin-left: 0rem;
+     margin-right: 0rem;
+}
 #Ceeo_Inno_Brand{
      width:70%;
      margin-top: 5rem;
@@ -166,7 +171,11 @@ margin-bottom: 7rem;
      #navbar-right{
           width: 50%;
      }
-
+     .masthead .container{
+          max-width: 1200px;
+          margin-left: 0rem;
+          margin-right: 0rem;
+     }
 
 }
 @media(max-width:1100px){
