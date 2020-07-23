@@ -2,7 +2,7 @@
 layout: post
 
 Title: Automatic Animal Feeder
-Description: Automatically add food to a feeding container for zoo animals at the push of a button!
+Description: Feeder design for Dr. E's Challenge 2!
 displayimg: images_jason/20200723_112955[1].jpg 
 categories: ["Spike Prime", "Lesson Plans",  "Robotics",] 
 ---
