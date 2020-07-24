@@ -15,29 +15,32 @@ function CreateCaroMain(){
           var newslide = document.createElement("div");
           newslide.className = "carousel-cell";
           newslide.innerHTML = myslides[i].innerHTML;
-          newslidecontain.append(newslide);
+
 
           i++;
           if(i<myslides.length){
-          var newslide2 = document.createElement("div");
-          newslide2.className = "carousel-cell";
-          newslide2.innerHTML = myslides[i].innerHTML;
-          newslidecontain.append(newslide2);
+               var newslide2 = document.createElement("div");
+               ;
+               newslide2.innerHTML = myslides[i].innerHTML;
+               newslide.append(newslide2);
           }
           i++;
           if(i<myslides.length){
-          var newslide3 = document.createElement("div");
-          newslide3.className = "carousel-cell";
-          newslide3.innerHTML = myslides[i].innerHTML;
-          newslidecontain.append(newslide3);
+               var newslide3 = document.createElement("div");
+
+               newslide3.innerHTML = myslides[i].innerHTML;
+               newslide.append(newslide3);
           }
           i++;
           if(i<myslides.length){
-          var newslide4 = document.createElement("div");
-          newslide4.className = "carousel-cell";
-          newslide4.innerHTML = myslides[i].innerHTML;
-          newslidecontain.append(newslide4);
+               var newslide3 = document.createElement("div");
+
+               newslide3.innerHTML = myslides[i].innerHTML;
+               newslide.append(newslide3);
           }
+
+          newslidecontain.append(newslide);
+
      }
 
      carousel[0].append(newslidecontain);

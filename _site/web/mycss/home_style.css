@@ -13,6 +13,9 @@ body{
 .pagesubtitle{
      font-size:2vw;
 }
+.sample_caro{
+     display:none;
+}
 @media(max-width:500px) {
      .pagetitle{
           font-size:8vw;

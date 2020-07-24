@@ -7,7 +7,7 @@
      <div class="col-md-6" style="padding-left: 0rem;padding-right: 0rem;margin-top: 4rem; margin-left: 0rem;">
                 <h1 id="mypageheader">Featured Projects</h1>
         </div>
-         <div id="featured" style="background-color:#fff; width:100%; padding-top:0rem;">
+         <div id="featured" style="background-color:#fff; width:100%;">
               <dic class="caro">
               </div>
           </div>
@@ -15,7 +15,7 @@
      <div class="sample_caro">
           {% for project in site.projects  %}
           {% if project.url != "/projects/SAMPLE-FILE.html" %}
-          <div class="mysamplecaro col-sm-4 col-md-4 col-lg-4" style= "width:"200px";height:"60px"" >
+          <div class="mysamplecaro col-sm-4 col-md-4 col-lg-3">
 
              <a href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27' | replace: ' ', '%20' }}" class="old-work-thumb">
               <div class="old-work-text">
@@ -23,8 +23,7 @@
                 <h2>{{project.title}}</h2>
                 <p>CEEO INNOVATIONS</p>
                </div>
-
-               <img src="{{project.displayimg | prepend: 'project_assets/'| replace: "'", '%27'| replace: ' ', '%20' }}" class="img-fluid" style="height:600px; width: 400px">
+                    <img style="width:700px;height:400px"src="{{project.displayimg | prepend: 'project_assets/'| replace: "'", '%27'| replace: ' ', '%20' }}" onError="this.onerror=null;this.src='../web/img/gearpink.png';"class="img-fluid" >
              </a>
          </div>
          {%endif%}
