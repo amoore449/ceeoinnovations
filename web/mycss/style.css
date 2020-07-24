@@ -11584,8 +11584,6 @@ figure figcaption {
 	top: 0
 }
 
-
-
 .old-work-thumb {
 	display: block;
 	position: relative
@@ -11608,7 +11606,7 @@ figure figcaption {
 	opacity: 1;
 	visibility: visible;
 	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);a
 	transform: translate(-50%, -50%)
 }
 
