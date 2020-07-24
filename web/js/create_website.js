@@ -262,11 +262,18 @@ function CreateFreeWrite(mydivsi){
 *
 */
 function CreateHeaderVideo(mydivsi){
-     let testlink = CheckifVoidandAssign_Gen("a", 0, mydivsi);
-     if(!(testlink.contains("--- paste ")) ){
-          if(testlink.contains("https://youtu.be")){
+     let testlink = mydivsi.getElementsByTagName('a');
+     console.log(testlink.length);
+     if(testlink.length > 0){
+     console.log("ddsdstestlink");
+     console.log(mydivsi);
+     console.log(testlink[0].href);
+     if(!(testlink[0].href.includes("--- paste ")) ){
+          if(testlink[0].href.includes("https://youtu.be")){
+               console.log("LLLLLLLLLLEJ");
                 YouTubeCreateHeaderVideo(mydivsi);
           }
+     }
      }
 }
 /*CreateVideoHeader
