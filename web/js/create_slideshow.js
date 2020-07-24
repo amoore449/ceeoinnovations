@@ -22,15 +22,22 @@ function CreateCaroMain(){
           var newslide2 = document.createElement("div");
           newslide2.className = "carousel-cell";
           newslide2.innerHTML = myslides[i].innerHTML;
-          newslide.append(newslide2);
+          newslidecontain.append(newslide2);
           }
           i++;
           if(i<myslides.length){
           var newslide3 = document.createElement("div");
           newslide3.className = "carousel-cell";
           newslide3.innerHTML = myslides[i].innerHTML;
-          newslide.append(newslide3);
-     }
+          newslidecontain.append(newslide3);
+          }
+          i++;
+          if(i<myslides.length){
+          var newslide4 = document.createElement("div");
+          newslide4.className = "carousel-cell";
+          newslide4.innerHTML = myslides[i].innerHTML;
+          newslidecontain.append(newslide4);
+          }
      }
 
      carousel[0].append(newslidecontain);

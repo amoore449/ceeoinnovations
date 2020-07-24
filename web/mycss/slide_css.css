@@ -156,6 +156,7 @@ body { font-family: sans-serif; }
 }
 
 .carousel-cell img {
+background-color: #000;
   display: block;
   max-width: 100%;
   max-height: 100%;
@@ -171,13 +172,24 @@ body { font-family: sans-serif; }
 
 /* brighten selected image */
 .carousel-cell.is-selected img {
-  opacity: 1;
+  opacity: .7;
   -webkit-transform: scale(1);
           transform: scale(1);
+          -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+                  transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+           -webkit-filter: blur(1px);
+                filter: blur(1px);
+}
+
+.carousel-cell.is-selected:hover img{
+  opacity: .7;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+          -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+                  transition: opacity 0.3s, transform 0.3s, filter 0.3s;
   -webkit-filter: none;
           filter: none;
 }
-
 @media screen and ( min-width: 768px ) {
   .carousel-cell {
     height: 400px;
