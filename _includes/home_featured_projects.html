@@ -17,7 +17,6 @@
           {% if project.url != "/projects/SAMPLE-FILE.html" %}
           <div class="mysamplecaro col-sm-4 col-md-4 col-lg-4" style= "width:"200px";height:"60px"" >
 
-
              <a href="{{project.url}}" class="old-work-thumb">
               <div class="old-work-text">
 
@@ -25,7 +24,7 @@
                 <p>CEEO INNOVATIONS</p>
                </div>
 
-               <img src="{{project.displayimg | prepend: 'project_assets/'| replace: "'", '%27'| replace: ' ', '%20' }}" class="img-fluid" style="height: 4    600px; width: 400px">
+               <img src="{{project.displayimg | prepend: 'project_assets/'| replace: "'", '%27'| replace: ' ', '%20' }}" class="img-fluid" style="height:600px; width: 400px">
              </a>
          </div>
          {%endif%}

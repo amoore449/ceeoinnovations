@@ -1,0 +1,480 @@
+
+
+
+/* Shrink */
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+
+
+/*Section formatiing=================================================*/
+
+
+.page-section {
+     position: relative;
+     padding: 5rem;
+}
+
+@media(max-width:992px) {
+     .page-section {
+          position: relative;
+          padding-top: 5rem;
+          padding-bottom: 5rem;
+          padding-left: 0;
+          padding-right: 0;
+     }
+}
+
+@media(max-width:992px) {
+.intro-img{
+          width: 100%;
+     }
+     .section-heading .section-heading-upper {
+          font-size:.75rem;
+          text-transform: none;
+          font-weight: 600
+     }
+      .section-heading .section-heading-lower {
+           text-align: center;
+          font-size:1.5rem;
+          text-transform: none;
+     }
+}
+
+/*Markdown format=========================================================*/
+blockquote {
+     width:50%;
+     background: #f9f9f9;
+     border-left: 10px solid #ccc;
+     padding: 0.5em 10px;
+     quotes: "\201C""\201D""\2018""\2019";
+
+}
+blockquote:before {
+
+     color: #ccc;
+     content: open-quote;
+     font-size: 4em;
+     line-height: 0.1em;
+     vertical-align: -0.4em;
+
+}
+blockquote p {
+
+     display: inline;
+
+}
+
+.free_write_content ol li {
+  margin: 0 0 0.5rem 0;
+  counter-increment: my-awesome-counter;
+  position: relative;
+  margin-left:20%;
+}
+.free_write_content ol li:nth-child(odd)::before {
+     text-align: center;
+  content: counter(my-awesome-counter);
+  color: #000;
+  font-size: 1.5rem;
+
+  position: absolute;
+  --size: 32px;
+  left: calc(-1 * var(--size) - 10px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 0;
+}
+
+.free_write_content ol li:nth-child(even)::before {
+     text-align: center;
+  content: counter(my-awesome-counter);
+  color: #000;
+  font-size: 1.5rem;
+
+  position: absolute;
+  --size: 32px;
+  left: calc(-1 * var(--size) - 10px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 0;
+}
+
+.free_write_content ol {
+  max-width: 350px;
+  counter-reset: my-awesome-counter;
+  list-style: none;
+  padding-left: 40px;
+}
+.free_write_content ul li {
+  margin: 0 0 0.5rem 0;
+  counter-increment: my-awesome-counter;
+  position: relative;
+  margin-left:10%;
+}
+
+.free_write_content ul li:nth-child(odd)::before {
+  color: #000;
+  font-size: 1rem;
+  position: absolute;
+  --size: 27px;
+  left: calc(-1 * var(--size) - 10px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 0;
+
+  background: black;
+  border-radius: 50%;
+}
+
+.free_write_content ul li:nth-child(even)::before {
+  color: #fff;
+  font-size: 1rem;
+
+  position: absolute;
+  --size: 27px;
+  left: calc(-1 * var(--size) - 10px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 0;
+
+  background: black;
+  border-radius: 50%;
+}
+/*HEADER IMAGE================================================================*/
+.sampledatasectionHT, #transferhere, .imgvoidvalue{
+     display:none;
+}
+.intro-text{
+     box-shadow: 5px 5px 60px rgb(0,0,0, 0.1) ;
+}
+
+.section-heading .section-heading-upper {
+	display: block;
+	font-size: 1rem;
+	font-weight: 800
+}
+
+.section-heading .section-heading-lower {
+	display: block;
+	font-size: 3rem;
+	font-weight: 100
+}
+
+@media(max-width:800px) {
+.intro-img{
+          width: 100%;
+     }
+     .section-heading .section-heading-upper {
+          font-size:1.5rem;
+          text-transform: none;
+          font-weight: 700
+     }
+      .section-heading .section-heading-lower {
+           text-align: center;
+          font-size:2.3rem;
+          text-transform: none;
+     }
+}
+
+
+@media(max-width:600px) {
+.intro-img{
+          width: 100%;
+     }
+     .section-heading .section-heading-upper {
+          font-size:.75rem;
+          text-transform: none;
+          font-weight: 600
+     }
+      .section-heading .section-heading-lower {
+           text-align: center;
+          font-size:1.5rem;
+          text-transform: none;
+     }
+}
+/*PDF CSS =====================================================================*/
+#transferherePI, .imgvoidvaluePI, .sampledatasectionPI{
+    display:none;
+}
+
+.mypdf, .pdfdatasection,#sampleappendherePI, .sampleappendherePI {
+    padding-left: 3%;
+    padding-right: 3%;
+     border-color:rgba(246,245,245,1);
+    min-height: 400px;
+     width: 100%;
+
+}
+
+iframe{
+    border: none;
+    width:90%;
+}
+
+.pdf-segment{
+    margin: 3%;
+background-color: #fff;
+padding:3%;
+radius:15%;
+box-shadow: 5px 10px 10px #888888;
+position: relative;
+
+}
+
+
+.button-div{
+    display: block;
+
+    text-align: right;
+    padding-right: 3%;
+}
+.click-to-download {
+
+    box-shadow: -6px -6px 0px -23px #3dc21b;
+    background-color:#44c767;
+    border-radius:10px;
+    border:1px solid #28a634;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight:bold;
+    padding:4% 4%;
+    text-decoration:none;
+    text-shadow:0px 3px 15px #399928;
+}
+.click-to-download:hover {
+    background-color:#9ede8e;
+    color:#fff;
+}
+.click-to-download:active {
+    position:relative;
+    top:1px;
+}
+.pdfsampledatasection{
+    min-width: 100%;
+    display: none;
+}
+.largerpdfdatasection{
+    align-content: center;
+    text-align: center;
+}
+.largerpdfsampledatasection{
+    align-content: center;
+    text-align: center;
+    display:none;
+
+}
+
+#appendherePI, .appendherePI, .pdfsectiontitle{
+      justify-content: center;
+      overflow:auto;
+}
+.pdfdatasection{
+    display: block;
+    clear:both;
+    overflow: auto;
+    min-height: 100%;
+}
+.pdfsectiontitle{
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+@media(max-width:952px) {
+    .mypdf, .pdfdatasection,#sampleappendherePI, .sampleappendherePI {
+         padding-left: 3%;
+         padding-right: 3%;
+          border-color:rgba(246,245,245,1);
+         min-height: 250px;
+          width: 100%;
+    }
+
+    .col-sm-3, .col-md-3, .col-lg-3  {
+         -webkit-box-flex: 0;
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+         max-width: 50%
+    }
+}
+
+@media(max-width:600px) {
+    .mypdf, .pdfdatasection,#sampleappendherePI, .sampleappendherePI {
+         padding-left: 3%;
+         padding-right: 3%;
+          border-color:rgba(246,245,245,1);
+         min-height: 250px;
+          width: 100%;
+    }
+
+    .col-sm-3, .col-md-3, .col-lg-3  {
+         -webkit-box-flex: 0;
+         -ms-flex: 0 0 100%;
+         flex: 0 0 100%;
+         max-width: 100%
+    }
+}
+/*Page title CSS====================================================================*/
+
+.sampledatasectionMPT, #transferhereMPT{
+    display:none;
+}
+#headerMPT{
+    font-size:200%;
+    text-transform: none;
+    line-height: 140%;
+}
+
+@media(max-width:952px) {
+    #headerMPT{
+         font-size:170%;
+         text-transform: none;
+         line-height: 100%;
+    }
+
+}
+@media(max-width:600px) {
+    #headerMPT{
+         font-size:140%;
+         text-transform: none;
+         line-height: 100%;
+    }
+
+}
+/*free_write css --------------------------------------------------*/
+.highlighter-rouge{
+     clear:right;
+}
+.sample_free_write_content_container_container {
+          display: none;
+}
+.sample_free_write_content_container{
+     background-color:#fff;
+}
+.sample_free_write_content_container, .free_write_content_container {
+     align: center;
+}
+.free_write_row {
+     text-align:center;
+     justify-content:center;
+     padding-top: 5rem;
+     padding-bottom: 5rem;
+}
+.free_write_content{
+     align:center;
+     Font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+     width:65%;
+}
+.free_write_content p{
+     font-size: 1.2rem;
+}
+@media(max-width:992px) {
+     .free_write_content{
+          width:85%;
+     }
+     .free_write_row {
+          text-align:center;
+          justify-content:center;
+          margin-left: 15px;
+          margin-right: 15px;
+     }
+
+.sample_free_write_content_container, .free_write_content_container {
+          align: center;
+          margin-left: 3%;
+          margin-right: 3%;
+     }
+}
+.imgOnly{
+     float:right;
+}
+.lonely_p_imgOnly{
+width:90%;
+     float:center;
+}
+
+.imgOnly img{
+     width:100%;
+     display: inline;
+      box-shadow: 2px 2px 5px grey;
+}
+
+
+.free_write_content h2,
+.free_write_content h3{
+     text-align: left;
+     font-weight: 700;
+}
+
+
+.free_write_content h4,
+.free_write_content h5,
+.free_write_content h6 {
+     text-align: left;
+     font-weight: 700;
+}
+.free_write_content h2 {
+     font-weight: 300;
+     clear: right;
+     text-align: center;
+}
+
+.free_write_content blockquote {
+     text-align: center;
+     justify-content: center;
+
+}
+.free_write_content h1 {
+     text-align: center;
+     font-weight: 300;
+     clear: right;
+}
+
+
+/*style ref: http://adis.ca/entry/2011/pretty-code-block-in-css/*/
+
+
+     .highlighter-rouge{
+          radius: 10%;
+          box-shadow:1px 1px 8px 1px #bbb;
+     }
+
+   .highlight {
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 1px;
+        margin-bottom: 20px;
+       Font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+       font-size: 95%;
+       line-height: 140%;
+
+       white-space: pre;
+       white-space: pre-wrap;
+       white-space: -moz-pre-wrap;
+       white-space: -o-pre-wrap;
+       background-color: rgb(248, 248, 248);
+   }
+
+   pre code {
+    font-size: inherit;
+    color: inherit;
+    word-break: normal;
+}

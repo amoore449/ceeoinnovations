@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CEEO INNOVATIONS</title>
+<link rel="stylesheet" href="../web/mycss/aos.css">
+<link rel="stylesheet preload"  as="style"href="../web/mycss/allisoncss.css">
+<!--...........................................................................................................-->
+<style>
+
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+}
+#logo{
+     width: 20%;
+}
+#navbar {
+  overflow: hidden;
+  margin: auto;
+  background-color:  #2EFA98;
+  width: 100%;
+  z-index: 9999;
+  padding: 30px 10px;
+
+}
+
+#navbar a {
+  float: right;
+  color: #000;
+  font-weight: 400;
+  padding-left: 12px;
+   padding-right: 12px;
+  text-decoration: none;
+}
+
+#navbar .nav{
+     padding-top: 1%;
+}
+#navbar .nav a {
+     height: 100%;
+
+}
+#navbar #logo{
+  float: left;
+  text-align: left;
+  width: 20%;
+
+}
+
+#navbar-right{
+     padding-top: 1%;
+     float:right;
+
+}
+
+#navbar a.active {
+     background-color: #fff;
+     color: white;
+}
+#navbar #navtuftsimglink{
+     width:100px;
+}
+#navtuftsimglink img{
+     width: 100%;
+}
+#navimg{
+      width: 100%;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+#masthead #site-top{
+     background-image: url(../web/img/background-gif2.gif);
+     background-size: cover;
+}
+#mastheadparagraph p{
+     line-height: 130%;
+     color:#000000;
+     font-size:340%;
+     padding: none;
+}
+#Ceeo_Inno_Brand{
+     width:55%;
+     margin-top: 5rem;
+     margin-bottom: 3rem;
+     margin-right:10%;
+}
+@media(max-width:1200px){
+     #navbar-right{
+          width: 80%;
+
+     }
+}
+@media(max-width:992px) {
+     #mastheadparagraph p{
+          font-size:240%
+     }
+     #site-top{
+          padding:3rem;
+     }
+     #navbar #navtuftsimglink{
+          width: 100px;
+     }
+}
+@media(max-width:850px) {
+     #mastheadparagraph p{
+          font-size:200%
+     }
+     #masthead #site-top{
+          background-image: url(../web/img/small-background-gif.gif);
+          background-size: cover;
+     }
+     #Ceeo_Inno_Brand{
+          width:60%;
+     }
+}
+
+@media(max-width:650px){
+     #mastheadparagraph p{
+          font-size:170%
+     }
+     #Ceeo_Inno_Brand{
+          width:90%;
+     }
+}
+
+}
+@media(max-width:500px){
+     #mastheadparagraph p{
+          font-size:100%
+     }
+     #Ceeo_Inno_Brand{
+          width:100%;
+     }
+
+
+}
+@media(max-width:400px) {
+
+     #mastheadparagraph p{
+          font-size:100%
+     }
+     #masthead #site-top{
+          background-image: url(../web/img/Background.png);
+          background-size: cover;
+     }
+     #Ceeo_Inno_Brand{
+          padding-top: 0rem;
+          margin-right:8%;
+     }
+}
+
+
+/*Mobile------------------------------------------------------*/
+
+#mobilenav{
+     position: fixed;
+     display: none;
+     background-color: #000;
+}
+@media(max-width:500px) {
+     #navbar{
+          display: none;
+     }
+
+     #mobilenav{
+          display: block;
+     }
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #000;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  position: fixed;
+  display: block;
+  right: 0;
+  top: 0;
+}
+
+.topnav a.active{
+     width:25%;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  color: white;
+}
+
+#logoimg{
+ width: 50%;
+}
+
+</style>
+
+<!-- Bootstrap core CSS -->
+<link href="../web/mycss/bootstrap.min.css" rel="stylesheet preload" as="style">
+
+<!-- Custom fonts for this template -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet" >
+<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet" >
+
+<!-- Custom styles for this template -->
+<link href="../web/mycss/business-casual.min.css" rel="stylesheet preload" as="style">
+<link href="../web/mycss/business-frontpage.css" rel="stylesheet preload" as="style">
+
+<!--Allison's helper functions for appending content-->
+<script rel="preload" src="../web/js/append_helper_functions.js" as="script"></script>
+<script rel="preload" src="../web/js/create_website.js" as="script"></script>
+<!-- Custom styles for this template -->
+<link rel="preload stylesheet" href="../web/mycss/style1.css" as="style">
+
+<!-- Theme Style -->
+<link rel="preload stylesheet" href="../web/mycss/style.css" as="style">
+</head>
+
+<body style="background-color:rgba(246,245,245,1);padding-top: 0px">
+
+
+
+<!------Mobile Novbar---------------------------------------------------------------------->
+     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <!-- Top Navigation Menu -->
+     <div id="mobilenav" class=" clearfix sticky topnav">
+       <a href="../index.html" class="active"><img  id="logoimg" class="img-fluid hvr-shrink" src="../web/img/logo_white.png" onError="this.onerror=null;this.src='web/img/logo_white.png';" alt="">
+       </a>
+       <!-- Navigation links (hidden by default) -->
+       <div id="myLinks">
+            
+              <a  href="index.html#searchbox" >Search</a>
+            
+       </div>
+       <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+       <a href="javascript:void(0);" class="icon" style="background-color: #fff; color: #000"onclick="myFunction()">
+         <i class="fa fa-bars"></i>
+       </a>
+     </div>
+
+<!-----------NAV BAR-------------------------------------------------------------------->
+
+<div id="nav-wrap">
+
+     <div id="navbar" class="clearfix">
+
+          <a class="navlink" href="../index.html" id="logo" target="_blank">
+               <img  id="logoimg" class="img-fluid hvr-shrink" src="../web/img/Logo_Black.png" onError="this.onerror=null;this.src='web/img/Logo_Black.png';" alt="">
+          </a>
+
+       <div id="navbar-right">
+            <a  id="navtuftsimglink"  class="navlink hvr-shrink" href="https://www.tufts.edu/" >
+                 <img  id="navimg" src="../web/img/ceeoblacklogo.png"onError="this.onerror=null;this.src='web/img/ceeoblacklogo.png';" alt="">
+           </a>
+
+               
+                 <a class ="navlink nav hvr-shrink" href="index.html#searchbox" >Search</a>
+               
+
+          </div>
+     </div>
+
+</div>
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+     <head>
+          <meta charset="utf-8">
+          <title></title>
+
+     </head>
+
+<body>
+
+     <!-- DO NOT DELETE, IMPORT OF MARKDOWN ---------------------------------->
+     
+          <head>
+
+<!-- Bootstrap core CSS -->
+<link href="../web/mycss/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom fonts for this template -->
+<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap">
+<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" >
+
+<!-- Custom styles for this template -->
+<link href="../web/mycss/business-casual.min.css" rel="stylesheet preload" as="style">
+<link href="../web/mycss/business-frontpage.css" rel="stylesheet preload" as="style">
+
+<!-- Custom styles for this template -->
+   <link rel="preload stylesheet" href="../web/mycss/style1.css" as="style">
+   <link rel="stylesheet preload"  as="style"href="../web/mycss/allisoncss.css">
+
+<!-- Theme Style -->
+<link rel="preload stylesheet" href="../web/mycss/style.css" as="style">
+
+
+<!--...........................................................................................................-->
+
+
+<!-- Custom styles for this template -->
+
+<!-- Theme Style -->
+<link rel="stylesheet preload"  as="style"href="../web/mycss/style.css">
+<style>
+     #mycontent, #transferhereVO, .vidvoidvalue, .voidvalue, .sampledatasectionVO{
+          display:none;
+     }
+     .my-site-heading-upper{
+          font-size: 5vw;
+          padding-left: 20%;
+          padding-right: 20%;
+     }
+     .myprojectheader{
+          font-size: 2vw;
+     }
+     @media(max-width:750px) {
+          .my-site-heading-upper{
+               font-size: 6vw;
+               padding-left: 15%;
+               padding-right: 15%;
+          }
+          .myprojectheader{
+               font-size: 3vw;
+          }
+     }
+     @media(max-width:500px) {
+          .my-site-heading-upper{
+               font-size: 8vw;
+               padding-left: 5%;
+               padding-right: 5%;
+          }
+          .myprojectheader{
+               font-size: 4vw;
+          }
+     }
+</style>
+
+</head>
+<body >
+     <div style="padding-bottom:7rem">
+     </div>
+<div id="mycontent">
+     <!--SITE_TITLE creates a title for your webpage----------------->
+<div class="site_title">
+  <h1 id="chris-is-cool">Chris is cool</h1>
+</div>
+
+<!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
+<div class="image_text_overlay">
+  <p><img src="chris/DSC_0222.Small.jpg" alt="TITLE OF IMAGE" /></p>
+  <h1 id="this-is-chris">This is Chris</h1>
+  <h2 id="he-is-cool">He is cool</h2>
+  <p>He’s my boss</p>
+</div>
+
+<!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
+<div class="video_text_overlay">
+  <p><a href="https://youtu.be/DKt8iVEQYwI">TITLE OF VIDEO</a></p>
+  <h1 id="your-video-title">YOUR VIDEO TITLE</h1>
+  <h2 id="your-video-subtitle">YOUR VIDEO SUBTITLE</h2>
+  <p>THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.</p>
+</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>           If something doesn't look how you expect on the page, try adding a linebreak after it---------------------&gt;
+</code></pre></div></div>
+<div class="free_write">
+  <h1 id="hi-chris">HI Chris</h1>
+  <h2 id="hi-chris-1">Hi Chris</h2>
+  <ul>
+    <li>Chris</li>
+    <li>pay</li>
+    <li>attention</li>
+    <li>to</li>
+    <li>me</li>
+  </ul>
+</div>
+
+<div class="free_write">
+  <h1 id="heading">heading</h1>
+
+  <p><img src="Chris/chris.jpg" alt="another chris" /></p>
+</div>
+
+<!--document creates a grid of documentss--------------------->
+<div class="document">
+  <h1 id="tchris-documentation">TChris documentation</h1>
+  <p><a href="Chris/chris.jpg">TITLE OF document</a>
+<!-- insert as many links here as you want to dynamically create a grid of pdfs--></p>
+</div>
+
+<!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
+               If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
+<div class="free_write">
+  <h1 id="heading-1">heading</h1>
+
+  <p><img src="Chris/chris.jpg" alt="another chris" /></p>
+</div>
+
+
+</div>
+
+<h1 class="site-heading text-center text-black d-lg-block">
+
+
+ <div id="titleheader">
+       <div class="myprojectheader mb-3" style="color:#00FF85">Project</div>
+      <div id="headerMPT" class="site-heading-upper headerMPT"></div>
+      <div class="my-site-heading-upper subheaderMPT" style="text-transform: none;"></div>
+</div>
+</h1>
+
+<div id="myappendcontent">
+</div>
+
+<div class="authordisplay row mb-5 no-gutters" style="margin-top: 4rem">
+ 
+          </div>
+
+
+<h2 class="voidvalue"></h2>
+<h1 class="voidvalue"></h1>
+<p class="voidvalue"></p>
+<img class="imgvoidvalue" src="../web/img/defaultimg.jpg" alt="">
+
+
+
+</body>
+
+
+          <!-- Header for page title --------------------------------->
+          
+<!doctype htm
+<html lang="en">
+<head>
+<script rel="preload" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<title>append demo</title>
+
+
+</head>
+<body >
+
+
+
+
+<div class="sampledatasectionMPT">
+     <h1 class="site-heading text-center text-black d-lg-block">
+
+
+       <div id="titleheader">
+            <div class="site-heading-upper mb-3" style="color:#2efa98">Project</div>
+           <div id="headerMPT" class="site-heading-upper headerMPT"></div>
+           <div class="site-heading-upper subheaderMPT" style="text-transform: none; font-size:200%"></div>
+      </div>
+     </h1>
+
+</div>
+
+
+     </body>
+</html>
+
+
+
+
+<!-- Header for page Heading --------------------------------->
+          
+<!doctype htm
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<title>append demo</title>
+</head>
+<body>
+
+
+
+
+<div class="sampledatasectionHT">
+<section class="page-section clearfix">
+  <div class="container">
+   <div class="intro">
+
+
+      <img class="intro-img img-fluid mb-3 mb-lg-0 rounded myimghereHT" src="../web/img/404error.jpg" onerror="this.onerror=null;this.src='../web/img/404error.jpg';"  alt=""/>
+      <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+           <h2 class="section-heading mb-4">
+                <span class="section-heading-upper mainheaderHT" style="text-transform: none; color:black"></span>
+                <span class="section-heading-lower subheaderHT" style="color:black"></span>
+           </h2>
+
+        <p class="mb-3 myparagraphHT"></p>
+      </div>
+   </div>
+  </div>
+</section>
+</div>
+
+
+
+
+<div id="appendhere">
+</div>
+
+
+<div id="transferhere">
+
+</div>
+
+
+     </body>
+</html>
+
+<!-- Page Heading ---------------------------------->
+          <!doctype htm
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<title>append demo</title>
+ <style>
+ iframe{
+     border: none;
+     width:90%;
+ }
+
+</style>
+
+</head>
+<body>
+
+<div id="bigpdfsection">
+<section  class="collectthispdfsection myoverall page-section">
+
+             <div class="container ">
+                  <div class="largerappendherePI">
+                 </div>
+          </div>
+
+</section>
+</div>
+
+
+
+<div class="largerpdfsampledatasection">
+     <center>
+     <div class="col-md-6" style=" margin-left: auto; margin-right: auto; margin-bottom: 1.5rem ">
+                <div class="myPIsectionheaders">
+                     <h1 class="pdfsectiontitle" style="font-size:350%;font-weight:250;"></h1>
+                 </div>
+
+    </div>
+
+    <div id="sampleappendherePI" class="sampleappendherePI row no-gutters" style="margin-top: 4rem">
+
+    </div>
+    </center>
+
+</div>
+
+ <div class="pdfsampledatasection">
+
+      <div class="pdf-segment">
+           <p class="pdfheader">CEEO INNOVATIONS</p>
+
+          <iframe  id="mypdf" src="../web/pdf/terms_and_conditions.pdf" class=" mypdf" >  </iframe>
+      <div class="button-div">
+           <a href="../web/pf/terms_and_conditions.pdf"  class="click-to-download">Download</a>
+      </div>
+       </div>
+
+  </div>
+</div>
+
+     </body>
+
+
+</html>
+
+<!-- Video Overlay---------------------------------->
+          <!doctype htm
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<title>append demo</title>
+<style>
+#newsrcdoc, #transferhereVO .sampledatasectionVO{
+     display:none;
+}
+.video-container {
+     position:relative;
+    float: right;
+    clear: right;
+    padding-bottom: 15.25%;
+    width: 75%;
+    height: 465px;
+    border: none
+}
+@media (max-width:992px) {
+     .video-container {
+          float: none;
+          width:100%;
+          height: 300px;
+          margin-bottom: 15px;
+          overflow: hidden;
+          padding-bottom: 56.25%;
+     }
+}
+
+.video-container iframe {
+     overflow:hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="sampledatasectionVO">
+<section class="page-section clearfix">
+  <div class="container">
+   <div class="intro">
+
+<div class="video-container-container">
+     <div class="video-container">
+           <iframe  class="intro-vid img-fluid mb-3 mb-lg-0 rounded myiframehere"  src="https://www.youtube.com/embed/uXMQn6dbxc4"   srcdoc="" allowfullscreen></iframe>
+     </div>
+</div>
+
+      <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+           <h2 class="section-heading mb-4">
+                <span class="section-heading-upper mainheaderVO" style="text-transform: none; color:black">INSERT CONTENT HERE</span>
+                <span class="section-heading-lower subheaderVO" style="color:black">INSERT CONTENT HERE</span>
+           </h2>
+
+        <p class="mb-3 myparagraphVO">INSERT CONTENT HERE</p>
+      </div>
+   </div>
+  </div>
+</section>
+</div>
+
+<div id = "newsrcdoc">
+
+     <a style="padding:0;margin:0;overflow:hidden;height:100%" href=https://www.youtube.com/embed/Y8Wp3dafaMQ?autoplay=1>
+     <img style="padding:0;margin:0;overflow:hidden;height:100%;position:absolute;width:100%;top:0;bottom:0;left:0;right:0;margin:auto"src=https://img.youtube.com/vi/Y8Wp3dafaMQ/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'>
+     <span style="position:absolute;width:98%;overflow:hidden;top:0;bottom:0;margin:auto;height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black">▶</span></a>
+</div>
+
+     </body>
+</html>
+
+<!--Free Write----------------------------------->
+          
+
+
+<div class="sample_free_write_content_container_container p-5">
+      <div class="container">
+     <div class="sample_free_write_content_container clearfix">
+          <div class="row free_write_row" style="margin-top:5rem;">
+               <div class="large free_write_content mb-4" style="text-align: left; color:rgba(0,0,0,1.00);"></div>
+          </div>
+     </div>
+     </div>
+</div>
+
+
+
+
+<!--Allison's helper functions for appending content-->
+          <script src="../web/js/create_website.js"></script>
+          <script src="../web/js/append_helper_functions.js"></script>
+
+          <script>CreateWebMain();</script>
+
+
+          <script>
+          var mypdf = document.getElementsByClassName('mypdf');
+          for(let i = 0; i <mypdf.length; i++){
+          $(mypdf[i]).on("load", function() {
+               let head = $(mypdf[i]).contents().find("head");
+               let css = '<style>img{width:100%;body{zoom: 0.05;}</style>';
+               $(head).append(css);
+          });
+     }
+          </script>
+</body>
+</html>
+
+<!-- This is CEEO INNOVATION DEFAULT FOOTER -->
+<footer class="footer text-faded text-center py-5" >
+  <div class="container" style="border-top-style:solid;border-top-color: rgba(0,0,0,0.3)">
+        <div class="row" style="margin-top:5rem; padding:15px; text-align: justify">
+             <p style="text-align:left;line-height: 200%; color:rgba(0,0,0,1.00)">
+                  You are visiting an open development section where you will get access to so-called “developer software”, which offers documentation on different ways to operate the LEGO® Education SPIKE™ Prime Hub and technology. Whatever use you make of the developer software, bear in mind that the results are not experiences that the LEGO Group endorses, is with or will be liable for. No rights in or to trademarks of the LEGO Group are implied or given, and you may not apply to or register any protection anywhere in the world for intellectual property or industrial rights or similar in respect of any developer software, derivative or other result achieved through its use. The developer software is made available “as is” and, to the extent possible, no warranties or representations are implied or given in relation to it by the LEGO Group. It’s your responsibility to ensure all uses that you make and enable others to make comply with all applicable laws and best practices. By accessing the developer software, you acknowledge that the terms and conditions set out above and in LEGO Education’s <a href="termandcondition.html" style="color:#00FF85">terms of use for SPIKE Prime</a> apply
+             </p>
+        </div>
+   <p style="color:black; text-align: center; margin-top:3rem;text-indent: 1px">Copyright &copy; Tufts University Center for Engineering Education and Outreach 2020</p>
+  </div>
+</footer>
+</body>
+<!--............................................................................................................................................-->
+<!--This is CEEO INNOVATION default footer -->
+<!--............................................................................................................................................-->
+   <div class="footerpage"></div>
+
+   <script>
+   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+   </script>
+   <script>
+        $(function(){
+             $(".footerpage").load("../footerpage.html");
+        });
+   </script>
+
+   <script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction(x)};
+
+var header = document.getElementById("nav-wrap");
+var mobileheader = document.getElementById("mobilenav");
+var sticky = header.offsetTop;
+
+var x = window.matchMedia("(max-width: 900px)")
+scrollFunction(x) // Call listener function at run time
+x.addListener(scrollFunction)
+
+console.log(document.body.scrollTop);
+function scrollFunction(x) {
+
+      if (window.pageYOffset >= sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+
+if(x.matches){
+     if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
+
+       document.getElementById("navbar").style.padding = "0px 0px";
+        $("#navbar-right").css({"padding-top":"0%"});
+       $("#navbar").css({"padding-left": "1%", "padding-right": "1%"});
+       $("#logo").css({"width": "10%"});
+       $("#navtuftsimglink img").css({"width": "100%", "padding-bottom": "0%"});
+        $("#navtuftsimglink").css({"padding-top": ".5%"});
+         $("#navbar-right a").css({"font-size": "2vw"});
+         $("#navbar").css({"background-image": "url(../web/img/Background.png)"});
+
+   }else  {
+       document.getElementById("navbar").style.padding = "30px 10px";
+       $("#logo").css({"width": "20%"});
+        $("#navtuftsimglink img").css({"width": "100%", "padding-bottom": "0%"});
+       $("#navbar-right").css({ "padding-top":"1%"});
+       $(" #navbar .nav").css({"padding-top": "1%"});
+        $("#navbar-right a").css({"font-size": "2.5vw"});
+         $("#navbar").css({"background-image": "none"});
+     }
+
+} else {
+  if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
+
+    document.getElementById("navbar").style.padding = "0px 0px";
+     $("#navbar-right").css({"padding-top":"0%"});
+    $("#navbar").css({"padding-left": "1%", "padding-right": "1%"});
+    $("#logo").css({"width": "9%"});
+    $("#navtuftsimglink img").css({"width": "100%", "padding-bottom": "0%"});
+     $("#navtuftsimglink").css({"padding-top": ".5%"});
+      $("#navbar-right a").css({"font-size": "1vw"});
+} else  {
+    document.getElementById("navbar").style.padding = "30px 10px";
+    $("#logo").css({"width": "20%"});
+     $("#navtuftsimglink img").css({"width": "100%", "padding-bottom": "0%"});
+    $("#navbar-right").css({ "padding-top":"1%"});
+    $(" #navbar .nav").css({"padding-top": "1%"});
+     $("#navbar-right a").css({"font-size": "1.5vw"});
+  }
+}
+}
+</script>
+
+<script src="../web/js/bootstrap.bundle.min.js"></script>
+<script src="../web/js/aos.js"></script>
+
+<script src="../web/js/jquery-3.2.1.min.js"></script>
+<script src="../web/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="../web/js/bootstrap.js"></script>
+  <script src="../web/js/popper.min.js"></script>
+<script src="../web/js/jquery.waypoints.min.js"></script>
+<script src="../web/js/jquery.fancybox.min.js"></script>
+<script src="../web/js/jquery.stellar.min.js"></script>
+<script src="../web/js/main.js"></script>
+<!--............................................................................................................................................-->
+<!-- Bootstrap core JavaScript -->
+
+
+
+
+</html>
