@@ -4,11 +4,11 @@
     <div id="featured" style="background-color:#fff; width:100%; padding-top:2rem;">
 	<!--<p class="pagesubtitle" style="color:#2efa98;font-weight:800">CEEO INNOVATIONS PROJECTS</p>-->
           <div id="searchbox">
-               <div class ="buttoncol navlink nav hvr-shrink" onclick="ButtonStart()" style="margin-left: 0rem">
+               <div class ="buttoncol navlink nav hvr-shrink" onclick="ButtonStart(this)" style="margin-left: 0rem">
                   <h6 id="All" class="myButton" >All</h6>
                </div>
                {% for i in site.my_categories %}
-              <div class ="buttoncol navlink nav hvr-shrink" onclick="ButtonStart()" style="margin-left: 0rem">
+              <div class ="buttoncol navlink nav hvr-shrink" onclick="ButtonStart(this)" style="margin-left: 0rem">
                   <h6 id="{{i | replace: ' ', '_' }}" class="myButton"  >{{i}}</h6>
                </div>
                {% endfor %}
