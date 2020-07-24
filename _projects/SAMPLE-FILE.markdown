@@ -7,13 +7,6 @@ displayimg: IMAGEFOLDERNAME/IMGNAME
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
 ---
 
-<!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
-<div class="video_text_overlay" markdown="1">
-[TITLE OF VIDEO](--- paste a youtu.be link here--)
-# YOUR VIDEO TITLE
-## YOUR VIDEO SUBTITLE
-THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
-</div>
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
@@ -29,6 +22,14 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR IMAGE.
 [TITLE OF document](PROJECTFOLDERNAME/NAME OF documemt FILE)
 [TITLE OF document](PROJECTFOLDERENAME/NAME OFdocument FILE)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
+</div>
+
+<!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
+<div class="video_text_overlay" markdown="1">
+[TITLE OF VIDEO](--- paste a youtu.be link here--)
+# YOUR VIDEO TITLE
+## YOUR VIDEO SUBTITLE
+THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
 </div>
 
 <!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)

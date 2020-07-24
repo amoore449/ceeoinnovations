@@ -24,7 +24,6 @@ function CollectAllDivs(){
  */
  function CreateSectionsByDiv(mydivs){
       for (var i = 0; i < mydivs.length; i++){
-          
            if ( mydivs[i].classList.contains("site_title")){
                 CreateSiteTitle(mydivs[i]);
            } else if ( mydivs[i].classList.contains("image_text_overlay")){
@@ -256,12 +255,26 @@ function CreateFreeWrite(mydivsi){
 }
 
 //CREATE VIDEO WITH TEXT=======================================================
+
 /*CreateVideoHeader
 * Create and allocate a header video section
 * collects image link, sub header, header, and description, if existing
 *
 */
 function CreateHeaderVideo(mydivsi){
+     let testlink = CheckifVoidandAssign_Gen("a", 0, mydivsi);
+     if(!(testlink.contains("--- paste ")) ){
+          if(testlink.contains("https://youtu.be")){
+                YouTubeCreateHeaderVideo(mydivsi);
+          }
+     }
+}
+/*CreateVideoHeader
+* Create and allocate a header video section
+* collects image link, sub header, header, and description, if existing
+*
+*/
+function YouTubeCreateHeaderVideo(mydivsi){
      //collect the template for header img
      var sampledatasection  = document.getElementsByClassName('sampledatasectionVO')[0];
 
