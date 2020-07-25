@@ -16,8 +16,7 @@ body{
 .homepagesection{
      padding-left: 0rem;
       padding-right: 0rem;
-       padding-top:7rem;
-       margin-bottom:15rem
+       padding-top:5rem;
 }
 .pageheadercontain{
      padding-left: 0rem;
@@ -466,9 +465,6 @@ background-size:cover;
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
 }
-* { box-sizing: border-box; }
-
-body { font-family: sans-serif; }
 
 .carousel {
   background: white;
@@ -561,14 +557,9 @@ background-color: #fffd85;
 .flickity-prev-next-button:disabled {
   display: none;
 }
+/*navbar--------------------------*/
 
-* {box-sizing: border-box;}
-
-body {
-  margin: 0;
-}
 #logo{
-     padding-top:2%;
      width: 120px;
 }
 #navbar {
@@ -607,9 +598,7 @@ body {
 }
 
 #navbar-right{
-     padding-top: 1%;
      float:right;
-
 }
 
 #navbar a.active {
@@ -617,11 +606,10 @@ body {
      color: white;
 }
 #navbar #navtuftsimglink{
-     padding-top: 10px;
      width:200px;
 }
 #navbar #navsearchimglink{
-     width:80px;
+     width:50px;
 }
 #navtuftsimglink img, #navsearchimglink img{
      width: 100%;
