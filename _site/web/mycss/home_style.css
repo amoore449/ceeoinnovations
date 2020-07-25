@@ -13,6 +13,17 @@ body{
 .pagesubtitle{
      font-size:2vw;
 }
+.homepagesection{
+     padding-left: 0rem;
+      padding-right: 0rem;
+       padding-top:7rem;
+       margin-bottom:15rem
+}
+.pageheadercontain{
+     padding-left: 0rem;
+     padding-right: 0rem;
+     margin-left: 0rem;
+}
 .sample_caro{
      display:none;
 }
@@ -33,13 +44,14 @@ body{
 #featured{
      width:100%;
      background-color: #fff;
-     padding-top: 4rem;
+     padding-top: 2rem;
      padding-bottom: 4rem;
 }
 #searchbox{
      padding: 1%;
      padding-left: 0%;
      width: 100%;
+     margin:0rem;
 }
 
 .page-section{
@@ -56,8 +68,6 @@ body{
       font-size:2vw;
 
 }
-
-
 
 .myButton {
      background-color:#00ff84;
@@ -156,6 +166,7 @@ line-height: 0.6em;
 pointer-events: none;
 flex: 1 100%;
 text-shadow: -4px 4px #51d294;
+padding-top:7rem;
 }
 
 #circle{
@@ -211,7 +222,10 @@ background-size:cover;
 }
 
 
+.projectsegment{
+     transition: visibility 0s, opacity 0.5s linear;
 
+}
 /*--------------------------------------------------------------------------*/
 .circle-work-thumb .circle-work-text h2 {
 	color: #fff;
@@ -272,6 +286,9 @@ background-size:cover;
 
 .search-container {
   float: right;
+  display: inline;
+  margin: 1%;
+  margin-top: -1%;
 }
 
 .search-container input[type=text] {

@@ -22,59 +22,6 @@ layout: "homewrapper"
 <!--....DISCOVER PROJECTS...................................................................................-->
 {% include search_projects.html%}
 
-<!--....DISCOVER PROJECTS...................................................................................-->
-
-  <div class="col-md-6" style="margin-top: 5rem;">
-
-        <h1 id="mypageheader">Discover Projects</h1>
-  </div>
- <div id="featured" >
- <section class="search-section page-section clearfix" style = "margin-top:0rem;margin-bottom:5rem: padding:none;">
-
-               <!-- Html Elements for Search -->
-               <div id="searchbox">
-                    {% for i in site.my_categories %}
-                     <div class ="buttoncol navlink nav hvr-shrink" style="margin-left: 0rem">
-                         <h6  id={{i | replace: ' ', '_' }} class="myButton" >{{i}}</h6>
-                    </div>
-                    {% endfor %}
-
-                    </div>
-                    <h4 style="display: inline" class="searchlabel"> Search  </h4>
-                     <div style="display: inline" id="search-container">
-                         <input type="text" id="search-input" placeholder="search...">
-                    </div>
-
-               <div id="results-container-container"class="row mb-5 no-gutters" style="padding-bottom:8rem;">
-
-                    <div id="results-container" class="row mb-5 no-gutters"></div>
-
-                    {% for i in site.my_categories %}
-                            {% for project in site.projects %}
-                            {% if project.categories contains i %}
-                            {% if project.url != "/projects/SAMPLE-FILE.html" %}
-
-                          <div  class="{{i | replace: " ", "_"}} col-sm-3 col-md-3 col-lg-3" style="display:none" data-aos="fade" data-aos-delay="100">
-                                <a rel="preload"  href="{{ project.url | prepend: site.baseurl | replace: '//', '/' }}" class="work-thumb">
-                                 <div class="work-text">
-                                       <h2>{{project.title}}</h2>
-                                       <p>CEEO INNOVATIONS</p>
-                                 </div>
-                                 <div id="block" style="background-color: blue; border-color:#fff; max-height: 40%; width: 100%"> x </div>
-                               <img src="{{project.displayimg | prepend: 'project_assets/'}}" alt="Image" class="img-fluid" style=" border-color:#fff; max-height: 40%; width: 100%">
-                               </a>
-                            </div>
-                            {% endif %}
-
-                            {% endif %}
-                           {% endfor %}
-
-                    {%endfor%}
-
-
-               </div>
-
-</section>
 </div>
 
 
