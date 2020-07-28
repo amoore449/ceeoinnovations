@@ -11590,7 +11590,7 @@ figure figcaption {
 }
 
 .old-work-thumb img {
-	border: 10px solid #fff
+	padding: 10px;
 }
 
 .old-work-thumb .old-work-text {

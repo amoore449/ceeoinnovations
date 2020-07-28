@@ -1,64 +1,27 @@
 ---
-layout: wrapper
+layout: contributorwrapper
 ---
-<<!DOCTYPE html>
-<html lang="en" dir="ltr">
-     <head>
-          <meta charset="utf-8">
-          <title></title>
-          <style >
-               .squarepic{
-                    width:10vw;height:10vw;
 
-                 object-fit:cover;
-                 border-radius:50%;
-               }
-               .squarecol{
-                 width:10vw;height:10vw;
-                 object-fit:cover;
-                 border-radius:50%;
-               }
-               .work-text, .work-thumb{
-                      border-radius:50%;
-               }
-               .authordisplay{
-                    align-content: center;
-                    text-align:center
-               }
-          </style>
-     </head>
-     <body>
+<div class="col-md"style="margin-top: 15rem">
+           <h1 id="mycontribpageheader">Project Contributors</h1>
+   </div>
 
+<div id="featured" >
 
-          <div class="authordisplay row mb-5 no-gutters" style="margin-top: 4rem">
+          <div class="authordisplay row mb-5 no-gutters">
+           {% for author in site.authors%}
+                    {% capture this_name %}
+                         {{ author.name | strip_newlines }}
+                    {% endcapture %}
+                    {% capture this_pos %}
+                         {{ author.position | strip_newlines }}
+                    {% endcapture %}
 
-              <!-- FIRST PROJECT----------------------------------------------------------->
-
-                   {% for author in site.authors %}
-
-                   <div class="squarecol" data-aos="fade" data-aos-delay="100">
-
-                    <!--REPLACE PROJECT LINK HERE -->
-                    <!--<a href=(copy and paste the project web link here) class="work-thumb"> -->
-                      <a rel="preload"  href="{{ author.url | prepend: site.baseurl | replace: '//', '/' }}" class="work-thumb">
-                      <div class="work-text">
-                    <!--Change project name here -->
-                    <!--<h2>(put your content here)</h2>-->
-                         <h2>{{author.name}}</h2>
-                    <!--.......................................................................................-->
-                         <p>CEEO INNOVATIONS</p>
-                        </div>
-                    <!-- Repalce project background image here -->
-                   <!--<img src=(paste image path here) alt="Image" class="img-fluid" style="max-height: 40%">-->
-                        <img src="{{author.image | prepend: 'authors/profilepics/'}}" alt="Image" class="img-fluid squarepic" style="border-color:rgba(246,245,245,1); ">
-                   <!--.......................................................................................-->
-                      </a>
+                    {% capture this_image %}
+                         {{ author.image  | prepend: '../authors/profilepics/' | strip_newlines }}
+                    {% endcapture %}
+               {% include contributor_author_section.html name=this_name position=this_pos image=this_image %}
+          {% endfor %}
                     </div>
 
-               {%endfor%}
-
-          </div>
-
-
-     </body>
-</html>
+</div>

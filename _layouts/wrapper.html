@@ -32,7 +32,7 @@
 <link rel="preload stylesheet" href="../web/mycss/style.css" as="style">
 </head>
 
-<body style="background-color:rgba(246,245,245,1);padding-top: 0px">
+<body style="background-color:rgba(255,255,255,1);padding-top: 0px">
 
 
 
@@ -42,7 +42,7 @@
 
      <!-- Top Navigation Menu -->
      <div id="mobilenav" class=" clearfix sticky topnav">
-       <a href="../index.html" class="active"><img  id="logoimg" class="img-fluid hvr-shrink" src="../web/img/logo_white.png" onError="this.onerror=null;this.src='web/img/logo_white.png';" alt="">
+       <a href="../index.html" class="active"><img  id="logoimg" class="img-fluid hvr-shrink" src="../web/img/logo_black.png" onError="this.onerror=null;this.src='web/img/logo_white.png';" alt="">
        </a>
        <!-- Navigation links (hidden by default) -->
        <div id="myLinks">
@@ -63,12 +63,12 @@
      <div id="navbar" class="clearfix">
 
           <a class="navlink" href="../index.html" id="logo" target="_blank">
-               <img  id="logoimg" class="img-fluid hvr-shrink" src="../web/img/Logo_Black.png" onError="this.onerror=null;this.src='web/img/Logo_Black.png';" alt="">
+               <img  id="logoimg" class="img-fluid hvr-shrink" src="../web/img/Logo_White.png" onError="this.onerror=null;this.src='web/img/Logo_Black.png';" alt="">
           </a>
 
        <div id="navbar-right">
             <a  id="navtuftsimglink"  class="navlink hvr-shrink" href="https://www.tufts.edu/" >
-                 <img  id="navimg" src="../web/img/ceeoblacklogo.png"onError="this.onerror=null;this.src='web/img/ceeoblacklogo.png';" alt="">
+                 <img  id="navimg" src="../web/img/CEEO_Logo_White.png" onError="this.onerror=null;this.src='web/img/ceeoblacklogo.png';" alt="">
            </a>
 
                {% for item in site.data.navigation.docs %}
@@ -152,7 +152,7 @@ function scrollFunction(x) {
 
    }else  {
         document.getElementById("navbar").style.padding = "30px 10px";
-        $("#navbar").css({"padding-bottom": "4%", "padding-top":"4%"});
+        $("#navbar").css({"padding-bottom": "3%", "padding-top":"3%"});
         $("#logo").css({"width": "120px"});
          $("#navtuftsimglink").css({"width": "200px"});
          $("#navsearchimglink").css({"width": "50px"});

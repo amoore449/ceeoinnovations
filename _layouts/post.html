@@ -13,7 +13,8 @@ layout: "wrapper"
 
      <!-- DO NOT DELETE, IMPORT OF MARKDOWN ---------------------------------->
      {% capture my_variable %}{{page.title}}{% endcapture %}
-          {% include include_content.html title=my_variable %}
+     {% capture my_des %}{{page.description}}{% endcapture %}
+          {% include include_content.html title=my_variable description=my_des %}
 
           <!-- Header for page title --------------------------------->
           {% include page_title.html %}

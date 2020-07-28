@@ -82,7 +82,6 @@ blockquote p {
   margin: 0 0 0.5rem 0;
   counter-increment: my-awesome-counter;
   position: relative;
-  margin-left:20%;
 }
 .free_write_content ol li:nth-child(odd)::before {
      text-align: center;
@@ -115,10 +114,9 @@ blockquote p {
 }
 
 .free_write_content ol {
-  max-width: 350px;
   counter-reset: my-awesome-counter;
   list-style: none;
-  padding-left: 40px;
+   margin-left:10%;
 }
 .free_write_content ul li {
   margin: 0 0 0.5rem 0;
@@ -410,10 +408,9 @@ width:90%;
      float:center;
 }
 
-.imgOnly img{
+.imgOnly {
      width:100%;
      display: inline;
-      box-shadow: 2px 2px 5px grey;
 }
 
 

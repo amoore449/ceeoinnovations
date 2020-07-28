@@ -62,10 +62,10 @@
      {{ content }}
 </div>
 
-<h1 class="site-heading text-center text-black d-lg-block">
+<h1 class="site-heading text-center">
 
 
-<div id="titleheader" style=" padding:5rem; border-radius: 50%;">
+<div id="titleheader">
       <div class="myprojectheader mb-3" style="color:#00FF85; text-shadow: -.5px .5px #51d294;">Project</div>
       <div id="headerMPT" class="site-heading-upper headerMPT"></div>
       <div id="mypageheader" class="mypageheader my-site-heading-upper subheaderMPT" style="text-transform: none;">{{include.title}}</div>
@@ -75,20 +75,19 @@
 <div id="myappendcontent">
 </div>
 
-<div class="authordisplay row mb-5 no-gutters" style="margin-top: 4rem">
- {% for this_author in page.authors%}
- {% assign author_data = site.authors | where: 'name', this_author %}
+- {% for this_author in page.authors%}
+     {% assign author_data = site.authors | where: 'name', this_author %}
      {% if this_author %}
-     {% capture this_name %}
-          {{ author_data[0].name | strip_newlines }}
-     {% endcapture %}
-     {% capture this_pos %}
-          {{ author_data[0].position | strip_newlines }}
-     {% endcapture %}
+          {% capture this_name %}
+               {{ author_data[0].name | strip_newlines }}
+          {% endcapture %}
+          {% capture this_pos %}
+               {{ author_data[0].position | strip_newlines }}
+          {% endcapture %}
 
-     {% capture this_image %}
-          {{ author_data[0].image  | prepend: '../authors/profilepics/' | strip_newlines }}
-     {% endcapture %}
+          {% capture this_image %}
+               {{ author_data[0].image  | prepend: '../authors/profilepics/' | strip_newlines }}
+          {% endcapture %}
      {% include author_section.html name=this_name position=this_pos image=this_image %}
      {% endif %}
 {% endfor %}

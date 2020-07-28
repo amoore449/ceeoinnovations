@@ -3,3 +3,9 @@ docs:
 
 - title: Search
   url: index.html#searchbox
+
+- title: Contributors
+  url: contributors.html
+
+- title: About
+  url: about.html

@@ -7,14 +7,16 @@
     <div id="featured">
 	<!--<p class="pagesubtitle" style="color:#2efa98;font-weight:800">CEEO INNOVATIONS PROJECTS</p>-->
           <div id="searchbox">
+               <div id="buttonbox">
                <div class ="buttoncol navlink nav hvr-shrink" onclick="ButtonStart(this)" style="margin-left: 0rem">
                   <h6 id="All" class="myButton" >All</h6>
                </div>
                {% for i in site.my_categories %}
-              <div class ="buttoncol navlink nav hvr-shrink" onclick="ButtonStart(this)" style="margin-left: 0rem">
+              <div class ="buttoncol navlink nav hvr-shrink" onclick="ButtonStart(this)">
                   <h6 id="{{i | replace: ' ', '_' }}" class="myButton"  >{{i}}</h6>
                </div>
                {% endfor %}
+               </div>
 
 
                          <div class="search-container">
