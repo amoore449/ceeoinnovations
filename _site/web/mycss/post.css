@@ -33,7 +33,6 @@ flex: 1 100%;
   overflow: hidden;
   margin: auto;
   background-color: #51d294;
-  background-image: url("../img/lightBackground.png");
   box-shadow: 4px 4px 10px rgba(0,0,0,.1);
   width: 100%;
   z-index: 9999;
