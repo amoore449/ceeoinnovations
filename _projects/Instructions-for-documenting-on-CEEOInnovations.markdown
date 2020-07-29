@@ -48,7 +48,7 @@ will let visitors learn about specific projects going  at the CEEO.
 <!--document creates a grid of documents--------------------->
 <div class="document" markdown="1">
 # Guides on how to use CEEOInnovations
-[Sample-File,markdown](https://docs.google.com/document/d/1cwkEwnAnes05EWzl1L0POl9HGGlA0k_IfE2rlowTxFs/edit?usp=sharing)
+<!--[Sample-File,markdown](https://docs.google.com/document/d/1cwkEwnAnes05EWzl1L0POl9HGGlA0k_IfE2rlowTxFs/edit?usp=sharing)-->
 ["Cheatsheet" For documenting](inno_instruct/cheatsheet.pdf)
 [Presentation slides with lesson on documenting](https://docs.google.com/presentation/d/e/2PACX-1vQuVgfNrRipSOYAHUVL6Y9ZKi2BMW7wI95fPlgpEIaGu6yQpx-1VEYMOJpOCQ8sqcJCkL5O3a0ZDf7N/embed?start=false&loop=false&delayms=3000)
 [Guide to Markdown and Divs](https://docs.google.com/presentation/d/e/2PACX-1vRYPC-Jo3iU7rD1_seS9CQZFMbwctRxy_XQWQ-WJGz8waFeZH0QQwa66DYzZXbPtFb3f65SbYsrJVN0/embed?start=false&loop=false&delayms=3000)
