@@ -54,10 +54,8 @@
 
      	   		    </div>
 
-                        <div id="block" style="background-image: url({{project.displayimg | prepend: 'project_assets/'| replace: "'", '%27'| replace: ' ', '%20' }}) ;">  </div>
+                        <div id="block" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url('{{site.baseurl}}/web/img/2gear_ppink.png');" >  </div>
 
-     			   <!-- <img src="{{project.displayimg | prepend: 'project_assets/'| replace: "'", '%27'| replace: ' ', '%20' }}" alt="Image" class="img-fluid" style=" border-color:rgba(246,245,245,1); max-height: 40%; width: 100%">
-                       -->
                        </a>
      	 	    </div>
                    {% assign my_variable = my_variable  | plus: 7990 %}

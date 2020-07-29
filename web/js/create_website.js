@@ -147,15 +147,17 @@ function AddHreftoNewDiv(get_class, at_place, copy_this_data, search_here){
 }
 
 function AddHrefSRCtoNewDiv_Prepend(get_class, at_place, copy_this_data, search_here){
-     var copyhere = search_here.getElementsByClassName(get_class)[at_place];
+     let copyhere = search_here.getElementsByClassName(get_class)[at_place];
 
           console.log("copy_this_data.href");
           console.log("Changed!");
           console.log(copy_this_data.href);
           console.log(is_url(copy_this_data.href));
          if (!(is_url(copy_this_data.href)) || copy_this_data.href.indexOf("/ceeoinnovations") >= 0 ){
-    $(copy_this_data).attr('href' , "../project_assets/" + $(copy_this_data).attr('href'));
-}
+           //   if(!(copy_this_data.href.contains("project_assets")){
+             $(copy_this_data).attr('href' , "project_assets/" + $(copy_this_data).attr('href'));
+       // }
+      }
      copyhere.src = copy_this_data.href;
      return copyhere;
 }
@@ -202,7 +204,7 @@ function CreateFreeWrite(mydivsi){
           console.log(is_url(myimages[i].src));
               if (!(is_url(myimages[i].src)) || myimages[i].src.indexOf("/ceeoinnovations") >= 0)
               {
-          $(myimages[i]).attr('src' , "../project_assets/" + $(myimages[i]).attr('src'));
+          $(myimages[i]).attr('src' , "project_assets/" + $(myimages[i]).attr('src'));
                }
           $(myimages[i]).attr('class' , "imgOnly col-sm-6 col-md-6 col-lg-6");
 
@@ -449,7 +451,7 @@ function AddHrefSRCtoNewDiv_Prepend(get_class, at_place, copy_this_data, search_
      var copyhere = search_here.getElementsByClassName(get_class)[at_place];
    // $(copy_this_data).attr('href' , "../project_assets/" + $(copy_this_data).attr('href'));
     if (!(is_url(copy_this_data.href)) || copy_this_data.href.indexOf("/ceeoinnovations") >= 0   ){
-         $(copy_this_data).attr('href' , "../project_assets/" + $(copy_this_data).attr('href'));
+         $(copy_this_data).attr('href' , "project_assets/" + $(copy_this_data).attr('href'));
 
     }
 ;
@@ -461,7 +463,7 @@ function AddHreftoNewDiv_Prepend(get_class, at_place, copy_this_data, search_her
      var copyhere = search_here.getElementsByClassName(get_class)[at_place];
 
     if (!(is_url(copy_this_data.href)) || copy_this_data.href.indexOf("/ceeoinnovations") >= 0 ){
-         $(copy_this_data).attr('href' , "../project_assets/" + $(copy_this_data).attr('href'));
+         $(copy_this_data).attr('href' , "project_assets/" + $(copy_this_data).attr('href'));
 
     }
      copyhere.src = copy_this_data.href;
@@ -489,7 +491,7 @@ function CreateHeaderImg(mydivsi){
 
      var myimg = CheckifVoidandAssign_Img_Gen(0, mydivsi);
      if (!(is_url(myimg.src)) || myimg.src.indexOf("/ceeoinnovations") >= 0 ){
-     $(myimg).attr('src' , "../project_assets/" + $(myimg).attr('src'));
+     $(myimg).attr('src' , "project_assets/" + $(myimg).attr('src'));
 }
 
      //create new div and copy sample data

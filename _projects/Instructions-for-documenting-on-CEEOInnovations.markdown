@@ -3,12 +3,12 @@ layout: post
 
 displayimg: inno_instruct/small_background.jpg
 title: Instructions for Documenting on CEEO Innovations
-description: CEEO innovations is a “hub” for all the cool projects going on at the CEEO.sdfghjkloiuytredsxcvbnjk
+description: CEEO innovations is a “hub” for all the cool projects going on at the CEEO.
 categories: ["Lesson Plans"]
-authors: []
+authors: ["Allison Moore"]
 ---
 
-<!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
+
 <div class="image_text_overlay" markdown="1">
 ![my header image](inno_instruct/tuftsceeo.jpg)
 # The CEEO Portfolio
@@ -18,18 +18,13 @@ will let visitors learn about specific projects going  at the CEEO.
 *Think of your page as an “advertisement” or summary of your project.*
 </div>
 
-<!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
-               If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
 <div class="free_write" markdown="1">
 # Before you start documenting...
 ## make sure you have
-
 - A few sentences or paragraphs of content summarizing the project
 - At least 2-5 images (give them easy to type names) saved to a folder on your computer
 - *This includes a “display” ideally cropped 2:3*
-
 ### Optional but recommended:
-
 - Any relevant documents or pdfs
 - Any relevant videos
 - Links to related sites so people can learn more about the project
