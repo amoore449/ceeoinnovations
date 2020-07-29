@@ -14,8 +14,10 @@ body{
      font-size:2vw;
 }
 .homepagesection{
+     margin: 7vw;
+     padding-left: 0rem;
+      padding-right: 0rem;
        padding-top:5rem;
-       margin: 5rem;
 }
 .pageheadercontain{
      padding-left: 0rem;
@@ -40,20 +42,11 @@ body{
      display: none;
 }
 #featured{
+     width:100%;
      background-color: #f3f3f3;
+     padding-top: 2rem;
+     padding-bottom: 4rem;
      padding: 3rem;
-
-}
-@media(max-width:500px){
-     #featured{
-          background-color: #f3f3f3;
-          padding: 2rem;
-
-     }
-     .homepagesection {
-    padding-top: 5rem;
-    margin: 0rem;
-}
 }
 #searchbox{
      padding: 1%;
@@ -78,7 +71,7 @@ body{
 }
 
 .myButton {
-     background-color:#2efa98;
+     background-color:#00ff84;
      border-radius:9px;
      display:inline-block;
      cursor:pointer;
@@ -207,17 +200,15 @@ body{
      font-weight: 300;
 }
 #mypageheader{
-font-size: 7vw;
-font-weight: 500;
-color:#EF476F;
-letter-spacing: -0.05em;
-z-index: 10;
-text-align: left;
-position: relative;
-line-height: 0.7em;
-pointer-events: none;
-/*text-shadow: -4px 4px #51d294;
-border-color:rgba(246,245,245,1);*/
+     font-size: 7vw;
+     font-weight: 500;
+     color:#EF476F;
+     letter-spacing: -0.05em;
+     z-index: 10;
+     text-align: left;
+     position: relative;
+     line-height: 0.6em;
+
 }
 #circle{
 border-color:rgba(246,245,245,1);
@@ -625,12 +616,13 @@ https://flickity.metafizzy.co
   opacity: 1;
 }
 
+.carousel {
+  background: #EEE;
+}
 
 .carousel-cell {
   width: 28%;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  height: 400px;
+  height: 200px;
   margin-right: 10px;
   border-radius: 5px;
   /* flex-box, center image in cell */
@@ -692,11 +684,12 @@ https://flickity.metafizzy.co
   display: block;
   max-width: 100%;
   max-height: 100%;
-  height: 400px;
   /* dim unselected */
   opacity: 0.7;
   -webkit-transform: scale(1);
           transform: scale(1);
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
           transition: opacity 0.3s, transform 0.3s, filter 0.3s;
 }
@@ -721,8 +714,8 @@ https://flickity.metafizzy.co
 #navbar {
   overflow: hidden;
   margin: auto;
-  background-color: #fff;
-  box-shadow: 4px 4px 10px rgba(0,0,0,.1);
+  background-color: #51d294;
+  box-shadow: 4px 4px 8px rgba(0,0,0,.2);
   width: 100%;
   z-index: 9999;
   padding-bottom: 4%;
@@ -732,13 +725,12 @@ https://flickity.metafizzy.co
 
 #navbar a {
   float: right;
-  color: rgba(0,0,0,0.6);
-    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
-    text-decoration: underline;
-    text-decoration-color: #e9ff93;
-  font-weight: 800;
+  color: #000;
+  font-weight: 400;
   padding-left: 12px;
    padding-right: 12px;
+  text-decoration: none;
+
 }
 
 #navbar .nav{
@@ -756,9 +748,6 @@ https://flickity.metafizzy.co
 }
 #navbar-right{
      float:right;
-     font-family:font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji",
-     Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-     font-weight:300;
 }
 
 #navbar a.active {
@@ -850,7 +839,7 @@ margin-bottom: 7rem;
 #masthead .container{
      padding-bottom: 1rem;
 }
-#mastheadparagraph p {
+#mastheadparagraph p{
      border-style: solid;
      font-family: 'Space Mono', monospace;
      font-size:1.2vw;
@@ -1026,7 +1015,7 @@ margin-bottom: 7rem;
 #mobilenav{
      position: fixed;
      display: none;
-     background-color: #fff;
+     background-color: #000;
 }
 @media(max-width:500px) {
      #navbar{

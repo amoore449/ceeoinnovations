@@ -160,7 +160,7 @@ blockquote p {
      display:none;
 }
 .intro-text{
-     box-shadow: 5px 5px 60px rgb(0,0,0, 0.1);
+     box-shadow: 5px 5px 60px rgb(0,0,0, 0.1) ;
 }
 
 .section-heading .section-heading-upper {
