@@ -88,7 +88,7 @@
           {% capture this_image %}
                {{ author_data[0].image  | prepend: '../authors/profilepics/' | strip_newlines }}
           {% endcapture %}
-     {% include author_section.html name=this_name position=this_pos image=this_image %}
+     {% include author_section.html name=this_author position=this_pos image=this_image %}
      {% endif %}
 {% endfor %}
           </div>

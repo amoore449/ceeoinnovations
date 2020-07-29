@@ -206,7 +206,7 @@ function CreateFreeWrite(mydivsi){
               {
           $(myimages[i]).attr('src' , "project_assets/" + $(myimages[i]).attr('src'));
                }
-          $(myimages[i]).attr('class' , "imgOnly col-sm-6 col-md-6 col-lg-6");
+          $(myimages[i]).attr('class' , "imgOnly");
 
      }
 

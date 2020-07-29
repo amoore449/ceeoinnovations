@@ -47,6 +47,7 @@ body{
      padding-top: 2rem;
      padding-bottom: 4rem;
      padding: 3rem;
+     border-radius: 10px;
 }
 #searchbox{
      padding: 1%;
@@ -213,8 +214,8 @@ body{
 #circle{
 border-color:rgba(246,245,245,1);
 margin: 0 auto;
-width: 20vw;
-height:20vw;
+width: 20rem;
+height:20rem;
 border-radius: 50%;
 background-size:cover;
 }
