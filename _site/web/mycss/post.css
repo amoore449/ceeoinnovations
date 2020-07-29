@@ -342,7 +342,8 @@ margin-bottom: 7rem;
 #mobilenav{
      position: fixed;
      display: none;
-     background-color: #000;
+     background-color: #fff;
+     box-shadow: 4px 4px 8px rgba(0,0,0,.2);
 }
 @media(max-width:500px) {
      #navbar{
@@ -363,11 +364,11 @@ margin-bottom: 7rem;
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
+  color: #000;
 }
 
 /* Style navigation menu links */
 .topnav a {
-  color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;

@@ -20,7 +20,7 @@
 <link href="../web/mycss/business-casual.min.css" rel="stylesheet preload" as="style">
 <!--Allison's helper functions for appending content-->
 <script src="../web/js/append_helper_functions.js" as="script"></script>
-<script src="../web/js/create_website.js" as="script"></script>
+
 <!-- Custom styles for this template -->
 <link rel="preload stylesheet" href="../web/mycss/style1.css" as="style">
 
@@ -38,16 +38,16 @@
 
      <!-- Top Navigation Menu -->
      <div id="mobilenav" class=" clearfix sticky topnav">
-       <a href="../index.html" class="active"><img  id="logoimg" class="img-fluid hvr-shrink" src="../web/img/logo_black.png" onError="this.onerror=null;this.src='web/img/logo_white.png';" alt="">
+       <a href="../index.html" class="active"><img  id="logoimg" class="img-fluid hvr-shrink" src="../web/img/Logo_DarkGreen_Inset.png" onError="this.onerror=null;this.src='web/img/Logo_DarkGreen_Inset.png';" alt="">
        </a>
        <!-- Navigation links (hidden by default) -->
        <div id="myLinks">
             
-              <a  href="index.html#searchbox" >Search</a>
+              <a  href="../index.html#searchbox" >Search</a>
             
-              <a  href="contributors.html" >Contributors</a>
+              <a  href="../contributors.html" >Contributors</a>
             
-              <a  href="about.html" >About</a>
+              <a  href="../about.html" >About</a>
             
        </div>
        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
@@ -63,7 +63,7 @@
      <div id="navbar" class="clearfix">
 
           <a class="navlink" href="../index.html" id="logo" target="_blank">
-               <img  id="logoimg" class="img-fluid hvr-shrink" src="../web/img/Logo_Black.png" alt="">
+               <img  id="logoimg" class="img-fluid hvr-shrink" src="../web/img/Logo_DarkGreen_Inset.png" alt="">
           </a>
 
        <div id="navbar-right">
@@ -71,13 +71,18 @@
                  <img  id="navimg" src="../web/img/ceeoblacklogo.png" onError="this.onerror=null;this.src='web/img/ceeoblacklogo.png';" alt="">
            </a>
 
-               
-                 <a class ="navlink nav hvr-shrink" href="index.html#searchbox" >Search</a>
-               
-                 <a class ="navlink nav hvr-shrink" href="contributors.html" >Contributors</a>
-               
-                 <a class ="navlink nav hvr-shrink" href="about.html" >About</a>
-               
+           
+             
+             <a id="navsearchimglink" href=../index.html#searchbox>
+             <img  id="navimg" src="../web/img/black-search.png" >
+        </a>
+             
+             
+             <a class ="navlink nav hvr-shrink" href="../contributors.html" >Contributors</a>
+           
+             
+             <a class ="navlink nav hvr-shrink" href="../about.html" >About</a>
+           
 
           </div>
      </div>
@@ -523,6 +528,8 @@ and a rubberband.</p>
 </body>
 </html>
 
+
+<script src="../web/js/create_website.js" as="script"></script>
 <!-- This is CEEO INNOVATION DEFAULT FOOTER -->
 <footer class="footer text-faded text-center py-5" >
   <div class="container" style="border-top-style:solid;border-top-color: rgba(0,0,0,0.3)">

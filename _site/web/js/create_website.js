@@ -26,6 +26,8 @@ function CollectAllDivs(){
       for (var i = 0; i < mydivs.length; i++){
            if ( mydivs[i].classList.contains("site_title")){
                 CreateSiteTitle(mydivs[i]);
+
+
            } else if ( mydivs[i].classList.contains("image_text_overlay")){
                 CreateHeaderImg(mydivs[i]);
            }else if ( mydivs[i].classList.contains("document")){
@@ -42,11 +44,34 @@ function CollectAllDivs(){
                 console.log("Div does not have a valid value");
            }
 
-      }
-}
-//CREATELINKS==================================================================
+           mydivs[i].className += (" USEDDIV");
+           let divvals = mydivs[i].getElementsByTagName('*');
+           for(let i = 0; i < divvals.length;i++){
+                divvals[i].className += (" USEDDIV");
+          }
 
-//CREATE PDF=======================================================
+      }
+
+       CreateSimpleSite();
+}
+//CreateSimpleSite==============================================================
+function CreateSimpleSite(){
+     var mycontent = document.getElementById("mycontent");
+     let contentvals = mycontent.getElementsByTagName('*');
+     let simplediv = document.createElement("div");
+
+     for(let i = 0; i < contentvals.length;i++){
+          if(! (contentvals[i]).classList.contains('USEDDIV')) {
+               simplediv.append(contentvals[i]);
+          }
+
+     }
+
+     CreateFreeWrite(simplediv);
+
+}
+
+//CREATELINKS==================================================================
 function CreateLinks(mydivsi){
                //initialize values from markdown to ter to header
                var sectionheader = CollectmyLinkHeader(mydivsi);
@@ -149,10 +174,6 @@ function AddHreftoNewDiv(get_class, at_place, copy_this_data, search_here){
 function AddHrefSRCtoNewDiv_Prepend(get_class, at_place, copy_this_data, search_here){
      let copyhere = search_here.getElementsByClassName(get_class)[at_place];
 
-          console.log("copy_this_data.href");
-          console.log("Changed!");
-          console.log(copy_this_data.href);
-          console.log(is_url(copy_this_data.href));
          if (!(is_url(copy_this_data.href)) || copy_this_data.href.indexOf("/ceeoinnovations") >= 0 ){
            //   if(!(copy_this_data.href.contains("project_assets")){
              $(copy_this_data).attr('href' , "project_assets/" + $(copy_this_data).attr('href'));
@@ -199,9 +220,7 @@ function CreateFreeWrite(mydivsi){
 
      var myimages = newdiv.getElementsByTagName("img");
      for (var i = 0; i < myimages.length; i++){
-          console.log("myimage[i].href");
-          console.log(myimages[i].src);
-          console.log(is_url(myimages[i].src));
+
               if (!(is_url(myimages[i].src)) || myimages[i].src.indexOf("/ceeoinnovations") >= 0)
               {
           $(myimages[i]).attr('src' , "project_assets/" + $(myimages[i]).attr('src'));
@@ -214,7 +233,7 @@ function CreateFreeWrite(mydivsi){
     if ( ($(this).find('img').length) &&     // If there's an image
          (!$.trim($(this).text()).length))   // and there's no text
     {
-         if((this).find('img').length > 1){
+         if($(this).find('img').length > 1){
             $(this).addClass('p_imgOnly');
        } else{
               $(this).addClass('lonely_p_imgOnly p_imgOnly');
@@ -265,7 +284,6 @@ function CreateFreeWrite(mydivsi){
 */
 function CreateHeaderVideo(mydivsi){
      let testlink = mydivsi.getElementsByTagName('a');
-     console.log(testlink.length);
      if(testlink.length > 0){
      if(!(testlink[0].href.includes("--- paste ")) ){
           if(testlink[0].href.includes("https://youtu.be")){

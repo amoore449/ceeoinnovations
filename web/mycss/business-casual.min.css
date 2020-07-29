@@ -4,13 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
  */
 
- body {
-	font-family: Lora;
-	background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)), url(../img/bg2.jpg);
-	background-attachment: fixed;
-	background-position: center;
-	background-size: cover
-}
 
 p {
 	line-height: 1.75

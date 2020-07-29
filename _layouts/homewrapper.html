@@ -79,7 +79,7 @@
 
      <!-- Top Navigation Menu -->
      <div id="mobilenav" class=" clearfix sticky topnav">
-       <a href="index.html" class="active"><img  id="logoimg" class="img-fluid hvr-shrink" src="web/img/logo_white.png" onError="this.onerror=null;this.src='../web/img/logo_white.png';" alt="">
+       <a href="index.html" class="active"><img  id="logoimg" class="img-fluid hvr-shrink" src="web/img/Logo_DarkGreen_Inset.png" onError="this.onerror=null;this.src='../web/img/Logo_DarkGreen_Inset.png';" alt="">
        </a>
        <!-- Navigation links (hidden by default) -->
        <div id="myLinks">
@@ -165,14 +165,7 @@ scrollFunction(x) // Call listener function at run time
 x.addListener(scrollFunction)
 
 function scrollFunction(x) {
-     var smaller = false;
-     var smallest = false;
-     if((window.pageYOffset > 900 && x.matches)){
-          var smaller = true;
-     }
-     if((window.pageYOffset > 850 && y.matches)){
-          var smallest = true;
-     }
+
 
 
       if (window.pageYOffset > sticky) {
@@ -182,7 +175,7 @@ function scrollFunction(x) {
       }
 
 
-  if (document.body.scrollTop > header.offsetTop || document.documentElement.scrollTop > header.offsetTop) {
+  if (document.documentElement.scrollTop > header.offsetTop) {
     document.getElementById("navbar").style.padding = "0px 0px";
      $("#navbar").css({"padding-top":".5%"});
     $("#navbar").css({"padding-left": "1%", "padding-right": "1%"});
