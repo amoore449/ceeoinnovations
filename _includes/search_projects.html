@@ -28,36 +28,38 @@
           </div>
 
 
-      	 <div class="row no-gutters"  style="margin-top: 0rem;margin-bottom: 0rem; margin-left:0rem;margin-right:0rem;">
+      	 <div class="row no-gutters" >
 
                 {% assign my_variable = 100 %}
      			{% for project in site.projects  %}
                     {% if project.url != "/projects/SAMPLE-FILE.html" %}
 
-     		   	<div class="projectsegment col-md-2 col-lg-2" >
-     	  	  	   <a class = "work-thumb" href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27' | replace: ' ', '%20' }}" >
-                            <div id="hidden-tags" class="hidden-tags">
-                                 {{project.categories}}
-                                 {{project.title}}
-                                 {{project.url}}
-                                 {{project.authors}}
-                                 {{project.categories}}
-                                 {{project.tags}}
-                                 {{project.date}}
-                            </div>
 
-                         <div class="work-text">
-     	 	 	           <h2>{{project.title}}</h2>
 
-     	 	 	           <p style="font-size:1rem;">CEEO INNOVATIONS</p>
-                              <p class="work-text2">{{project.description}}</p>
+                   <div class="projectsegment col-sm-6 col-md-4 col-lg-fifth" >
+                     <a class = "work-thumb" href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27' | replace: ' ', '%20' }}" >
+                               <div id="hidden-tags" class="hidden-tags">
+                                    {{project.categories}}
+                                    {{project.title}}
+                                    {{project.url}}
+                                    {{project.authors}}
+                                    {{project.categories}}
+                                    {{project.tags}}
+                                    {{project.date}}
+                               </div>
 
-     	   		    </div>
+                            <div class="work-text">
+                              <h2>{{project.title}}</h2>
 
-                        <div id="block" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url('{{site.baseurl}}/web/img/2gear_ppink.png');" >  </div>
+                              <p >CEEO INNOVATIONS</p>
+                                 <p class="work-text2">{{project.description}}</p>
 
-                       </a>
-     	 	    </div>
+                       </div>
+
+                          <div id="block" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url('{{site.baseurl}}/web/img/2gear_ppink.png');" >  </div>
+
+                          </a>
+                  </div>
                    {% assign my_variable = my_variable  | plus: 7990 %}
                    {%endif%}
                 {%endfor%}

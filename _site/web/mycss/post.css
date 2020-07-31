@@ -21,7 +21,7 @@ pointer-events: none;
 flex: 1 100%;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
- text-shadow:   -4px 4px #51d294;
+ text-shadow: -.5px .5px #bf3858;
 }
 
 .authordisplay{
@@ -32,8 +32,8 @@ flex: 1 100%;
 #navbar {
   overflow: hidden;
   margin: auto;
-  background-color: #fff;
-    box-shadow: 4px 4px 8px rgba(0,0,0,.2);
+  background-color:#e9ff93;
+    box-shadow: -.5px .5px 3px #BACC75;
   width: 100%;
   z-index: 9999;
   padding-bottom: 4%;
@@ -110,6 +110,14 @@ flex: 1 100%;
 
 .sticky + .content {
   padding-top: 102px;
+}
+
+.site-heading {
+     padding-top: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1;
 }
 
 #masthead #site-top{
