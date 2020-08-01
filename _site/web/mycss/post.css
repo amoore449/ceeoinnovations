@@ -32,7 +32,7 @@ flex: 1 100%;
 #navbar {
   overflow: hidden;
   margin: auto;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 1);
    box-shadow: 4px 4px 5px rgba(40, 41, 40, .2);
   width: 100%;
   z-index: 9999;

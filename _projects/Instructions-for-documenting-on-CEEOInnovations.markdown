@@ -26,6 +26,7 @@ will let visitors learn about specific projects going  at the CEEO.
 - A few sentences or paragraphs of content summarizing the project
 - At least 2-5 images (give them easy to type names) saved to a folder on your computer
 - *This includes a “display” ideally cropped 2:3*
+
 ### Optional but recommended:
 - Any relevant documents or pdfs
 - Any relevant videos
@@ -97,6 +98,7 @@ Where "DIV_NAME" can be one of **five** possible sections. Each of these section
 4. document
 5. free_write
 
+
 ## 1. "site_title"
 
 Site title provides a "heading" for a projects page
@@ -115,7 +117,7 @@ This will produce:
 ![sitetitle](inno_instruct/sitetitle.jpg)
 
 
-## 2. "image_text_overlaye"
+## 2. "image_text_overlay"
 
 image_text_overlay provides a large image with a title, subtitle, and description overlayed on it.
 
