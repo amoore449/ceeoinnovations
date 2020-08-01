@@ -127,8 +127,13 @@ blockquote p {
 .sampledatasectionHT, #transferhere, .imgvoidvalue{
      display:none;
 }
+.intro{
+     width:100%;
+     height: 100%;
+}
 .intro-text{
-     box-shadow: 5px 5px 60px rgb(0,0,0, 0.1) ;
+     box-shadow: 5px 5px 60px rgba(0,0,0, 0.1) ;
+     padding: 1rem;
 }
 
 .section-heading .section-heading-upper {
@@ -136,6 +141,9 @@ blockquote p {
 	font-size: 1rem;
 	font-weight: 800
 }
+.intro-img{
+          width: 100%;
+     }
 
 .section-heading .section-heading-lower {
 	display: block;
@@ -350,7 +358,15 @@ position: relative;
      width:70%;
 }
 .free_write_content p{
-     font-size: 1.5rem;
+     font-size: .5rem;
+}
+
+@media (min-width: 992px){
+.intro .intro-text {
+       width: 100%;
+       margin-top: 3rem;
+       position: relative;
+     }
 }
 @media(max-width:600px){
      .free_write_content p{
@@ -449,7 +465,7 @@ position: relative;
 
 }
 .free_write_content h1 {
-     font-size: 6rem;
+     font-size: 5vw;
      font-weight: 500;
      color:#EF476F;
      letter-spacing: -0.05em;
@@ -458,8 +474,6 @@ position: relative;
      position: relative;
      line-height: 0.8em;
      margin: 3rem;
-     padding-bottom: 3rem;
-     padding-top: 3rem;
 }
 @media(max-width:900px){
      .free_write_content h1 {

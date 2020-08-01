@@ -514,6 +514,7 @@ function CreateHeaderImg(mydivsi){
 
      //create new div and copy sample data
      var newdiv = document.createElement("div");
+     newdiv.className = "page-section";
      newdiv.innerHTML = sampledatasection.innerHTML;
 
      //get sections of old div

@@ -309,9 +309,10 @@ body{
      font-weight: 300;
 }
 #mypageheader{
-     font-size: 5.5vw;
+     font-size: 4.5vw;
      font-weight: 600;
      color:#EF476F;
+      text-shadow: -.5px .5px #bf3858;
      letter-spacing: -0.05em;
      z-index: 10;
      text-align: left;
