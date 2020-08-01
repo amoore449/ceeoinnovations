@@ -238,8 +238,6 @@ function CreateFreeWrite(mydivsi){
        } else{
               $(this).addClass('lonely_p_imgOnly p_imgOnly');
        }
-            $(this).css({"float":"right"});
-               // Add a special CSS class
 
     }
 
@@ -254,15 +252,15 @@ function CreateFreeWrite(mydivsi){
           for(let j = 0; j < img_arr.length; j++){
 
           if (img_arr.length%4==0){
-               $(img_arr[j]).attr('class' , "imgOnly col-sm-3 col-md-3 col-lg-3");
+               $(img_arr[j]).attr('class' , "imgOnly");
           } else if(img_arr.length%3==0){
-               $(img_arr[j]).attr('class' , "imgOnly col-sm-4 col-md-4 col-lg-4");
+               $(img_arr[j]).attr('class' , "imgOnly");
           } else if(img_arr.length%2==0){
-               $(img_arr[j]).attr('class' , "imgOnly col-sm-6 col-md-6 col-lg-6");
+               $(img_arr[j]).attr('class' , "imgOnly");
           }else if(img_arr.length<=1){
-               $(img_arr[j]).attr('class' , "imgOnly col-sm col-md col-lg");
+               $(img_arr[j]).attr('class' , "imgOnly");
           } else{
-               $(img_arr[j]).attr('class' , "imgOnly col-sm-4 col-md-4 col-lg-4 ");
+               $(img_arr[j]).attr('class' , "imgOnly");
           }
      }
 

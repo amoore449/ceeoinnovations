@@ -32,8 +32,8 @@ flex: 1 100%;
 #navbar {
   overflow: hidden;
   margin: auto;
-  background-color:#e9ff93;
-    box-shadow: -.5px .5px 3px #BACC75;
+  background-color: rgba(255, 255, 255, .9);
+   box-shadow: 4px 4px 5px rgba(40, 41, 40, .2);
   width: 100%;
   z-index: 9999;
   padding-bottom: 4%;
@@ -353,7 +353,11 @@ margin-bottom: 7rem;
      background-color: #fff;
      box-shadow: 4px 4px 8px rgba(0,0,0,.2);
 }
-@media(max-width:500px) {
+
+
+
+
+@media(max-width:600px) {
      #navbar{
           display: none;
      }

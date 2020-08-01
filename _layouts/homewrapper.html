@@ -159,6 +159,9 @@ var mobileheader = document.getElementById("mobilenav");
 var sticky = header.offsetTop;
 
 
+
+window.onresize = scrollFunction();
+
 function scrollFunction() {
 
 if (window.pageYOffset > sticky) {
@@ -167,8 +170,11 @@ if (window.pageYOffset > sticky) {
         header.classList.remove("sticky");
       }
 
-
+var width =  window.innerWidth;
   if (document.documentElement.scrollTop > header.offsetTop) {
+       if($(window).width()  < 820){
+
+       }
     document.getElementById("navbar").style.padding = "0px 0px";
     $("#navbar").css({"padding-left": "1%", "padding-right": "1%","padding-top":".5%"});
     $("#logo").css({"width": "150px"});
@@ -177,6 +183,8 @@ if (window.pageYOffset > sticky) {
 
      $("#navbar-right").css({ "padding-bottom":".5%"});
       $("#navbar-right a").css({"font-size": "1.5vw"});
+
+
 
 
 } else  {

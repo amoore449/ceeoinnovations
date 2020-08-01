@@ -404,7 +404,6 @@
 </script>
   <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
 
-
 <!--....DISCOVER PROJECTS...................................................................................-->
 
 <section class="homepagesection clearfix" style="margin-bottom: 12rem;">
@@ -477,7 +476,7 @@
                                     
                                     Spike Prime
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -508,7 +507,7 @@
                                     Allison Moore
                                     Lesson Plans
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -539,7 +538,7 @@
                                     
                                     DELETE CATEGORIES THAT DON'T APPLYSpike PrimeLesson PlansMakerspacesRoboticsEv3/NXT3D PrintingTech
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -570,7 +569,7 @@
                                     
                                     Spike PrimeRoboticsTech
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -601,7 +600,7 @@
                                     
                                     Spike Prime
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -634,7 +633,7 @@
                                     
                                     Spike PrimeTech
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -665,7 +664,7 @@
                                     
                                     Spike PrimeLesson PlansRobotics
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -696,7 +695,7 @@
                                     
                                     Lesson Plans
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -727,7 +726,7 @@
                                     Allison Moore
                                     Lesson Plans
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -758,7 +757,7 @@
                                     
                                     Tech
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -789,7 +788,7 @@
                                     
                                     Spike PrimeLesson PlansRoboticsEv3/NXTTech
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -820,7 +819,7 @@
                                     
                                     Spike Prime
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -851,7 +850,7 @@
                                     
                                     Makerspaces
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -882,7 +881,7 @@
                                     
                                     Lesson Plans
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -913,7 +912,7 @@
                                     Ethan DanahyKristen Wendell
                                     Lesson Plans
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -944,7 +943,7 @@
                                     
                                     Lesson PlansRobotics
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -975,7 +974,7 @@
                                     
                                     RoboticsSpike Prime
                                     
-                                    2020-07-31 19:17:22 -0700
+                                    2020-08-01 04:21:31 -0700
                                </div>
 
                             <div class="work-text">
@@ -1001,7 +1000,7 @@
           </section>
 
 
-</div>
+
 
 
   </body>
@@ -1060,6 +1059,9 @@ var mobileheader = document.getElementById("mobilenav");
 var sticky = header.offsetTop;
 
 
+
+window.onresize = scrollFunction();
+
 function scrollFunction() {
 
 if (window.pageYOffset > sticky) {
@@ -1068,8 +1070,11 @@ if (window.pageYOffset > sticky) {
         header.classList.remove("sticky");
       }
 
-
+var width =  window.innerWidth;
   if (document.documentElement.scrollTop > header.offsetTop) {
+       if($(window).width()  < 820){
+
+       }
     document.getElementById("navbar").style.padding = "0px 0px";
     $("#navbar").css({"padding-left": "1%", "padding-right": "1%","padding-top":".5%"});
     $("#logo").css({"width": "150px"});
@@ -1078,6 +1083,8 @@ if (window.pageYOffset > sticky) {
 
      $("#navbar-right").css({ "padding-bottom":".5%"});
       $("#navbar-right a").css({"font-size": "1.5vw"});
+
+
 
 
 } else  {
