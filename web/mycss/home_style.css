@@ -553,9 +553,12 @@ background-size:cover;
 
 
 /*SEARCH FUNCTIONS--------------------------*/
-
+#searchbox{
+     text-align: right;
+}
 .search-container {
-  float: right;
+text-align: right;
+  float: none;
   display: inline;
   margin: 1%;
   margin-top: -3vw;
@@ -584,18 +587,19 @@ background-size:cover;
 }
 
 #buttonbox {
- width:60%;
+ width:100%;
+ justify-content: right;
+ text-align: right;
 }
 @media(max-width:1000px){
      .search-container {
 
-       margin-top: -6vw;
      }
 }
 @media(max-width:850px){
      .search-container {
 
-       margin-top: -7vw;
+     /*  margin-top: -7vw;*/
      }
 }
 @media(max-width:920px){
@@ -650,7 +654,7 @@ background-size:cover;
 }
 
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .search-container {
     float: none;
   }
@@ -1048,6 +1052,22 @@ https://flickity.metafizzy.co
 .sticky + .content {
   padding-top: 102px;
 }
+
+/*subsites-----------------------------------------------------
+#navbar ul, nav ul, .listitem ul  {
+    list-style-type: none;
+}
+#navbar li {
+    line-height: 30px;
+    list-style-type: none;
+
+}
+#navbar a {
+    text-decoration: none;
+}
+#navbae li.active a {
+    color: #ffffff;
+}*/
 
 #masthead #site-top{
      padding: 3rem;
