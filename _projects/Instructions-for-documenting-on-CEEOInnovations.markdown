@@ -182,7 +182,7 @@ The code for a sample "document" div is below:
  ![sitetitle](inno_instruct/iframe.png)
 
 
- ## 5. "free_write"
+## 5. "free_write"
 
 "free_write" can be filled with whatever markdown you want. It is a unstructed section that will display any markdown you write in it in a white section box like this one.
 
