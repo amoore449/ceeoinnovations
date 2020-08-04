@@ -192,10 +192,12 @@ margin-bottom: 7rem;
      margin-bottom: 3rem;
      margin-right: -50px;
 }
+@media(max-width:800px){
+#navbar-right{
+     width:80%;
+}
+}
 @media(max-width:1200px){
-     #navbar-right{
-          width: 50%;
-     }
      .masthead .container{
           max-width: 1200px;
           margin-left: 0rem;
