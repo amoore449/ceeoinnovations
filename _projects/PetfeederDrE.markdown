@@ -13,7 +13,8 @@ categories: ["Spike Prime",  "Robotics", "Tech"]
 [TITLE OF VIDEO](https://youtu.be/VEiYGsnTluM)
 # PET FEEDER DEMONSTRATION
 ## Dog interacts with pet feeder to earn a treat
-The dog presses the button, which is connected to the Spike Prime. The button triggers the motor, which rotates the platform that holds the treat. The treat is dispensed to feed the dog.
+The dog presses the button, which is connected to the Spike Prime. The button triggers the motor, which rotates the platform
+that holds the treat. The treat is dispensed to feed the dog.
 </div>
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
