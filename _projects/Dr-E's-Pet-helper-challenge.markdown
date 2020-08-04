@@ -10,6 +10,9 @@ categories: ["Spike Prime"]
 
 
 <div class="image_text_overlay" markdown="1">
-![Bowl helper](Pethelperrobot/IMG_0606.jpg)
 This is a simple robot that will help a dog have access to their bowl.
+
+![Bowl helper](Pethelperrobot/IMG_0606.jpg)
+
+
 </div>
