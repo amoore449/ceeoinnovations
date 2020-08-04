@@ -3,13 +3,13 @@
    
     {
 
-      "title"    : "Dr e&#39;s pet helper challenge",
-      "url"      : "/projects/Dr%20E's%20Pet%20helper%20challenge.html",
+      "title"    : "Dr E&#39;s Pet Helper Challenge",
+      "url"      : "/projects/Dr-E's-Pet-helper-challenge.html",
       "displayimg" : "project_assets/Pethelperrobot/IMG_0605.jpg",
       "authors"     : "",
       "categories" : "Spike Prime",
       "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
+      "date"     : "2020-08-04 03:58:41 -0700"
 
     } ,
     
@@ -23,7 +23,7 @@
       "authors"     : "Allison Moore",
       "categories" : "Lesson Plans",
       "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
+      "date"     : "2020-08-04 03:58:41 -0700"
 
     } ,
     
@@ -35,9 +35,9 @@
       "url"      : "/projects/Onshape-App-Content.html",
       "displayimg" : "project_assets/ceeo_innovations/3D-val.png",
       "authors"     : "",
-      "categories" : "DELETE CATEGORIES THAT DON'T APPLYSpike PrimeLesson PlansMakerspacesRoboticsEv3/NXT3D PrintingTech",
+      "categories" : "3D PrintingTech",
       "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
+      "date"     : "2020-08-04 03:58:41 -0700"
 
     } ,
     
@@ -47,25 +47,11 @@
 
       "title"    : "PET FEEDER",
       "url"      : "/projects/PetfeederDrE.html",
-      "displayimg" : "project_assets/project_assets/Feeder images/feeder1.jpg",
+      "displayimg" : "project_assets/project_assets/Feeder-images/feeder1.jpg",
       "authors"     : "Olivia Turner",
       "categories" : "Spike PrimeRoboticsTech",
       "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
-
-    } ,
-    
-  
-   
-    {
-
-      "title"    : "Placemat Projects",
-      "url"      : "/projects/Place-mats.html",
-      "displayimg" : "project_assets/Aaron's images/writing robot picture.JPG",
-      "authors"     : "",
-      "categories" : "Spike Prime",
-      "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
+      "date"     : "2020-08-04 03:58:41 -0700"
 
     } ,
     
@@ -77,11 +63,11 @@
 
       "title"    : "SPIKE Morse Code Decoder with AI",
       "url"      : "/projects/SPIKE-Morse-Code-Decoder.html",
-      "displayimg" : "project_assets/Documentation of Decoder/morse-code-overview.png",
+      "displayimg" : "project_assets/Documentation-of-Decoder/morse-code-overview.png",
       "authors"     : "",
       "categories" : "Spike PrimeTech",
       "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
+      "date"     : "2020-08-04 03:58:41 -0700"
 
     } ,
     
@@ -91,11 +77,11 @@
 
       "title"    : "Animal Feeder",
       "url"      : "/projects/animal-feeder.html",
-      "displayimg" : "project_assets/images_jason/20200723_112955[1].jpg",
-      "authors"     : "",
+      "displayimg" : "project_assets/images_jason/20200723_112955.jpg",
+      "authors"     : "Jason",
       "categories" : "Spike PrimeLesson PlansRobotics",
       "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
+      "date"     : "2020-08-04 03:58:41 -0700"
 
     } ,
     
@@ -109,7 +95,7 @@
       "authors"     : "",
       "categories" : "Lesson Plans",
       "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
+      "date"     : "2020-08-04 03:58:41 -0700"
 
     } ,
     
@@ -123,7 +109,7 @@
       "authors"     : "Allison Moore",
       "categories" : "Lesson Plans",
       "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
+      "date"     : "2020-08-04 03:58:41 -0700"
 
     } ,
     
@@ -134,10 +120,10 @@
       "title"    : "InterLACE",
       "url"      : "/projects/interLACE.html",
       "displayimg" : "project_assets/interLace/interlacehead.png",
-      "authors"     : "",
+      "authors"     : "Ethan Danahy",
       "categories" : "Tech",
       "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
+      "date"     : "2020-08-04 03:58:41 -0700"
 
     } ,
     
@@ -151,7 +137,7 @@
       "authors"     : "",
       "categories" : "Spike PrimeLesson PlansRoboticsEv3/NXTTech",
       "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
+      "date"     : "2020-08-04 03:58:41 -0700"
 
     } ,
     
@@ -165,7 +151,7 @@
       "authors"     : "",
       "categories" : "Spike Prime",
       "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
+      "date"     : "2020-08-04 03:58:41 -0700"
 
     } ,
     
@@ -179,7 +165,7 @@
       "authors"     : "",
       "categories" : "Makerspaces",
       "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
+      "date"     : "2020-08-04 03:58:41 -0700"
 
     } ,
     
@@ -193,7 +179,7 @@
       "authors"     : "",
       "categories" : "Lesson Plans",
       "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
+      "date"     : "2020-08-04 03:58:41 -0700"
 
     } ,
     
@@ -204,10 +190,10 @@
       "title"    : "Novel Engineering",
       "url"      : "/projects/novel-engineering.html",
       "displayimg" : "project_assets/novel-engineering/novel_engineering.png",
-      "authors"     : "Ethan Danahy, Kristen Wendell",
+      "authors"     : "Elissa Milto, Kristen Wendell",
       "categories" : "Lesson Plans",
       "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
+      "date"     : "2020-08-04 03:58:41 -0700"
 
     } ,
     
@@ -221,7 +207,7 @@
       "authors"     : "",
       "categories" : "Lesson PlansRobotics",
       "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
+      "date"     : "2020-08-04 03:58:41 -0700"
 
     } ,
     
@@ -235,7 +221,7 @@
       "authors"     : "",
       "categories" : "RoboticsSpike Prime",
       "tags"     : "",
-      "date"     : "2020-08-04 01:59:19 -0700"
+      "date"     : "2020-08-04 03:58:41 -0700"
 
     } 
     

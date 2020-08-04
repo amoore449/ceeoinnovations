@@ -3,7 +3,7 @@ layout: post
 
 title: PET FEEDER
 description: A responsive device that dispenses a treat when a pet presses the button.
-displayimg: project_assets/Feeder images/feeder1.jpg
+displayimg: project_assets/Feeder-images/feeder1.jpg
 authors: ["Olivia Turner"]
 categories: ["Spike Prime",  "Robotics", "Tech"]
 ---
@@ -19,14 +19,14 @@ that holds the treat. The treat is dispensed to feed the dog.
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![TREAT HOLDER](Feeder images/feeder3.jpg)
+![TREAT HOLDER](Feeder-images/feeder3.jpg)
 # TREAT HOLDER
 ## Dish attached to motor will rotate when button is pressed
 </div>
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![BUTTON](Feeder images/feeder4.jpg)
+![BUTTON](Feeder-images/feeder4.jpg)
 # BUTTON
 ## Pet will press button in order to dispense a treat
 </div>

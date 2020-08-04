@@ -61,14 +61,17 @@ function CreateSimpleSite(){
      let simplediv = document.createElement("div");
 
      for(let i = 0; i < contentvals.length;i++){
-          if(! (contentvals[i]).classList.contains('USEDDIV')) {
+          if(!(contentvals[i]).classList.contains('USEDDIV')) {
                simplediv.append(contentvals[i]);
           }
 
      }
+     console.log("simplediv.innerHTML");
+     console.log(simplediv.innerHTML);
 
-     CreateFreeWrite(simplediv);
-
+     if(simplediv.innerHTML){
+          CreateFreeWrite(simplediv);
+     }
 }
 
 //CREATELINKS==================================================================
@@ -545,9 +548,8 @@ function CreateHeaderImg(mydivsi){
 
      var myimg = CheckifVoidandAssign_Img_Gen(0, mydivsi);
      if (!(is_url(myimg.src)) || myimg.src.indexOf("/ceeoinnovations") >= 0 ){
-
+          myimg.src.replace(/\s/g, '%20')
          $(myimg).attr('src' , "project_assets/" + $(myimg).attr('src'));
-         myimg.src.replace(' ', '%20');
      }
 
      //create new div and copy sample data--------------------------------
@@ -559,7 +561,7 @@ function CreateHeaderImg(mydivsi){
      var myparagraph;
      var mynewimg;
 
-//     if(hastext){
+    if(hastext){
           newdivHT.innerHTML = sampledatasection.innerHTML;
 
           //get sections of old div
@@ -573,9 +575,9 @@ function CreateHeaderImg(mydivsi){
           subheader.innerHTML = myh1.innerHTML;
           myparagraph.innerHTML = myp.innerHTML;
 
-//     }else{
-//          newdivHT.innerHTML = no_text_sampledatasection.innerHTML;
-//     }
+     }else{
+        newdivHT.innerHTML = no_text_sampledatasection.innerHTML;
+     }
 
 
      mynewimg = newdivHT.getElementsByClassName('myimghereHT')[0];

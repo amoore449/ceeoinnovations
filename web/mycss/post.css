@@ -60,6 +60,7 @@ flex: 1 100%;
 #navbar #logo{
   float: left;
   text-align: left;
+  width:120px;
 
 }
 
@@ -599,4 +600,22 @@ background-size:cover;
 .circlecol{
      text-align: center;
      margin:0 auto;
+}
+
+/*hiding sections8*/
+
+#bigpdfsection{
+     display: none;
+}
+.largerpdfsampledatasection{
+     display:none;
+}
+.pdfsampledatasection{
+     display: none;
+}
+.sampledatasectionVO{
+     display: none;
+}
+.no_text_sampledatasection, .no_text_sampledatasectionHT, .no_text_sampledatasectionVO {
+     display: none;
 }
