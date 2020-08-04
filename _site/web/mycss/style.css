@@ -11566,6 +11566,7 @@ figure figcaption {
 .work-thumb:before {
 		padding: 10px;
 	content: "";
+	border-radius: 10px;
 	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
 	-webkit-transition: .3s all ease;
@@ -11655,6 +11656,7 @@ figure figcaption {
 	-o-transition: .3s all ease;
 	transition: .3s all ease;
 	opacity: 1;
+	border-radius: 10px;
 	visibility: visible;
 	top: 10px;
 	left: 10px;

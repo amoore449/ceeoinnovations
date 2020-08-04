@@ -147,7 +147,7 @@ body{
 #block{
      border-color:rgba(246,245,245,1);
       margin: 0 auto;
-      height: 20vw;
+      height: 25vw;
       border-radius: 10px;
       background-size:cover;
       padding: 3px;
@@ -955,6 +955,7 @@ https://flickity.metafizzy.co
 /* brighten selected image */
 .carousel-cell img, .carousel-cell.is-selected img {
   opacity: 0.6;
+  border-radius: 10px;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-filter: none;
@@ -972,7 +973,7 @@ https://flickity.metafizzy.co
 #navbar {
   overflow: hidden;
   margin: auto;
-  background-color: #51d294;
+  background-color: #fff;
 /*   box-shadow: 4px 4px 5px rgba(40, 41, 40, .2);*/
   width: 100%;
   z-index: 9999;
@@ -980,6 +981,8 @@ https://flickity.metafizzy.co
   padding-top:4%;
 
 }
+
+
 
 #navbar a {
   float: right;
@@ -1091,9 +1094,28 @@ https://flickity.metafizzy.co
      padding-top: 15rem;
      padding-bottom: 15rem;
 }
-#masthead{
-     background-color: #51d294;
+@media(max-width:859px){
+     #breakimage, #breakimage2{
+          padding-top: 12.5rem;
+          padding-bottom: 12.5rem;
+     }
 }
+
+#masthead #site-top{
+     padding: 3rem;
+     width: 100%;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+background-color: #51d294;
+background-image: url(../img/compress-gif-background3.gif);
+overflow: hidden;
+
+}
+
+
+/*@media (min-width: 400px){
 
 #masthead #site-top{
      padding: 3rem;
@@ -1106,7 +1128,8 @@ background-attachment: fixed;
 background-image: url(../img/compress-gif-background3.gif);
 overflow: hidden;
 
-}
+}*/
+
 @media(max-width:600px){
      #masthead #site-top{
           padding: 3rem;
@@ -1120,6 +1143,7 @@ overflow: hidden;
 
      }
 }
+
 #mastheadimg{
      padding-left: 5%;
       height: 400px;
@@ -1253,8 +1277,7 @@ margin-bottom: 7rem;
           color:#E7476F;
           margin-top: 2rem;
           text-align: center;
-
-     margin-bottom: 7rem;
+          margin-bottom: 7rem;
           width:100%;
           text-shadow:3px 1px  #fffd85;
      }
@@ -1331,15 +1354,8 @@ margin-bottom: 7rem;
      background-color: #fff;
      box-shadow: 4px 4px 8px rgba(0,0,0,.2);
 }
-@media(max-width:500px) {
-     #navbar{
-          display: none;
-     }
 
-     #mobilenav{
-          display: block;
-     }
-}
+
 
 /* Style the navigation menu */
 .topnav {
@@ -1395,4 +1411,14 @@ color: #000;
     line-height: 1em;
     pointer-events: none;
     flex: 1 100%;
+}
+
+@media(max-width:500px) {
+     #navbar{
+          display: none;
+     }
+
+     #mobilenav{
+          display: block;
+     }
 }

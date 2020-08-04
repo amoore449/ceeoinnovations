@@ -1,5 +1,4 @@
-<!doctype htm
-<html lang="en">
+
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <title>append demo</title>
@@ -10,7 +9,6 @@
 .video-container {
      position:relative;
     float: right;
-    clear: right;
     padding-bottom: 15.25%;
     width: 75%;
     height: 465px;
@@ -18,8 +16,6 @@
 }
 @media (max-width:992px) {
      .video-container {
-          float: none;
-          width:100%;
           height: 300px;
           margin-bottom: 15px;
           overflow: hidden;
@@ -34,6 +30,25 @@
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+@media (max-width:820px) {
+     .video-container {
+            width: 80%;
+          height: 400px;
+          margin-bottom: 15px;
+          overflow: hidden;
+          padding-bottom: 56.25%;
+     }
+}
+
+@media (max-width:750px) {
+     .video-container {
+            width: 90%;
+          height: auto;
+          margin-bottom: 15px;
+          overflow: hidden;
+     }
 }
 
 </style>
@@ -64,6 +79,24 @@
   </div>
 </section>
 </div>
+
+
+<div class="no_text_sampledatasectionVO">
+<section class="page-section clearfix">
+  <div class="container">
+   <div class="intro">
+
+        <div class="video-container-container">
+             <div class="video-container" style="float:none; margin:0 auto">
+                  <iframe  class="intro-vid img-fluid mb-3 mb-lg-0 rounded myiframehere"  src="https://www.youtube.com/embed/uXMQn6dbxc4"   srcdoc="" allowfullscreen></iframe>
+             </div>
+        </div>
+
+   </div>
+  </div>
+</section>
+</div>
+
 
 <div id = "newsrcdoc">
 

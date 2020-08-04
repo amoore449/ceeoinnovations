@@ -154,7 +154,7 @@ blockquote p {
 	font-weight: 100
 }
 
-.myparagraphHT{
+.myparagraphHT, .myparagraphVO{
      font-size:1.1vw;
 }
 .intro .intro-text {
@@ -173,7 +173,7 @@ blockquote p {
      	font-size: 2.5rem;
      	font-weight: 100
      }
-     .myparagraphHT{
+     .myparagraphHT, .myparagraphVO{
           font-size:1vw;
      }
 }
@@ -190,7 +190,7 @@ blockquote p {
      	font-size: 2rem;
      	font-weight: 100
      }
-     .myparagraphHT{
+     .myparagraphHY, .myparagraphVO{
           font-size:.8vw;
      }
 }
@@ -208,7 +208,7 @@ blockquote p {
      	font-size: 2rem;
      	font-weight: 100
      }
-     .myparagraphHT{
+     .myparagraphHT, .myparagraphVO{
           font-size:1vw;
      }
 
@@ -231,7 +231,7 @@ blockquote p {
 }
 
 @media(max-width:1200px) {
-     .myparagraphHT{
+     .myparagraphHT, .myparagraphVO{
           font-size:1vw;
      }
 }
@@ -258,7 +258,7 @@ blockquote p {
           padding: 0rem;
      }
 
-     .myparagraphHT{
+     .myparagraphHT, .myparagraphVO{
           font-size:1vw;
      }
      .intro .intro-text {
@@ -277,7 +277,7 @@ blockquote p {
      .intro .intro-text {
             margin-top: 2vw;
      }
-     .myparagraphHT{
+     .myparagraphHT, .myparagraphVO{
           font-size:1.3vw;
      }
 }
@@ -291,7 +291,7 @@ blockquote p {
 
 }
 @media(max-width:350px) {
-     .myparagraphHT{
+     .myparagraphHT, .myparagraphVO{
           font-size:1rem;
      }
 }

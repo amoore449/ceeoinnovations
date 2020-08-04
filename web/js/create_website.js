@@ -287,7 +287,7 @@ function CreateHeaderVideo(mydivsi){
           if(testlink[0].href.includes("https://youtu.be")){
                 YouTubeCreateHeaderVideo(mydivsi);
           }
-     }
+          }
      }
 }
 /*CreateVideoHeader
@@ -297,14 +297,27 @@ function CreateHeaderVideo(mydivsi){
 */
 function YouTubeCreateHeaderVideo(mydivsi){
      //collect the template for header img
+     let hastext = true;
      var sampledatasection  = document.getElementsByClassName('sampledatasectionVO')[0];
+     var no_text_sampledatasection  = document.getElementsByClassName('no_text_sampledatasectionVO')[0];
 
 
-     //collect tag elements from div
-     var myh1 = CheckifVoidandAssign_Gen("h1", 0, mydivsi);
-     var myh2 = CheckifVoidandAssign_Gen("h2", 0, mydivsi);
-     var myp = CheckifVoidandAssign_P_Gen(mydivsi);
+     var h1void =  CheckifVoid_Gen("h1", 0, mydivsi);
+     var h2void = CheckifVoid_Gen("h2", 0, mydivsi);
+     var pvoid = CheckifVoid_P_Gen(mydivsi);
 
+     if((h1void) && (h2void) && (pvoid) ){
+          hastext = false;
+
+     }
+
+
+     if(hastext){
+          //collect tag elements from div
+          var myh1 = CheckifVoidandAssign_Gen("h1", 0, mydivsi);
+          var myh2 = CheckifVoidandAssign_Gen("h2", 0, mydivsi);
+          var myp = CheckifVoidandAssign_P_Gen(mydivsi);
+     }
 
      var mypicturelink = CheckifVoidandAssign_Gen("a", 0, mydivsi);
      var my_youtube_code = mypicturelink.href.replace('https://youtu.be/', '');
@@ -312,19 +325,31 @@ function YouTubeCreateHeaderVideo(mydivsi){
 
 
      //create new div and copy sample data
-     var newdiv = document.createElement("div");
+     let newdiv = document.createElement("div");
+     let mynewiframe;
+     let mainheader;
+     let subheader;
+     let myparagraph;
+
+     if(hastext){
      newdiv.innerHTML = sampledatasection.innerHTML;
+          //get sections of old div
+          mainheader = newdiv.getElementsByClassName('mainheaderVO')[0];
+          subheader = newdiv.getElementsByClassName('subheaderVO')[0];
+          myparagraph = newdiv.getElementsByClassName('myparagraphVO')[0];
+          mynewiframe = newdiv.getElementsByClassName('myiframehere')[0];
 
-     //get sections of old div
-     var mainheader = newdiv.getElementsByClassName('mainheaderVO')[0];
-     var subheader = newdiv.getElementsByClassName('subheaderVO')[0];
-     var myparagraph = newdiv.getElementsByClassName('myparagraphVO')[0];
-     var mynewiframe = newdiv.getElementsByClassName('myiframehere')[0];
+          //reassign with markdown values
+          mainheader.innerHTML = myh2.innerHTML;
+          subheader.innerHTML = myh1.innerHTML;
+          myparagraph.innerHTML = myp.innerHTML;
+     } else{
+          newdiv.innerHTML = no_text_sampledatasection.innerHTML;
 
-     //reassign with markdown values
-     mainheader.innerHTML = myh2.innerHTML;
-     subheader.innerHTML = myh1.innerHTML;
-     myparagraph.innerHTML = myp.innerHTML;
+          mynewiframe = newdiv.getElementsByClassName('myiframehere')[0];
+
+
+     }
 
      //getinnerhtml of newsrcdoc
      var newsrcdoc = document.getElementById('newsrcdoc');
@@ -497,41 +522,72 @@ function AddHreftoNewDiv_Prepend(get_class, at_place, copy_this_data, search_her
 */
 function CreateHeaderImg(mydivsi){
      //collect the template for header img
+     var hastext = true;
      var sampledatasection  = document.getElementsByClassName('sampledatasectionHT')[0];
+     var no_text_sampledatasection  = document.getElementsByClassName('no_text_sampledatasectionHT')[0];
 
 
+     var h1void =  CheckifVoid_Gen("h1", 0, mydivsi);
+     var h2void = CheckifVoid_Gen("h2", 0, mydivsi);
+     var pvoid = CheckifVoid_P_Gen(mydivsi);
+
+     if((h1void) && (h2void) && (pvoid) ){
+          console.log("has text false");
+          hastext = false;
+     }
+
+     if(hastext){
      //collect tag elements from div
-     var myh1 = CheckifVoidandAssign_Gen("h1", 0, mydivsi);
-     var myh2 = CheckifVoidandAssign_Gen("h2", 0, mydivsi);
-     var myp = CheckifVoidandAssign_P_Gen(mydivsi);
+          var myh1 = CheckifVoidandAssign_Gen("h1", 0, mydivsi);
+          var myh2 = CheckifVoidandAssign_Gen("h2", 0, mydivsi);
+          var myp = CheckifVoidandAssign_P_Gen(mydivsi);
+     }
 
      var myimg = CheckifVoidandAssign_Img_Gen(0, mydivsi);
      if (!(is_url(myimg.src)) || myimg.src.indexOf("/ceeoinnovations") >= 0 ){
-     $(myimg).attr('src' , "project_assets/" + $(myimg).attr('src'));
-}
 
-     //create new div and copy sample data
-     var newdiv = document.createElement("div");
-     newdiv.className = "page-section";
-     newdiv.innerHTML = sampledatasection.innerHTML;
+         $(myimg).attr('src' , "project_assets/" + $(myimg).attr('src'));
+         myimg.src.replace(' ', '%20');
+     }
 
-     //get sections of old div
-     var mainheader = newdiv.getElementsByClassName('mainheaderHT')[0];
-     var subheader = newdiv.getElementsByClassName('subheaderHT')[0];
-     var myparagraph = newdiv.getElementsByClassName('myparagraphHT')[0];
-     var mynewimg = newdiv.getElementsByClassName('myimghereHT')[0];
+     //create new div and copy sample data--------------------------------
+     var newdivHT = document.createElement("div");
+     newdivHT.className = "page-section";
 
-     //reassign with markdown values
-     mainheader.innerHTML = myh2.innerHTML;
-     subheader.innerHTML = myh1.innerHTML;
-     myparagraph.innerHTML = myp.innerHTML;
+     var mainheader;
+     var subheader;
+     var myparagraph;
+     var mynewimg;
+
+//     if(hastext){
+          newdivHT.innerHTML = sampledatasection.innerHTML;
+
+          //get sections of old div
+          mainheader = newdivHT.getElementsByClassName('mainheaderHT')[0];
+          subheader = newdivHT.getElementsByClassName('subheaderHT')[0];
+          myparagraph = newdivHT.getElementsByClassName('myparagraphHT')[0];
+          mynewimg = newdivHT.getElementsByClassName('myimghereHT')[0];
+
+          //reassign with markdown values
+          mainheader.innerHTML = myh2.innerHTML;
+          subheader.innerHTML = myh1.innerHTML;
+          myparagraph.innerHTML = myp.innerHTML;
+
+//     }else{
+//          newdivHT.innerHTML = no_text_sampledatasection.innerHTML;
+//     }
+
+
+     mynewimg = newdivHT.getElementsByClassName('myimghereHT')[0];
      mynewimg.src = myimg.src;
 
-     //append copy to append image_text_overlay
      var append_div_here = document.getElementById("myappendcontent");
-     append_div_here.appendChild(newdiv);
 
+     console.log(newdivHT.innerHTML);
 
+     append_div_here.appendChild(newdivHT);
+
+     console.log(append_div_here.innerHTML);
 }
 //CREATE SITE TITLE(S)=======================================================
 

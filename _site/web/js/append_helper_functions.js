@@ -29,11 +29,28 @@ function CopyInnerHTMLtoDiv_byId(get_Id, copy_this_data, search_here){
 }
 
 /* CheckifVoidandAssign_Gen
+*  returns true is a value is void
+*/
+function CheckifVoid_Gen(datatype,dataplace, mydivsi){
+     var setlooplist = mydivsi.getElementsByTagName(datatype)[dataplace];
+     let voidval = false;
+     if(typeof(setlooplist) == 'undefined' || setlooplist == 'null'){
+          voidval = true;
+          looplist = document.getElementsByClassName("voidvalue")[0];
+     } else {
+          voidval = false;
+     }
+     return voidval;
+}
+
+
+/* CheckifVoid_Gen
 *  collects a given element  of a given type from a div and checks if it is void
 * if it is void returns an empty voidvalue
 * else returns the value of the given markdown element
 */
 function CheckifVoidandAssign_Gen(datatype,dataplace, mydivsi){
+     let voidval = true;
      var setlooplist = mydivsi.getElementsByTagName(datatype)[dataplace];
      if(typeof(setlooplist) == 'undefined' || setlooplist == 'null'){
           console.log("element was empty");
@@ -46,6 +63,31 @@ function CheckifVoidandAssign_Gen(datatype,dataplace, mydivsi){
      return looplist;
 }
 
+
+/* CheckifVoidP_Gen
+* returns true is paragraph element is void
+*/
+function CheckifVoid_P_Gen(mydivsi){
+     var looplistVO;
+     let voidval = false;
+     var setlooplistVOpic = mydivsi.getElementsByTagName("img")[0];
+     var setlooplistVOlink = mydivsi.getElementsByTagName("a")[0];
+
+     if(typeof(setlooplistVOpic) == 'undefined' && typeof(setlooplistVOlink) == 'undefined'){
+          var setlooplistVO = mydivsi.getElementsByTagName("p")[0];
+          if(typeof(setlooplistVO) == 'undefined'){
+               voidval = true;
+          }
+     } else {
+
+          var setlooplistVO = mydivsi.getElementsByTagName("p")[1];
+          if(typeof(setlooplistVO) == 'undefined'){
+               voidval = true;
+          }
+     }
+
+     return voidval;
+}
 /* CheckifVoidandAssign_P_Gen
 * Images and Paragraphs seem to get confused by getElementbyTag
 * If an image exists, the function assumes the second p is the text

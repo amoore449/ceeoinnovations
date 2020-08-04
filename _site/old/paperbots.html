@@ -338,12 +338,26 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
 
         <p class="myparagraphHT"></p>
       </div>
+
+
    </div>
   </div>
 </section>
 </div>
 
+<div class="no_text_sampledatasectionHT" style="display:none">
+<section class="homepagesection clearfix">
+      <div class="freecontainer">
+   <div class="intro" >
 
+      <img class="intro-img img-fluid mb-3 mb-lg-0 rounded myimghereHT" src="../web/img/404error.jpg" onerror="this.onerror=null;this.src='../web/img/404error.jpg';"  alt=""/>
+
+
+
+   </div>
+  </div>
+</section>
+</div>
 
 
 <div id="appendhere">
@@ -420,8 +434,7 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
 </html>
 
 <!-- Video Overlay---------------------------------->
-          <!doctype htm
-<html lang="en">
+          
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <title>append demo</title>
@@ -432,7 +445,6 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
 .video-container {
      position:relative;
     float: right;
-    clear: right;
     padding-bottom: 15.25%;
     width: 75%;
     height: 465px;
@@ -440,8 +452,6 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
 }
 @media (max-width:992px) {
      .video-container {
-          float: none;
-          width:100%;
           height: 300px;
           margin-bottom: 15px;
           overflow: hidden;
@@ -456,6 +466,25 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+@media (max-width:820px) {
+     .video-container {
+            width: 80%;
+          height: 400px;
+          margin-bottom: 15px;
+          overflow: hidden;
+          padding-bottom: 56.25%;
+     }
+}
+
+@media (max-width:750px) {
+     .video-container {
+            width: 90%;
+          height: auto;
+          margin-bottom: 15px;
+          overflow: hidden;
+     }
 }
 
 </style>
@@ -486,6 +515,24 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
   </div>
 </section>
 </div>
+
+
+<div class="no_text_sampledatasectionVO">
+<section class="page-section clearfix">
+  <div class="container">
+   <div class="intro">
+
+        <div class="video-container-container">
+             <div class="video-container" style="float:none; margin:0 auto">
+                  <iframe  class="intro-vid img-fluid mb-3 mb-lg-0 rounded myiframehere"  src="https://www.youtube.com/embed/uXMQn6dbxc4"   srcdoc="" allowfullscreen></iframe>
+             </div>
+        </div>
+
+   </div>
+  </div>
+</section>
+</div>
+
 
 <div id = "newsrcdoc">
 
@@ -588,28 +635,21 @@ function scrollFunction() {
         header.classList.remove("sticky");
       }
 
-     if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
+     if (document.documentElement.scrollTop > header.offsetTop) {
 
           document.getElementById("navbar").style.padding = "0px 0px";
-           $("#navbar").css({"padding-top":".5%"});
-          $("#navbar").css({"padding-left": "1%", "padding-right": "1%"});
-          $("#logo").css({"width": "150px"});
-          $("#navtuftsimglink").css({"width": "120px"});
-          $("#navsearchimglink").css({"width": "45px"});
-
-           $("#navbar-right").css({ "padding-bottom":".5%"});
-            $("#navbar-right a").css({"font-size": "1vw"});
+         $("#navbar").css({"padding-left": ".5%", "padding-right": ".5%","padding-top":"0%","background-color":" #fff"});
+         $("#logo").css({"width": "150px"});
+         $("#navtuftsimglink").css({"width": "120px"});
+         $("#navsearchimglink").css({"width": "45px"});
 
    }else  {
-        document.getElementById("navbar").style.padding = "30px 10px";
-        $("#navbar").css({"padding-bottom": "3%", "padding-top":"3%"});
-        $("#logo").css({"width": "220px"});
-         $("#navtuftsimglink").css({"width": "200px"});
-         $("#navsearchimglink").css({"width": "50px"});
+        document.getElementById("navbar").style.padding = "10px 3px";
+        $("#navbar").css({"padding-bottom": "2.5%", "padding-top":"2.5%",  "background-color":"#fff"});
+       $("#logo").css({"width": "200px"});
+       $("#navtuftsimglink").css({"width": "120px"});
+       $("#navsearchimglink").css({"width": "50px"});
 
-        $(" #navbar .nav").css({"padding-top": "1%"});
-         $("#navbar-right a").css({"font-size": "1.5vw"});
-         $("#navbar-right").css({ "padding-bottom":"0%"});
      }
 
 }
