@@ -5,6 +5,7 @@ title: Novel Engineering
 description: An innovative approach to integrate engineering and literacy in elementary and middle school.
 categories:  ["Lesson Plans"]
 displayimg: novel-engineering/novel_engineering.png
+featured: true
 authors: ["Ethan Danahy", "Kristen Wendell"]
 ---
 

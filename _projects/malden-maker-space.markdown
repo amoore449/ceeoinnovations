@@ -5,6 +5,7 @@ title: The Malden Maker Space
 description: The Tufts CEEO collaborated with Malden High School to restore the schools basement workshop.
 displayimg: nedlams-workshop/students.jpg
 categories: ["Makerspaces"]
+featured: true
 ---
 
 <div class="image_text_overlay" markdown="1">

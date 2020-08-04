@@ -6,6 +6,7 @@ title: Instructions for Documenting on CEEO Innovations
 description: CEEO innovations is a “hub” for all the cool projects going on at the CEEO.
 categories: ["Lesson Plans"]
 authors: ["Allison Moore"]
+featured: true
 ---
 
 HELLO HELLO HELLO THIS IS A TEST

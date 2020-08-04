@@ -2,9 +2,10 @@
 layout: post
 
 title: Morse Code Detector
-description: 
+description:
 categories:  ["Lesson Plans"]
 displayimg: images_jason/20200716_113806.jpg
+featured: false;
 ---
 
 

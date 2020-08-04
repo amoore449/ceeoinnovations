@@ -14,6 +14,7 @@
 
      <div class="sample_caro">
           {% for project in site.projects  %}
+          {% if project.featured == true %}
           {% if project.url != "/projects/SAMPLE-FILE.html" %}
           <div class="mysamplecaro col-sm-4 col-md-2 col-lg-3">
 
@@ -26,6 +27,7 @@
                     <img id="caroimg" class="caroimg" src="{{project.displayimg | prepend: 'projects/project_assets/'}}" onError="this.onerror=null;this.src='{{site.baseurl}}/web/img/2gear_ppink.png';" class="img-fluid" >
              </a>
          </div>
+         {%endif%}
          {%endif%}
       {%endfor%}
      </div>
