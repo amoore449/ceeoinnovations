@@ -176,11 +176,9 @@
      <div style="padding-bottom:7rem">
      </div>
 <div id="mycontent">
-     <p>HELLO HELLO HELLO THIS IS A TEST</p>
-
-<div class="image_text_overlay">
+     <div class="image_text_overlay">
   <p><img src="inno_instruct/tuftsceeo.jpg" alt="my header image" /></p>
-  <h1 id="the-ceeo-portfolio">The CEEO Portfolio</h1>
+  <h1 id="learn-to-make-a-post">Learn to make a post</h1>
   <h2 id="ceeo-innovations-is-a-hub-for-the-the-ceeos-work">CEEO innovations is a hub for the the CEEO’s work</h2>
   <p>CEEO innovations is a “hub” for all the cool projects going on at the CEEO. “Projects” pages on the site like the one you will make
 will let visitors learn about specific projects going  at the CEEO.
@@ -214,8 +212,9 @@ will let visitors learn about specific projects going  at the CEEO.
     <li><strong>Customize</strong> the sample file with divs and markdown to display the content you want.
   -the first few lines of the file between the  “—” are called “front matter.” Fill out your
   project title and description, choose categories, and the link to your display image.
-  -<strong>DO NOT change layout:post</strong></li>
-    <li><strong>Upload</strong> your “PROJECT-NAME.markdown” file to the <strong>project_assets</strong> folder on the CEEOInnovations github and check that it looks how you want it to by refreshing the site. Github takes a few minutes to update, you can make this faster by using incognito).</li>
+  -<strong>DO NOT change layout:post</strong>
+  -<strong>For more guidance on this step, see the below “Customizing sections”</strong></li>
+    <li><strong>Upload</strong> your “PROJECT-NAME.markdown” file to the <strong>_projects</strong> folder on the CEEOInnovations github and check that it looks how you want it to by refreshing the site. Github takes a few minutes to update, you can make this faster by using incognito).</li>
     <li>Done!</li>
   </ol>
 
@@ -231,11 +230,15 @@ will let visitors learn about specific projects going  at the CEEO.
 </div>
 
 <div class="free_write">
-  <h1 id="markdown-basics">Markdown Basics</h1>
+  <h1 id="customizing-markdown-basics">Customizing: Markdown Basics</h1>
   <h2 id="ceeo-innovations-is-made-using-a-modified-version-of-markdown">CEEO Innovations is made using a modified version of Markdown</h2>
 
   <p>Markdown is a “short hand” way of writing html that makes it easy to create web pages.
-Most of the components on this site are made using the <strong>header, subheader, image, and link</strong> attributes, however Markdown offers a wide variety of styling options shown in
+Your CEEOInnovations page will be written in markdown.</p>
+
+  <p>You can either make your page in straight markdown, or use the “div” elements decribed in the next section to make your markdown look even better!</p>
+
+  <p>Most of the components on this site are made using the <strong>header, subheader, image, and link</strong> attributes, however Markdown offers a wide variety of styling options shown in
 the pictured table. These styling options can be used with “free write” div sections of webpages (like this one!)
 <img src="inno_instruct/markdown2.png" alt="Markdown Table 1" />
 <img src="inno_instruct/markdown3.png" alt="Markdown Table 2" /></p>
@@ -244,16 +247,19 @@ the pictured table. These styling options can be used with “free write” div 
 </div>
 
 <div class="free_write">
-  <h1 id="divs-on-ceeo-innovations">Divs on CEEO Innovations</h1>
+  <h1 id="customizing-divs-on-ceeo-innovations">Customizing: Divs on CEEO Innovations</h1>
   <h2 id="divs-allow-us-to-customize-parts-of-our-page">Divs allow us to customize parts of our page</h2>
 
   <p><img src="inno_instruct/divexample0.png" alt="divexample0" /></p>
 
-  <p>This and other projects pages on this site on structed into “sections” with different designs. This isn’t normally possible with markdown, however using “div” elements we can get these cool sub sections. <strong>Divs are the “building blocks” of a CEEOInnovations project page.</strong></p>
+  <p>This and other projects pages on this site on structed into “sections” with different designs.
+This isn’t normally possible with markdown, however using “div” elements we can get these cool sub sections.
+<strong>Divs are the “building blocks” of a CEEOInnovations project page.</strong></p>
 
   <p><img src="inno_instruct/divexample1.png" alt="Markdown Table 2" /></p>
 
-  <p>Divs can be repeated and ordered in any order. If you don’t want to use a certain section of a div (such as a title or subtitle) you can just delete it!</p>
+  <p>Divs can be repeated and ordered in any order.
+If you don’t want to use a certain section of a div (such as a title or subtitle) you can just delete it!</p>
 
   <h3 id="this-is-the-format-for-a-div-element">This is the format for a div element</h3>
 
@@ -262,9 +268,8 @@ the pictured table. These styling options can be used with “free write” div 
 &lt;/div&gt;
 </code></pre></div>  </div>
 
-  <p>Where “DIV_NAME” can be one of <strong>five</strong> possible sections. Each of these sections has unique formatting and capabilities.</p>
+  <p>Where “DIV_NAME” can be one of <strong>four</strong> possible sections. Each of these sections has unique formatting and capabilities.</p>
   <ol>
-    <li>site_title</li>
     <li>image_text_overlay</li>
     <li>video_text_overlay</li>
     <li>document</li>
